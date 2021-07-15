@@ -186,28 +186,33 @@
     opacity: 0.4;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 130px;
+    height: 100px;
 	width:75px;
   }
   .clients_logo_1 ul li:nth-child(4) img{
     -webkit-filter: grayscale(1);
+    height: 100px;
     opacity: 0.1;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 110px;
   }
   .clients_logo_1 ul li:nth-child(3) img{
      -webkit-filter: grayscale(1);
+     height: 100px;
     opacity: 0.1;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 90px;
   }
   .clients_logo_1 ul li:nth-child(2) img{
     -webkit-filter: grayscale(1);
+    height: 100px;
     opacity: 0.6;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 70px;
   }
   .clients_logo_1 ul li:nth-child(1) img{
     -webkit-filter: grayscale(1);
+    height: 100px;
     opacity: 0.4;
     -webkit-transition: all 0.5s ease-in-out;
     
