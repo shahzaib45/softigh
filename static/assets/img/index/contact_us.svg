@@ -1,0 +1,7 @@
+<svg id="Component_1_1" data-name="Component 1 – 1" xmlns="http://www.w3.org/2000/svg" width="176" height="55" viewBox="0 0 176 55">
+  <g id="Rectangle_2" data-name="Rectangle 2" fill="none" stroke="#033cfb" stroke-width="1">
+    <rect width="176" height="55" rx="5" stroke="none"/>
+    <rect x="0.5" y="0.5" width="175" height="54" rx="4.5" fill="none"/>
+  </g>
+  <text id="Contact_Us" data-name="Contact Us" transform="translate(88 35)" fill="#033cfb" font-size="22" font-family="Roboto-Regular, Roboto" letter-spacing="0.02em"><tspan x="-55.938" y="0">Contact Us</tspan></text>
+</svg>
