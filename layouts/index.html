@@ -52,7 +52,7 @@
                         <div class="clients_logo_1" data-aos="fade-right">
                             <div class="row clients_logo_1 ">
                             <ul class="list-inline">
-                                {{ range first 2 .Site.Data.clients }}
+                                {{ range .Site.Data.clients }}
                                 <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="{{ .src }}"></li>
                                 {{ end }}
                             </ul>
