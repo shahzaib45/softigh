@@ -54,7 +54,7 @@
                         <div class="row clients_logo_1 ">
                             <ul class="list-inline">
                                 {{ range .Site.Data.clients }}
-                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="{{ .src }}"></li>
+                                <li class="list-inline-item col-md-2 col-sm-6 col-xs-6"><img src="{{ .src }}"></li>
                                 {{ end }}
                             </ul>
                         </div>
@@ -108,21 +108,16 @@
             <div class="design_left col-md-6 col-sm-12 col-xs-12" data-aos="fade-right" data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <img class="img-fluid" src="assets/img/index/design_img.svg">
-
             </div>
             <div class="design_right col-md-6 col-sm-12 col-xs-12" data-aos="fade-left"
                 data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
-                <ul class="list-unstyled">
-                    <li>
+                
                         <h1>We design & built innovative<br>systems for our<br>trusted partners</h1>
-                    </li>
-                    <li>
+                    
                         <p>Softigh Technology is a Technology Start-up that provides <br />cutting-edge technologies and
                             services, offers scalable <br />solutions for its affiliated companies.</p>
-                    </li>
-                    <li><a href="#"><button type="button" class="design_btn">Read More<img
-                                    src="assets/img/index/design_arrow.png" /></button></a> </li>
-                </ul>
+                    <a href="#"><button type="button" class="design_btn">Read More<img
+                                    src="assets/img/index/design_arrow.png" /></button></a>
 
             </div>
 
@@ -146,16 +141,19 @@
                 </div>
             </div>
         </div>
-		<div class="row mx-auto">
+		<div class="row">
         <div class="logo-slider">
-           <div class="item" style="margin-left:46px"><a href="#"><img src="assets/img/index/chief_card.png" /></a></div>
+           <div class="item"><a href="#"><img src="assets/img/index/chief_card.png" /></a></div>
 		   
-           <div class="item col-md-4 col-sm-12 col-xs-12"><a href="#"><img src="assets/img/index/full_stack_card.png" /></a></div>
+           <div class="item"><a href="#"><img src="assets/img/index/full_stack_card.png" /></a></div>
 		   
-           <div class="item col-md-4 col-sm-12 col-xs-12" style="margin-left:-44px;"><a href="#"><img src="assets/img/index/UI_card.png" /></a></div>
-           <div class="item"><a href="#"><img src="img/logo4.png" alt=""></a></div>
-           <div class="item"><a href="#"><img src="img/logo5.png" alt=""></a></div>
-           <div class="item"><a href="#"><img src="img/logo6.png" alt=""></a></div>
+           <div class="item"><a href="#"><img src="assets/img/index/UI_card.png" /></a></div>
+
+           <div class="item"><a href="#"><img src="assets/img/index/chief_card.png" /></a></div>
+           
+           <div class="item"><a href="#"><img src="assets/img/index/full_stack_card.png" /></a></div>
+           
+           <div class="item"><a href="#"><img src="assets/img/index/UI_card.png" /></a></div>
        </div>
 	   </div>
     </div>
@@ -165,11 +163,12 @@
     <script>
     $('.logo-slider').slick({
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         dots: false,
         arrows: true,
         autoplayspeed: 2000,
-        infiniite: true
+        infinite: true,
+        loop: true
     });
     </script>
 <!-- End work Section -->
@@ -367,7 +366,7 @@
 
 <!-- End testimonial Section -->
 <!-- Start Blogs Section -->
-<div class="containeter-fluid" style="background:#f2f2f2;">
+<div class="containeter-fluid" style="background:#f2f2f2; padding-bottom: 70px;">
     <div class="container">
         <div class="row blog_1">
             <div class="blog_head col-md-6 col-sm-6 col-xs-6" data-aos="fade-right">
@@ -392,10 +391,9 @@
             <div class="blog_left col-md-6 col-sm-12 col-xs-12">
                 <div class="upper" >
                     <img class="img-fluid" src="assets/img/index/blog_img_1.svg" />
-
                 </div>
-                <div class="lower ">
-                    <div class="blog_3_1_1" style="">
+                <div class="lower">
+                    <div class="blog_3_1">
                         <ul>
                             <li><img class="img-fluid" src="assets/img/index/calendar.svg" /></li>
                             <li>
@@ -414,11 +412,11 @@
                     </div>
                 </div>
             </div>
-            <div class="blog_right col-md-6 col-sm-12 col-xs-12">
-                <div class="upper_1">
+            <div class="blog_left col-md-6 col-sm-12 col-xs-12">
+                <div class="upper">
                     <img class="img-fluid" src="assets/img/index/blog_img_2.svg" />
                 </div>
-                <div class="lower_1 ">
+                <div class="lower">
                     <div class="blog_3_1">
                         <ul>
                             <li><img class="img-fluid" src="assets/img/index/calendar.svg" /></li>

@@ -179,48 +179,32 @@
   list-style:none;
   width:100%;
   height:auto;
-  justify-content:center;
+  text-align:center;
   
   }
   .clients_logo_1 {
-      margin-left: 30px;
       margin-top: 116px;
   }
-  .clients_logo_1 ul li:nth-child(5) img{
+  .clients_logo_1 ul li img{
     -webkit-filter: grayscale(1);
-    opacity: 0.4;
     -webkit-transition: all 0.5s ease-in-out;
-    margin-left: 130px;
     height: 100px!important;
-	width:75px;
+  }
+  .clients_logo_1 ul li:nth-child(5) img{
+    opacity: 0.4;
+	  width:75px;
   }
   .clients_logo_1 ul li:nth-child(4) img{
-    -webkit-filter: grayscale(1);
-    height: 100px;
     opacity: 0.1;
-    -webkit-transition: all 0.5s ease-in-out;
-    margin-left: 110px;
   }
   .clients_logo_1 ul li:nth-child(3) img{
-     -webkit-filter: grayscale(1);
-     height: 100px;
     opacity: 0.1;
-    -webkit-transition: all 0.5s ease-in-out;
-    margin-left: 90px;
   }
   .clients_logo_1 ul li:nth-child(2) img{
-    -webkit-filter: grayscale(1);
-    height: 100px;
     opacity: 0.6;
-    -webkit-transition: all 0.5s ease-in-out;
-    margin-left: 70px;
   }
   .clients_logo_1 ul li:nth-child(1) img{
-    -webkit-filter: grayscale(1);
-    height: 100px;
     opacity: 0.4;
-    -webkit-transition: all 0.5s ease-in-out;
-    
   }
   
   .clients_logo_1 ul li:nth-child(5) img:hover{
@@ -276,11 +260,8 @@
     }
   }
   .clients_logo ul li{
-  float:left;
-  justify-content: center;
-      align-items: center;
-      margin-top:70px;
-      margin-right:135px;
+  text-align: center;
+  margin-top:70px;
   }
   .clients_logo_1 ul li img{
   width:50%;
@@ -459,21 +440,14 @@
   height:550px;
   }
   .design_left{
-  width:545px;
-  float:left;
-  height:510px;
+    padding-top:17%;
+    text-align: center;
   }
   .design_left img{
-  width:90%;
-  float:left;
-  margin-top: 221px;
-  height:auto;
+  width:70%;
   }
   .design_right{
-  width:50%;
-  margin-top:126px;
-  float:left;
-  height:auto;
+  padding-top:22%;
   }
   .design_right ul{
   list-style-type:none;
@@ -502,6 +476,10 @@
     background: #033cfb;
     color: #ffffff;
   }
+  .design_btn:hover img{
+    filter: brightness(100);
+  }
+
   .design_btn img{
   margin-left:3px;
       margin-top: -2px;
@@ -517,32 +495,19 @@
      font-size: 17px;
 	 
  }
- .logo-slider .item{
-    
-}
-.logo-slider .slick-slide{
-    margin:15px;
-    
-}
-.slick-dots li.slick-active button:before{
-    color:#ff5722;
-}
-.sliick-dots li button:before{
-    font-size: 12px;
-}
-.slick-next:before,
-.slick-prev:before{
-    color: #ff8159;
-    font-size: 24px;
-}
+ .item img{
+  width: 100%;
+ }
 .item:hover{
     display: block;
     transition: all ease 0.3s;
     transform: scale(1.1) translateY(-5px);
 }
-.logo-slider{
-width:91%;
-margin-left:91px;
+.slick-next:before {
+    content:url(/assets/img/index/testi_arrow_right.png);
+}
+.slick-prev:before {
+    content:url(/assets/img/index/testi_arrow_left.png);
 }
 
   /*--------------------------------------------------------------
@@ -750,9 +715,8 @@ margin-left:91px;
   overflow: hidden;
   }
   .upper {
-  width:427px;
-  height:426px;
-  margin-left:100px
+  width:85%;
+  margin:auto;
   }
    .upper_1 {
   width:427px;
@@ -844,9 +808,8 @@ margin-left:91px;
   margin-top: -110px;
   position: relative;
   width:347px;
-  float: left;
-  margin-left: 43px;
-  box-shadow: 1px 1px 20px 3px #f7f8f8;
+  margin: auto;
+  box-shadow: 0px -1px 10px 17px rgb(0 0 0 / 0.03);
       }
   .blog_3_1 ul{
   list-style:none;
@@ -880,7 +843,9 @@ margin-left:91px;
   .blog_btn:hover{
     background-color: #033CFB;
     color:#ffffff;
-    
+  }
+  .blog_btn:hover img{
+    filter: brightness(100);
   }
   .blog_btn img{
   margin-top:0px;
@@ -952,7 +917,9 @@ margin-left:91px;
   .blog_3_2 img{
   margin-top:16px;
   }
-  
+  .lower{
+    margin-top: -100px;
+  }
   
   /*--------------------------------------------------------------
   # queto
@@ -968,13 +935,13 @@ margin-left:91px;
       background-repeat: no-repeat;
       border-top-right-radius: 25px!important;
       z-index: 1000;
-      margin-top: 122px;
 	  height:200px;
       background-size: contain;
       margin-bottom: -100px;
       position: relative;
       width: 100%;
       border-radius: 42px;
+      box-shadow: 0px -1px 10px 17px rgb(0 0 0 / 0.03);
       }
       .queto_heading{
       width: 65%;
@@ -1015,6 +982,10 @@ border:none;
 }
 .queto_btn:hover{
   background-color: #033CFB;
+  color: white;
+}
+.queto_btn:hover img{
+  filter: brightness(100);
 }
 .job_header_heading_index{
   margin-top: 150px;
