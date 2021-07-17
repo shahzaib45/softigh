@@ -32,7 +32,7 @@
 </div>
 <!-- End index hero Section -->
 <!-- Start core Values Section -->
-<div class="container-fluid clients_1">
+<div class="container-fluid clients_1 pt-5">
     <div class="container">
         <div class="row">
             <div class="clients_head col-md-12 col-sm-12 col-xs-12" data-aos="fade-right"data-aos-offset="300"data-aos-easing="ease-in-sine">
@@ -52,11 +52,9 @@
                         <div class="clients_logo_1" data-aos="fade-right">
                             <div class="row clients_logo_1 ">
                             <ul class="list-inline">
-                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="/assets/img/index/logo_1.png"></li>
-                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="/assets/img/index/logo_2.png"></li>
-                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="/assets/img/index/logo_3.png"></li>
-                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="/assets/img/index/logo_4.png"></li>
-                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="/assets/img/index/logo_5.png"></li>
+                                {{ range .Site.Data.clients }}
+                                <li class="list-inline-item col-md-2 col-sm-12 col-xs-12"><img src="{{ .src }}"></li>
+                                {{ end }}
                             </ul>
                             </div>
                         </div>
@@ -67,6 +65,35 @@
         </div>
     </div>
 </div>
-
+<!-- Start Services Section -->
+<div class="container-fluid services">
+    <div class="container">
+        <div class="row ">
+            <div class="servies_head col-md-12 col-sm-12 col-xs-12" >
+                <div class="services_header_heading">
+                    <h1 class="display-5" style="font-weight:700;"><span style="color:#033cfb;">Featured</span>
+                        Services
+                    </h1>
+                </div>
+                <div class="services_heading_para">
+                    <p style="font-size:17px;font-weight:400;">We offer various services to enhance your sites<br />
+also as check abreast of them</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-auto">
+            {{ range .Site.Data.services }}
+            <div class="services_left col-md-4 col-sm-12 col-xs-12" data-aos="flip-left">
+                <div class="card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>
+                <div class="card_heading_1">
+                    <h4>{{ .title }}</h4>
+                </div>
+                <div class="card_para_1">
+                    <p>{{ .desc }}</p>
+                </div>
+                <div class="card_a" style="margin-top: 40px;"><a href="#">{{ .LearnMore }}<img class="services_arrow img-fluid" src="{{ .URL }}"></a></div>
+            </div>
+            {{ end }}
+        </div>
 
 {{ end }}

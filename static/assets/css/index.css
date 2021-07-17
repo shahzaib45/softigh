@@ -365,18 +365,22 @@
   }
   .services_left{
   float:left;
-  transform: rotateY(30deg)!important;
-      box-shadow: 0px 0px 8px 13px #ededed;
+ 
+  box-shadow: 0px 0px 8px 13px #ededed;
   height:300px;
   border-radius: 15px;
   width:306px;
   background:#fff;
   margin-left: 30px;
-      margin-top: 25px;
-      margin-right: 20px;
+  margin-top: 25px;
+      
+  }
+  .card_img_1{
+    margin-top: 20px;;
   }
  .card_heading_1 h4{
  font-size:18px;
+ margin-top: 20px;
  }
   .card_para_1 p{
  
@@ -392,7 +396,7 @@
   margin-left:20px;
   }
   .services_left:hover{
-   transform: rotateY(0deg)!important;
+  
   
   }
   .services_middle{
