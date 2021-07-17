@@ -1,3 +1,6 @@
+.body{
+  overflow-x: hidden !important;
+}
 .hero_section{
   height:740px;
   width:100%;
@@ -1027,9 +1030,6 @@ margin-top:46px;
 margin-top:3px;
 }
 @media only screen and (max-width: 600px) {
-  body {
-  overflow-x:hidden;
-  }
   .hero__left h1{
     font-size: 20px;
   }
@@ -1117,7 +1117,5 @@ margin-top:3px;
 
 }
 @media only screen and (max-width: 400px) {
-  body{
-    over
-  }
+
 }
