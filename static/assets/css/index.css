@@ -511,7 +511,7 @@
     background-size: contain;
     background-position: 100% 0%;
     height: 670px;
-    margin-top: -96px;
+    
   
   
   
@@ -559,26 +559,30 @@
   }
   .slide_main_1 p{
   margin-top:20px;
-  margin-left:121px;
+  margin-left:20px;
     text-align: center;
     text-justify: inter-word;
     color:#535353
   }
   .slide_main_2 img{
-  margin-left:375px;
+  margin-left:388px;
+  width: 10%;
   }
   .slide_main_3 {
   }
   .slide_main_3 h3{
   color:#535353;
   text-align:center;
+  font-size: 16px;
   }
   .slide_main_4{
   
   }
   .slide_main_4 p{
   color:#535353;
-  text-align:center
+  text-align:center;
+  font-size: 13px;
+  
   }
   
   
@@ -767,6 +771,33 @@
   width:100%;
   height:100px;
   }
+  .blog_3_1_1 {
+      
+    height: 167px;
+    background: #FFFFFF;
+    z-index: 10;
+    margin-top: -110px;
+    position: relative;
+    width:347px;
+    float: left;
+    margin-left: 143px;
+    box-shadow: 1px 1px 20px 3px #f7f8f8;
+        }
+      
+      
+      .blog_3_1_1 ul{
+    list-style:none;
+    width:100%;
+    }
+    .blog_3_1_1 li{
+    float:left;
+    margin-right:10px;
+    }
+    .blog_3_1_1 li p{
+    color:#C7C5C4;
+    font-size:14px;
+    margin-top: 15px;
+    }
   .blog_3_1 {
       
   height: 167px;
@@ -810,7 +841,7 @@
   }
   .blog_btn img{
   margin-top:2px;
-  margin-left:13px;
+  margin-left:11px;
   }
   .blog_list{
   width:30%;
@@ -988,4 +1019,75 @@ margin-top:3px;
   .hero_right{
   width:100%;
   }
+  .clients_logo_1 ul li:nth-child(2) img {
+  margin-left:15px;
+  }
+  .clients_logo_1 ul li:nth-child(3) img {
+  margin-left:-15px;
+  }
+  .clients_logo_1 ul li:nth-child(4) img {
+  margin-left:15px;
+  }
+  .clients_logo_1 ul li:nth-child(5) img {
+  margin-left:90px;
+  }
+  .services{
+  height:auto;
+  }
+  .design{
+  height:auto;
+  }
+  .job_section{
+  height:auto;
+      background-position: 46% 71%;
+  }
+  .slide_main_1{
+      margin-left: -124px;
+  }
+  .slide_main_2 img{
+  margin-left:103px;
+  }
+  .slideshow-container{
+  height:420px;
+  }
+  .slide_main_1 p{
+    margin-left: 114px;
+  }
+  .slide_main_2 img{
+    width: 30%;
+    margin-left: 110px;
+  }
+  .blog_btn{
+  float:left;
+      margin-top: -80px;
+  }
+  .upper img{
+  margin-left:-73px;
+  }
+  .blog_3_1_1{
+  margin-left:65px;
+  }
+  .upper_1{
+  margin-left:25px;
+  }
+  .blog_3_1{
+  margin-left:70px;
+  }
+  .design_right {
+  margin-left:43px;
+  width:90%;
+  }
+  .queto_main{
+    height: auto;
+    margin-left: 2px;
+  }
+  .queto_btn{
+    margin-left: 86px;
+    margin-top: -54px;
+    margin-bottom: 20px;
+  }
+
+
+
+
 }
