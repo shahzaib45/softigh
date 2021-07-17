@@ -32,6 +32,11 @@
     color: #fff;
     box-shadow: 2px 1px 4px 1px #535353;
   }
+  .hero_btn:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+  }
 
   .hero__left h1{
   font-size:55px;
@@ -375,6 +380,12 @@
   margin-top: 25px;
       
   }
+  .services_left:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+
+  }
   .card_img_1{
     margin-top: 20px;;
   }
@@ -439,7 +450,7 @@
   --------------------------------------------------------------*/
   .design{
   width:100%;
-  background:#FBFCFC;
+  background:#fbfcfb;
   height:630px;
   }
   .design_main{
@@ -487,8 +498,12 @@
 	font-size:15px;
   
   }
+  .design_btn:hover{
+    background: #033cfb;
+    color: #ffffff;
+  }
   .design_btn img{
-  margin-left:10px;
+  margin-left:3px;
       margin-top: -2px;
   }
   /*--------------------------------------------------------------
@@ -508,27 +523,18 @@
   
   .testi_section{
   background-image:url("../img/index/testi_back.svg");
-          background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100% 0%;
-    height: 670px;
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 0%;
+  height: 670px;
+  margin-top: 200px;
   }
   .testi_header_1 h5{
   margin-top: -22px;
-      margin-left: 74px;
-      color: #033cfb;
-      font-size:21px;
-      }
+  margin-left: 74px;
+  color: #033cfb;
+  font-size:21px;
+  }
   .testi_header_1{
   margin-top:85px;
   }
@@ -843,9 +849,14 @@
   float:right;
   margin-top:35px;
   }
+  .blog_btn:hover{
+    background-color: #033CFB;
+    color:#ffffff;
+    
+  }
   .blog_btn img{
-  margin-top:2px;
-  margin-left:11px;
+  margin-top:0px;
+  margin-left:5px;
   }
   .blog_list{
   width:30%;
@@ -974,7 +985,9 @@ border-radius:4px;
 color::#707070;
 border:none;
 }
-
+.queto_btn:hover{
+  background-color: #033CFB;
+}
 .job_header_heading_index{
   margin-top: 150px;
 }
@@ -1017,11 +1030,14 @@ margin-top:3px;
   body {
   overflow-x:hidden;
   }
+  .hero__left h1{
+    font-size: 20px;
+  }
   .hero_right img{
-  width:90%;
+  width:50%;
   }
   .hero_right{
-  width:100%;
+  width:50%;
   }
   .clients_logo_1 ul li:nth-child(2) img {
   margin-left:15px;
@@ -1065,17 +1081,26 @@ margin-top:3px;
   float:left;
       margin-top: -80px;
   }
+  .upper{
+    width: 100%;
+
+  }
+  .upper_1{
+    width: 100%;
+  }
   .upper img{
   margin-left:-73px;
   }
   .blog_3_1_1{
   margin-left:65px;
+  width: 80%;
   }
   .upper_1{
   margin-left:25px;
   }
   .blog_3_1{
   margin-left:70px;
+  width: 80%;
   }
   .design_right {
   margin-left:43px;
@@ -1094,4 +1119,9 @@ margin-top:3px;
 
 
 
+}
+@media only screen and (max-width: 400px) {
+  body{
+    over
+  }
 }
