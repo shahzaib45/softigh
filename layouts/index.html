@@ -14,7 +14,7 @@
                 </p>
             </div>
             <div class="hero_left_3">
-                <button type="button" class="hero_btn">Get a Quote<img src="/assets/img/index/hero_arrow.png" /></button>
+               <a href="#"> <button type="button" class="hero_btn">Get a Quote<img src="/assets/img/index/hero_arrow.png" /></button></a>
             </div>
 
         </div>
@@ -65,6 +65,352 @@
         </div>
     </div>
 </div>
+<!-- Start Services Section -->
+<div class="container-fluid services">
+    <div class="container">
+        <div class="row ">
+            <div class="servies_head col-md-12 col-sm-12 col-xs-12" >
+                <div class="services_header_heading">
+                    <h1 class="display-5" style="font-weight:700;"><span style="color:#033cfb;">Featured</span>
+                        Services
+                    </h1>
+                </div>
+                <div class="services_heading_para">
+                    <p style="font-size:17px;font-weight:400;">We offer various services to enhance your sites<br />
+also as check abreast of them</p>
+                </div>
+            </div>
+        </div>
+        <div class="row mx-auto">
+            {{ range .Site.Data.services }}
+            <div class="services_left col-md-4 col-sm-12 col-xs-12" data-aos="flip-left">
+                <div class="card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>
+                <div class="card_heading_1">
+                    <h4>{{ .title }}</h4>
+                </div>
+                <div class="card_para_1">
+                    <p>{{ .desc }}</p>
+                </div>
+                <div class="card_a" style="margin-top: 40px;"><a href="#">{{ .LearnMore }}<img class="services_arrow img-fluid" src="{{ .URL }}"></a></div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<!-- End Services Section -->
+<!-- Start design Section -->
+<div class="fluid-container design">
+    <div class="container">
+        <div class="row design_1">
+            <div class="design_left col-md-6 col-sm-12 col-xs-12" data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+                <img class="img-fluid" src="assets/img/index/design_img.svg">
+
+            </div>
+            <div class="design_right col-md-6 col-sm-12 col-xs-12" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="2000">
+                <ul class="list-unstyled">
+                    <li>
+                        <h1>We design & built innovative<br>systems for our<br>trusted partners</h1>
+                    </li>
+                    <li>
+                        <p>Softigh Technology is a Technology Start-up that provides <br />cutting-edge technologies and services, offers scalable <br />solutions for its affiliated companies.</p>
+                    </li>
+                    <li><a href="#"><button type="button" class="design_btn">Read More<img src="assets/img/index/design_arrow.png" /></button></a> </li>
+                </ul>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- End design Section -->
+<!-- Start testimonial Section -->
+<div class="container-fluid testi_section">
+    <div class="container">
+        <div class="row">
+        <div class="testi_head col-md-12 col-sm-12 col-xs-12" data-aos="fade-right" >
+                <div class="testi_header_heading">
+                    <h1 class="display-5" style="font-weight:700;font-size:37px;margin-top: 66px;"><span style="color:#033cfb;">Our </span>Testimoinals
+                    </h1>
+                </div>
+                <div class="testi_heading_para">
+                    <p style="font-size:17px;font-weight:400;">Our clients praise us for our great results, personable<br />
+service, expert knowledge and on-time delivery
+                    </p>
+                </div>
+            </div>
+          
+        </div>
+        <div class="row slideshow-container">
+            
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides ">
+    <div class="slide_main">
+	 <div class="slide_main_1">
+	  <p>I am really impressed by the quality of services I received from Softigh Tecnologies. You were right on schedule, charged reasonable prices, were professional and courteous in dealings, and delivered items well before time.</p>
+	 </div>
+	 <div class="slide_main_2">
+	  <img src="assets/img/index/testi_1.svg"/>
+	 </div>
+	 <div class="slide_main_3">
+	   <b><h3>General Manager</h3></b>
+	 </div>
+	 <div class="slide_main_4">
+	  <p>Al-Karam Import and Export Pvt Ltd</p>
+	 </div>
+	 <div class="slide_main_5">
+	  <div style="text-align:center">
+       <span class="dot" onClick="currentSlide(1)"></span>
+       <span class="dot" onClick="currentSlide(2)"></span>
+       <span class="dot" onClick="currentSlide(3)"></span>
+       <span class="dot" onClick="currentSlide(4)"></span>
+      </div>
+	 </div>
+	 
+	</div>
+    
+    
+  </div>
+
+  <div class="mySlides">
+     <div class="slide_main">
+	 <div class="slide_main_1">
+	  <p>We thank Softigh Tech for the wonderful job in helping us develop our program. Everyone was professional, excellent and hard working. Thanks to them, we were able to achieve our goal on time, and we look forward to continue working with them in the future.</p>
+	 </div>
+	 <div class="slide_main_2">
+	  <img src="assets/img/index/testi_2.svg"/>
+	 </div>
+	 <div class="slide_main_3">
+	   <b><h3> Manager</h3></b>
+	 </div>
+	 <div class="slide_main_4">
+	  <p>triple-m  group</p>
+	 </div>
+	 <div class="slide_main_5">
+	  <div style="text-align:center">
+       <span class="dot" onClick="currentSlide(1)"></span>
+       <span class="dot" onClick="currentSlide(2)"></span>
+       <span class="dot" onClick="currentSlide(3)"></span>
+       <span class="dot" onClick="currentSlide(4)"></span>
+      </div>
+	 </div>
+	 
+	</div>
+  </div>
+
+  <div class="mySlides ">
+     <div class="slide_main">
+	 <div class="slide_main_1">
+	  <p>We would like to express our satisfaction on the cooperation regarding the development of our web application. the development team did a very professional job. We are satisfied with the solution given to us and with the communication flow through the project. </p>
+	 </div>
+	 <div class="slide_main_2">
+	  <img src="assets/img/index/testi_3.svg"/>
+	 </div>
+	 <div class="slide_main_3">
+	   <b><h3> HR coordinator</h3></b>
+	 </div>
+	 <div class="slide_main_4">
+	  <p>Bin Saeed Limited</p>
+	 </div>
+	 <div class="slide_main_5">
+	  <div style="text-align:center">
+       <span class="dot" onClick="currentSlide(1)"></span>
+       <span class="dot" onClick="currentSlide(2)"></span>
+       <span class="dot" onClick="currentSlide(3)"></span>
+       <span class="dot" onClick="currentSlide(4)"></span>
+      </div>
+	 </div>
+	 
+	</div>
+  </div>
+    <div class="mySlides">
+     <div class="slide_main">
+	 <div class="slide_main_1">
+	  <p>Lorem Ipsum
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
+	 </div>
+	 <div class="slide_main_2">
+	  <img src="assets/img/index/testi_4.svg"/>
+	 </div>
+	 <div class="slide_main_3">
+	   <b><h3>Anjlena Jolli</h3></b>
+	 </div>
+	 <div class="slide_main_4">
+	  <p>Graphic Designer</p>
+	 </div>
+	 <div class="slide_main_5">
+	  <div style="text-align:center">
+       <span class="dot" onClick="currentSlide(1)"></span>
+       <span class="dot" onClick="currentSlide(2)"></span>
+       <span class="dot" onClick="currentSlide(3)"></span>
+       <span class="dot" onClick="currentSlide(4)"></span>
+      </div>
+	 </div>
+	 
+	</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onClick="plusSlides(-1)"><img src="assets/img/index/testi_arrow_left.png"/></a>
+  <a class="next" onClick="plusSlides(1)"><img src="assets/img/index/testi_arrow_right.png" /></a>
+</div>
+<br>
+
+<!-- The dots/circles -->
 
 
+        
+
+      </div>
+    </div>
+	<script>
+	var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+	</script>
+    
+        </div>
+
+
+
+
+    </div>
+</div>
+<script>
+
+  
+</script>
+
+<!-- End testimonial Section -->
+<!-- Start Blogs Section -->
+<div class="containeter-fluid" style="background:#f2f2f2;">
+    <div class="container">
+        <div class="row blog_1">
+            <div class="blog_head col-md-6 col-sm-6 col-xs-6" data-aos="fade-right">
+			  <div class="blog_header_heading">
+                    <h1 class="display-5" style="font-weight:700;font-size:37px"><span style="color:#033cfb;">Our </span>Blogs
+                    </h1>
+                </div>
+                <div class="blog_heading_para">
+                    <p style="font-size:17px;font-weight:400;">What we write?
+                    </p>
+                </div>
+			</div>
+			<div class="blog_right_btn col-md-6 col-sm-6 col-xs-6" data-aos="fade-left">
+			  <a href="#"><button type="button" class="blog_btn">Read More<img src="assets/img/index/blog_arrow.png" /></button></a> 
+			</div>
+
+             
+        </div>
+        <div class="row" style="margin-top:35px;">
+            <div class="blog_left col-md-6 col-sm-12 col-xs-12">
+                <div class="upper" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+                    <img class="img-fluid" src="assets/img/index/blog_img_1.svg" />
+					
+                </div>
+                <div class="lower " >
+                    <div class="blog_3_1_1" style="">
+                        <ul>
+                            <li><img class="img-fluid" src="assets/img/index/calendar.svg" /></li>
+                            <li>
+                                <p>15 Jan 2021</p>
+                            </li>
+                            <li><img class="img-fluid" src="assets/img/index/line2.jpg" /></li>
+                            <li><img  class="img-fluid" src="assets/img/index/tag.svg" /></li>
+                            <li>
+                                <p>Web Development</p>
+                            </li>
+                        </ul>
+
+                        <div class="blog_heading">
+                            <h3>How to hire a web developer <br />in 6 easy ways.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+                <div class="blog_right col-md-6 col-sm-12 col-xs-12">
+                   <div class="upper_1" >
+                    <img class="img-fluid" src="assets/img/index/blog_img_2.svg"/>
+                   </div>
+                   <div class="lower_1 " >
+                    <div class="blog_3_1">
+                        <ul>
+                            <li><img class="img-fluid" src="assets/img/index/calendar.svg" /></li>
+                            <li>
+                                <p>15 Jan 2021</p>
+                            </li>
+                            <li><img class="img-fluid" src="assets/img/index/line2.jpg" /></li>
+                            <li><img class="img-fluid" src="assets/img/index/tag.svg" /></li>
+                            <li>
+                                <p>Web Development</p>
+                            </li>
+                        </ul>
+
+                        <div class="blog_heading">
+                            <h3>How to hire a web developer <br />in 6 easy ways.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            
+        </div>
+    </div>
+</div>
+<!-- End Blogs Section -->
+<!-- Start queto Section -->
+<div class="container-fluid">
+    <div class="container">
+        <div class="row queto_main">
+            <div class="queto_heading" data-aos="fade-up" data-aos-duration="3000">
+                <h1>Looking for a software development partner?<br />Let's talk</h1>
+            </div>
+            <div class="queto_image" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <a href="#"><button type="button" class="queto_btn">Get a Quote<img src="assets/img/index/queto_arrow.png" /></button></a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Start queto Section -->
+<div class="container-fluid empty">
+    <div class="container">
+        <div class="row">
+            &nbsp;
+
+        </div>
+    </div>
+</div>
 {{ end }}

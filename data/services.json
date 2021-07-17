@@ -1,0 +1,23 @@
+[{
+    "id": 0,
+    "icon": "/assets/img/index/application.svg",
+    "title": "Application Development",
+    "desc": "Softigh develops Cross-Platform and Hybrid Applications........",
+    "LearnMore" : "Learn More",
+    "URL" : "assets/img/index/services_arrow.png"
+},{
+    "id": 1,
+    "icon": "/assets/img/index/cloud.svg",
+    "title": "Cloud Computing",
+    "desc": "Softigh provides a journey to cloud native assisted with reference architectures..........",
+    "LearnMore" : "Learn More",
+    "URL" : "assets/img/index/services_arrow.png"
+},{
+    "id": 2,
+    "icon": "/assets/img/index/it.svg",
+    "title": "IT Consulting",
+    "desc": "Simply put, the Consulting-as-a-Service model offers remote consultancy.........",
+    "LearnMore" : "Learn More",
+    "URL" : "assets/img/index/services_arrow.png"
+
+}]

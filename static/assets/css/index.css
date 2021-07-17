@@ -186,28 +186,33 @@
     opacity: 0.4;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 130px;
+    height: 100px!important;
 	width:75px;
   }
   .clients_logo_1 ul li:nth-child(4) img{
     -webkit-filter: grayscale(1);
+    height: 100px;
     opacity: 0.1;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 110px;
   }
   .clients_logo_1 ul li:nth-child(3) img{
      -webkit-filter: grayscale(1);
+     height: 100px;
     opacity: 0.1;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 90px;
   }
   .clients_logo_1 ul li:nth-child(2) img{
     -webkit-filter: grayscale(1);
+    height: 100px;
     opacity: 0.6;
     -webkit-transition: all 0.5s ease-in-out;
     margin-left: 70px;
   }
   .clients_logo_1 ul li:nth-child(1) img{
     -webkit-filter: grayscale(1);
+    height: 100px;
     opacity: 0.4;
     -webkit-transition: all 0.5s ease-in-out;
     
@@ -360,18 +365,22 @@
   }
   .services_left{
   float:left;
-  transform: rotateY(30deg)!important;
-      box-shadow: 0px 0px 8px 13px #ededed;
+ 
+  box-shadow: 0px 0px 8px 13px #ededed;
   height:300px;
   border-radius: 15px;
   width:306px;
   background:#fff;
   margin-left: 30px;
-      margin-top: 25px;
-      margin-right: 20px;
+  margin-top: 25px;
+      
+  }
+  .card_img_1{
+    margin-top: 20px;;
   }
  .card_heading_1 h4{
  font-size:18px;
+ margin-top: 20px;
  }
   .card_para_1 p{
  
@@ -382,12 +391,13 @@
  
   .card_a a{
   color:#033CFB!important;
+  text-decoration: none;
   }
   .card_a img{
   margin-left:20px;
   }
   .services_left:hover{
-   transform: rotateY(0deg)!important;
+  
   
   }
   .services_middle{
@@ -422,7 +432,7 @@
    transform: rotateY(0deg)!important;
   
   }
-  
+.card_a a
   
   /*--------------------------------------------------------------
   # Design
@@ -502,7 +512,7 @@
     background-size: contain;
     background-position: 100% 0%;
     height: 670px;
-    margin-top: -96px;
+    
   
   
   
@@ -550,26 +560,30 @@
   }
   .slide_main_1 p{
   margin-top:20px;
-  margin-left:121px;
+  margin-left:20px;
     text-align: center;
     text-justify: inter-word;
     color:#535353
   }
   .slide_main_2 img{
-  margin-left:375px;
+  margin-left:388px;
+  width: 10%;
   }
   .slide_main_3 {
   }
   .slide_main_3 h3{
   color:#535353;
   text-align:center;
+  font-size: 16px;
   }
   .slide_main_4{
   
   }
   .slide_main_4 p{
   color:#535353;
-  text-align:center
+  text-align:center;
+  font-size: 13px;
+  
   }
   
   
@@ -758,6 +772,36 @@
   width:100%;
   height:100px;
   }
+  .blog_3_1_1 {
+      
+    height: 167px;
+    background: #FFFFFF;
+    z-index: 10;
+    margin-top: -110px;
+    position: relative;
+    width:347px;
+    float: left;
+    margin-left: 143px;
+    box-shadow: 1px 1px 20px 3px #f7f8f8;
+        }
+      
+      
+      .blog_3_1_1 ul{
+    list-style:none;
+    width:100%;
+    }
+    .blog_3_1_1 li{
+    float:left;
+    margin-right:10px;
+    }
+    .blog_3_1_1 li p{
+    color:#C7C5C4;
+    font-size:14px;
+    margin-top: 15px;
+    }
+    .blog_3_1_1 li img{
+      margin-top: 16px;
+    }
   .blog_3_1 {
       
   height: 167px;
@@ -801,7 +845,7 @@
   }
   .blog_btn img{
   margin-top:2px;
-  margin-left:13px;
+  margin-left:11px;
   }
   .blog_list{
   width:30%;
@@ -979,4 +1023,75 @@ margin-top:3px;
   .hero_right{
   width:100%;
   }
+  .clients_logo_1 ul li:nth-child(2) img {
+  margin-left:15px;
+  }
+  .clients_logo_1 ul li:nth-child(3) img {
+  margin-left:-15px;
+  }
+  .clients_logo_1 ul li:nth-child(4) img {
+  margin-left:15px;
+  }
+  .clients_logo_1 ul li:nth-child(5) img {
+  margin-left:90px;
+  }
+  .services{
+  height:auto;
+  }
+  .design{
+  height:auto;
+  }
+  .job_section{
+  height:auto;
+      background-position: 46% 71%;
+  }
+  .slide_main_1{
+      margin-left: -124px;
+  }
+  .slide_main_2 img{
+  margin-left:103px;
+  }
+  .slideshow-container{
+  height:420px;
+  }
+  .slide_main_1 p{
+    margin-left: 114px;
+  }
+  .slide_main_2 img{
+    width: 30%;
+    margin-left: 110px;
+  }
+  .blog_btn{
+  float:left;
+      margin-top: -80px;
+  }
+  .upper img{
+  margin-left:-73px;
+  }
+  .blog_3_1_1{
+  margin-left:65px;
+  }
+  .upper_1{
+  margin-left:25px;
+  }
+  .blog_3_1{
+  margin-left:70px;
+  }
+  .design_right {
+  margin-left:43px;
+  width:90%;
+  }
+  .queto_main{
+    height: auto;
+    margin-left: 2px;
+  }
+  .queto_btn{
+    margin-left: 86px;
+    margin-top: -54px;
+    margin-bottom: 20px;
+  }
+
+
+
+
 }
