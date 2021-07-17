@@ -46,16 +46,19 @@
                 </div>
             </div>
         </div>
-        <div class="row">
 
             <div class="container">
-                <div class="clients_logo col-md-12 col-sm-12 col-xs-12">
+                <div class="clients_logo">
                     <div class="clients_logo_1" data-aos="fade-right">
                         <div class="row clients_logo_1 ">
                             <ul class="list-inline">
+                                <div class="row dis-blc">
+                                    <div class="col-1"></div>
                                 {{ range .Site.Data.clients }}
-                                <li class="list-inline-item col-md-2 col-sm-6 col-xs-6"><img src="{{ .src }}"></li>
+                                <li class="list-inline-item col-md-2 col-5"><img src="{{ .src }}"></li>
                                 {{ end }}
+                                <div class="col-1"></div>
+                                </div>
                             </ul>
                         </div>
                     </div>
@@ -63,7 +66,6 @@
                 </div>
             </div>
 
-        </div>
     </div>
 </div>
 <!-- Start Services Section -->
@@ -104,7 +106,7 @@
 <!-- Start design Section -->
 <div class="fluid-container design">
     <div class="container">
-        <div class="row design_1">
+        <div class="row design_1 col-reverse">
             <div class="design_left col-md-6 col-sm-12 col-xs-12" data-aos="fade-right" data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                 <img class="img-fluid" src="assets/img/index/design_img.svg">
@@ -112,7 +114,7 @@
             <div class="design_right col-md-6 col-sm-12 col-xs-12" data-aos="fade-left"
                 data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
                 
-                        <h1>We design & built innovative<br>systems for our<br>trusted partners</h1>
+                        <h1 class="mb-dsgn-fnt">We design & built innovative<br>systems for our<br>trusted partners</h1>
                     
                         <p>Softigh Technology is a Technology Start-up that provides <br />cutting-edge technologies and
                             services, offers scalable <br />solutions for its affiliated companies.</p>
@@ -128,8 +130,8 @@
 <!-- Start job Section -->
 <div class="container-fluid job_section">
     <div class="container">
-        <div class="row" style="margin-top:150px;">
-            <div class="job_head col-md-12 col-sm-12 col-xs-12" data-aos="fade-right" style="margin-top: 206px;">
+        <div class="row job_section_1">
+            <div class="job_head col-md-12 col-sm-12 col-xs-12" data-aos="fade-right">
                 <div class="job_header_heading_index">
                     <h1 class="display-5" style="font-weight:700;font-size:37px;"><span style="color:#033cfb;">Job </span>Openings
                     </h1>
@@ -168,7 +170,18 @@
         arrows: true,
         autoplayspeed: 2000,
         infinite: true,
-        loop: true
+        loop: true,
+        responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        arrows: false,
+      }
+    }
+  ]
     });
     </script>
 <!-- End work Section -->
@@ -390,7 +403,7 @@
         <div class="row" style="margin-top:35px;">
             <div class="blog_left col-md-6 col-sm-12 col-xs-12">
                 <div class="upper" >
-                    <img class="img-fluid" src="assets/img/index/blog_img_1.svg" />
+                    <img class="img-fluid blog-img" src="assets/img/index/blog_img_1.svg" />
                 </div>
                 <div class="lower">
                     <div class="blog_3_1">
@@ -414,7 +427,7 @@
             </div>
             <div class="blog_left col-md-6 col-sm-12 col-xs-12">
                 <div class="upper">
-                    <img class="img-fluid" src="assets/img/index/blog_img_2.svg" />
+                    <img class="img-fluid blog-img" src="assets/img/index/blog_img_2.svg" />
                 </div>
                 <div class="lower">
                     <div class="blog_3_1">
@@ -439,6 +452,10 @@
             </div>
 
         </div>
+        <div class="blog_right_btn_botton col-md-12" data-aos="fade-left">
+                <a href="#"><button type="button" class="blog_btn mx-auto">Read More<img
+                            src="assets/img/index/blog_arrow.png" /></button></a>
+            </div>
     </div>
 </div>
 <!-- End Blogs Section -->
