@@ -600,10 +600,10 @@ margin-left:91px;
     color:#535353
   }
   .slide_main_2 img{
-  margin-left:388px;
   width: 10%;
   }
-  .slide_main_3 {
+  .slide_main_2{
+    text-align: center;
   }
   .slide_main_3 h3{
   color:#535353;
@@ -1092,9 +1092,6 @@ margin-top:3px;
   .slide_main_1{
       margin-left: -124px;
   }
-  .slide_main_2 img{
-  margin-left:103px;
-  }
   .slideshow-container{
   height:420px;
   }
@@ -1103,7 +1100,6 @@ margin-top:3px;
   }
   .slide_main_2 img{
     width: 30%;
-    margin-left: 110px;
   }
   .blog_btn{
   float:left;
