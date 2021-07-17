@@ -964,10 +964,11 @@
     width: 100%;
     background-image: url("../img/index/jobs_back.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 996px;
     padding-bottom: 500px;
     margin-top: 80px;
+    background-position: bottom;
   }
 .queto_heading h1{
 font-size:26px;
