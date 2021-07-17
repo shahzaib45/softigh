@@ -450,7 +450,7 @@
   --------------------------------------------------------------*/
   .design{
   width:100%;
-  background:#FBFCFC;
+  background:#fbfcfb;
   height:630px;
   }
   .design_main{
@@ -523,27 +523,18 @@
   
   .testi_section{
   background-image:url("../img/index/testi_back.svg");
-          background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 100% 0%;
-    height: 670px;
-    
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 0%;
+  height: 670px;
+  margin-top: 200px;
   }
   .testi_header_1 h5{
   margin-top: -22px;
-      margin-left: 74px;
-      color: #033cfb;
-      font-size:21px;
-      }
+  margin-left: 74px;
+  color: #033cfb;
+  font-size:21px;
+  }
   .testi_header_1{
   margin-top:85px;
   }
