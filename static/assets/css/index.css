@@ -1,4 +1,4 @@
-html, body{
+body{
   overflow-x: hidden !important;
 }
 .navbar-brand{
@@ -120,7 +120,7 @@ html, body{
   .hero_right img{
       margin-top: 80px;
       width: 80%;
-	  margin-left:50px;
+    margin-left:50px;
       
       transform-origin: center bottom;
       animation-duration: 2s;
@@ -198,7 +198,7 @@ html, body{
   }
   .clients_logo_1 ul li:nth-child(6) img{
     opacity: 0.4;
-	  width:75px;
+    width:75px;
   }
   .clients_logo_1 ul li:nth-child(5) img{
     opacity: 0.1;
@@ -440,8 +440,8 @@ html, body{
  color: #033cfb;
     background: #fff;
     border: 1px solid #033cfb;
-	border-radius:4px;
-	font-size:15px;
+  border-radius:4px;
+  font-size:15px;
   
   }
   .design_btn:hover{
@@ -465,7 +465,7 @@ html, body{
  }
  .job_heading_para{
      font-size: 17px;
-	 
+   
  }
  .item img{
   width: 100%;
@@ -516,7 +516,7 @@ html, body{
       position: relative;
       margin: auto;
       height: 360px;
-	  margin-top:55px;
+    margin-top:55px;
       border-radius: 16px;
           background: #fff;
       box-shadow:0px -1px 10px 17px #f3f3f3
@@ -909,7 +909,7 @@ html, body{
       background-image:url("../img/index/queto_back.png");
       background-repeat: no-repeat;
       z-index: 1000;
-	  height:200px;
+    height:200px;
       background-size: contain;
       margin-bottom: -100px;
       position: relative;
@@ -1004,6 +1004,9 @@ margin-top:46px;
 margin-top:3px;
 }
 @media only screen and (max-width: 600px) {
+  html, body{
+    overflow-x: hidden !important;
+  }
   .hero__left h1{
     font-size: 40px;
     margin-top: 50px;
