@@ -14,7 +14,7 @@
                 </p>
             </div>
             <div class="hero_left_3">
-                <button type="button" class="hero_btn">Get a Quote<img src="/assets/img/index/hero_arrow.png" /></button>
+               <a href="#"> <button type="button" class="hero_btn">Get a Quote<img src="/assets/img/index/hero_arrow.png" /></button></a>
             </div>
 
         </div>
@@ -81,7 +81,7 @@ also as check abreast of them</p>
                 </div>
             </div>
         </div>
-        <div class="row mx-auto">
+        <div class="row mx-auto" style="flex-wrap: wrap;">
             {{ range .Site.Data.services }}
             <div class="services_left col-md-4 col-sm-12 col-xs-12" data-aos="flip-left">
                 <div class="card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>

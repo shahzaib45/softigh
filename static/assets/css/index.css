@@ -32,6 +32,11 @@
     color: #fff;
     box-shadow: 2px 1px 4px 1px #535353;
   }
+  .hero_btn:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+  }
 
   .hero__left h1{
   font-size:55px;
@@ -375,6 +380,12 @@
   margin-top: 25px;
       
   }
+  .services_left:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+
+  }
   .card_img_1{
     margin-top: 20px;;
   }
@@ -391,6 +402,7 @@
  
   .card_a a{
   color:#033CFB!important;
+  text-decoration: none;
   }
   .card_a img{
   margin-left:20px;
@@ -431,7 +443,7 @@
    transform: rotateY(0deg)!important;
   
   }
-  
+.card_a a
   
   /*--------------------------------------------------------------
   # Design
@@ -485,6 +497,10 @@
 	border-radius:4px;
 	font-size:15px;
   
+  }
+  .design_btn:hover{
+    background: #033cfb;
+    color: #ffffff;
   }
   .design_btn img{
   margin-left:10px;
@@ -842,6 +858,10 @@
   float:right;
   margin-top:35px;
   }
+  .blog_btn:hover{
+    background-color: #033CFB;
+    
+  }
   .blog_btn img{
   margin-top:2px;
   margin-left:11px;
@@ -973,7 +993,9 @@ border-radius:4px;
 color::#707070;
 border:none;
 }
-
+.queto_btn:hover{
+  background-color: #033CFB;
+}
 .job_header_heading_index{
   margin-top: 150px;
 }
