@@ -1,5 +1,6 @@
 html, body{
   overflow-x: hidden !important;
+  overflow-y: hidden !important;
 }
 .navbar-brand{
   width: 50%;
