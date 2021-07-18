@@ -373,7 +373,7 @@
  
   box-shadow: 0px 0px 8px 13px #ededed;
   height:300px;
-  border-radius: 15px;
+  border-radius: 13px;
   width:306px;
   background:#fff;
   margin-left: 30px;
@@ -407,43 +407,8 @@
   .card_a img{
   margin-left:20px;
   }
-  .services_left:hover{
-  
-  
-  }
-  .services_middle{
-  float:left;
-  height:300px;
-    transform: rotateY(30deg)!important;
-  width:306px;
-      box-shadow: 0px 0px 8px 13px #ededed;
-  margin-left: 30px;
-  background:#fff;
-  border-radius: 15px;
-   margin-top: 25px;
-      margin-right: 20px;
-  }
-   .services_middle:hover{
-   transform: rotateY(0deg)!important;
-  
-  }
-  .services_right{
-  float:left;
-  height:300px;
-    transform: rotateY(30deg)!important;
-  width:306px;
-  margin-left: 30px;
-      box-shadow: 0px 0px 8px 13px #ededed;
-  background:#fff;
-   margin-top: 25px;
-      margin-right: 20px;
-      border-radius: 15px;
-  }
-   .services_right:hover{
-   transform: rotateY(0deg)!important;
-  
-  }
-.card_a a
+
+ 
   
   /*--------------------------------------------------------------
   # Design
@@ -515,8 +480,36 @@
  }
  .job_heading_para{
      font-size: 17px;
-	 margin-top:-20px;
+	 
  }
+ .logo-slider .item{
+    
+}
+.logo-slider .slick-slide{
+    margin:15px;
+    
+}
+.slick-dots li.slick-active button:before{
+    color:#ff5722;
+}
+.sliick-dots li button:before{
+    font-size: 12px;
+}
+.slick-next:before,
+.slick-prev:before{
+    color: #ff8159;
+    font-size: 24px;
+}
+.item:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.1) translateY(-5px);
+}
+.logo-slider{
+width:91%;
+margin-left:91px;
+}
+
   /*--------------------------------------------------------------
   # Testimonials
   --------------------------------------------------------------*/
@@ -527,7 +520,7 @@
   background-size: contain;
   background-position: 100% 0%;
   height: 670px;
-  margin-top: 200px;
+  
   }
   .testi_header_1 h5{
   margin-top: -22px;
@@ -851,6 +844,7 @@
   }
   .blog_btn:hover{
     background-color: #033CFB;
+    color:#ffffff;
     
   }
   .blog_btn img{
@@ -969,7 +963,7 @@
     background-image: url("../img/index/jobs_back.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 1100px;
+    height: 996px;
     padding-bottom: 500px;
     margin-top: 80px;
   }
@@ -1029,11 +1023,14 @@ margin-top:3px;
   body {
   overflow-x:hidden;
   }
+  .hero__left h1{
+    font-size: 20px;
+  }
   .hero_right img{
-  width:90%;
+  width:50%;
   }
   .hero_right{
-  width:100%;
+  width:50%;
   }
   .clients_logo_1 ul li:nth-child(2) img {
   margin-left:15px;
@@ -1077,17 +1074,26 @@ margin-top:3px;
   float:left;
       margin-top: -80px;
   }
+  .upper{
+    width: 100%;
+
+  }
+  .upper_1{
+    width: 100%;
+  }
   .upper img{
   margin-left:-73px;
   }
   .blog_3_1_1{
   margin-left:65px;
+  width: 80%;
   }
   .upper_1{
   margin-left:25px;
   }
   .blog_3_1{
   margin-left:70px;
+  width: 80%;
   }
   .design_right {
   margin-left:43px;
@@ -1106,4 +1112,9 @@ margin-top:3px;
 
 
 
+}
+@media only screen and (max-width: 400px) {
+  body{
+    over
+  }
 }
