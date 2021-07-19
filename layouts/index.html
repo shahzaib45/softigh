@@ -468,8 +468,8 @@
 <!-- Start queto Section -->
 <div class="container-fluid">
     <div class="container">
-        <div class="row queto_main" id="queto">
-            <div class="queto_heading" data-aos="fade-up" data-aos-duration="3000">
+        <div class="row queto_main" id="queto" data-aos="zoom-in">
+            <div class="queto_heading" >
                 <h1>Looking for a software development partner?<br />Let's talk</h1>
             </div>
             <div class="queto_image" >
@@ -499,7 +499,8 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
   $("#icon").click(function(){
-    $("#queto_mobile").toggle({ direction: "" },200);
+    $("#queto_mobile").toggle(200);
+    
   });
 });
 </script>
