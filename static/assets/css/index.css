@@ -125,6 +125,9 @@ body{
       transform-origin: center bottom;
       animation-duration: 2s;
   }
+  .layer-1{
+    position: absolute;
+  }
   .hero_right{
   width:46%;
   }
