@@ -488,6 +488,9 @@ body{
      font-size: 17px;
    
  }
+ .logo-slider .item{
+  padding: 40px;
+ }
  .item img{
   width: 100%;
  }
