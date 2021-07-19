@@ -125,14 +125,20 @@ body{
       transform-origin: center bottom;
       animation-duration: 2s;
   }
+  .layer-base{
+    z-index: 10;
+  }
   .layer-1{
     position: absolute;
+    left: 0;
   }
   .layer-2{
     position: absolute;
+    left: 0;
   }
   .layer-3{
     position: absolute;
+    left: 0;
   }
   .layer-4{
     position: absolute;
