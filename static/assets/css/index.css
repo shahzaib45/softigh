@@ -488,6 +488,9 @@ body{
      font-size: 17px;
    
  }
+ .slick-slide {
+    width: 100%;
+}
  .item img{
   width: 100%;
  }
