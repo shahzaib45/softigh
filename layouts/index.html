@@ -30,16 +30,16 @@
             $(window).on("scroll", function() {
             var wScroll = $(this).scrollTop();
             if (wScroll < 50) {
-                $('.layer-1').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                $('.layer-2').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                $('.layer-3').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                $('.layer-4').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+                $('.layer-1').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+                $('.layer-2').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+                $('.layer-3').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+                $('.layer-4').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
             }
             else {
-                $('.layer-1').css({'transform' : 'translate(0%, -'+ 100/1 +'%)'})
-                $('.layer-2').css({'transform' : 'translate(0%, -'+ 100/1 +'%)'})
-                $('.layer-3').css({'transform' : 'translate(0%, -'+ 100/1 +'%)'})
-                $('.layer-4').css({'transform' : 'translate(0%, -'+ 100/1 +'%)'})
+                $('.layer-1').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+                $('.layer-2').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+                $('.layer-3').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+                $('.layer-4').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
      }
         });
         </script>
