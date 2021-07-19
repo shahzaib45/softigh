@@ -960,7 +960,7 @@ margin-left:91px;
   }
   .job_section{
     width: 100%;
-    background-image: url("../img/index/jobs_back.png");
+    background-image: url("../img/index/job_back.svg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 996px;
@@ -1019,6 +1019,12 @@ margin-top:46px;
 .footer_1_2 ul li:nth-child(4){
 margin-top:3px;
 }
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
   body {
   overflow-x:hidden;
@@ -1108,6 +1114,10 @@ margin-top:3px;
     margin-top: -54px;
     margin-bottom: 20px;
   }
+  footer .main-footer {
+    
+    display: none;
+}
 
 
 

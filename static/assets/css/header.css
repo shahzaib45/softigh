@@ -155,3 +155,16 @@ background-repeat:no-repeat;
 .widget-title h5{
 font-size:19px!important;
 }
+
+
+@media only screen and (max-width: 600px) {
+    footer .main-footer {
+        display: none!important;
+        visibility:hidden!important;
+
+    }
+    .footer_mobile{
+        display: block;
+
+    }
+}
