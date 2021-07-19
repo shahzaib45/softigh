@@ -125,25 +125,30 @@ body{
       transform-origin: center bottom;
       animation-duration: 2s;
   }
-  .layer-base{
-    z-index: 10;
-  }
   .layer-1{
     position: absolute;
     left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .layer-2{
     position: absolute;
     left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .layer-3{
     position: absolute;
     left: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .layer-4{
     position: absolute;
     left: 0;
     z-index: -1;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   .hero_right{
   width:46%;
