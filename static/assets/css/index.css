@@ -128,6 +128,15 @@ body{
   .layer-1{
     position: absolute;
   }
+  .layer-2{
+    position: absolute;
+  }
+  .layer-3{
+    position: absolute;
+  }
+  .layer-4{
+    position: absolute;
+  }
   .hero_right{
   width:46%;
   }
