@@ -26,6 +26,24 @@
             <img class="img-fluid layer-3" src="/assets/img/index/hero-layer-3.png" alt="" />
             <img class="img-fluid layer-4" src="/assets/img/index/hero-layer-4.png" alt="" />
         </div>
+        <script>
+            $(window).on("scroll", function() {
+            var wScroll = $(this).scrollTop();
+            if (wScroll < 50) {
+                $('.layer-1').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+                $('.layer-2').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+                $('.layer-3').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+                $('.layer-4').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
+            }
+            else {
+                $('.layer-1').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+                $('.layer-2').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+                $('.layer-3').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+                $('.layer-4').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
+     }
+        });
+        </script>
+
     </div>
 </div>
 </div>
@@ -111,7 +129,7 @@
         <div class="row design_1 col-reverse">
             <div class="design_left col-md-6 col-sm-12 col-xs-12" data-aos="fade-right" data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
-                <img class="img-fluid" src="assets/img/index/design-img.svg">
+                <img class="img-fluid" src="assets/img/index/design_img.svg">
             </div>
             <div class="design_right col-md-6 col-sm-12 col-xs-12" data-aos="fade-left"
                 data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
@@ -172,6 +190,30 @@
 	   </div>
     </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+    $('.logo-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        autoplayspeed: 2000,
+        infinite: true,
+        loop: true,
+        responsive: [
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        
+        arrows: false,
+      }
+    }
+  ]
+    });
+    </script>
 <!-- End work Section -->
 <!-- Start testimonial Section -->
 <div class="container-fluid testi_section">
@@ -301,6 +343,40 @@
 
     </div>
 </div>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+
+
+
 <!-- End testimonial Section -->
 <!-- Start Blogs Section -->
 <div class="containeter-fluid" style="background:#f2f2f2; padding-bottom: 70px;">
@@ -412,7 +488,14 @@
         </div>
     </div> 
 </div>
-
+<script>
+$(document).ready(function(){
+  $("#close").click(function(){
+    $("#queto").hide();
+	$("#empty").hide();
+  });
+});
+</script>
 
 <!-- Start queto Section -->
 <div class="container-fluid empty" id="empty">
@@ -422,81 +505,12 @@
     </div>
 </div>
 <script>
-    $('.logo-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        dots: false,
-        arrows: true,
-        autoplayspeed: 2000,
-        infinite: true,
-        loop: true,
-        responsive: [
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        
-        arrows: false,
-      }
-    }
-  ]
-    });
-        var slideIndex = 1;
-    showSlides(slideIndex);
-
-    // Next/previous controls
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = slides.length }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-    }
-
-$(document).ready(function(){
-  $("#close").click(function(){
-    $("#queto").hide();
-    $("#empty").hide();
-  });
-});
 $(document).ready(function(){
   $("#icon").click(function(){
-    $("#queto_mobile").toggle("slide", { 200,"swing");
+    $("#queto_mobile").toggle(200);
     
   });
 });
-            $(window).on("scroll", function() {
-            var wScroll = $(this).scrollTop();
-            if (wScroll < 50) {
-                $('.layer-1').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
-                $('.layer-2').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
-                $('.layer-3').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
-                $('.layer-4').css({'transform' : 'translate(0px, -'+ wScroll +'px)'})
-            }
-            else {
-                $('.layer-1').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
-                $('.layer-2').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
-                $('.layer-3').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
-                $('.layer-4').css({'transform' : 'translate(0px, -'+ 50/1 +'px)'})
-     }
-        });
 </script>
+
 {{ end }}
