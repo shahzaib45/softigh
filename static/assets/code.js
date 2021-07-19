@@ -55,7 +55,7 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#icon").click(function(){
-    $("#queto_mobile").toggle(200);
+    $("#queto_mobile").toggle("slide", { direction: "right" }, 200);
     
   });
 });
