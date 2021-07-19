@@ -491,6 +491,10 @@ body{
  .logo-slider .item{
   padding: 40px;
  }
+ .card{
+  padding-bottom: 23px;
+  border-radius: 25px;
+ }
  .item img{
   width: 100%;
  }
