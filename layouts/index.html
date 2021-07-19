@@ -29,10 +29,10 @@
         <script>
             $(window).on("scroll", function() {
                 var wScroll = $(this).scrollTop();
-                    $('.layer-1').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                    $('.layer-2').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                    $('.layer-3').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                    $('.layer-4').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+                    $('.layer-1').css({'transform' : 'translate(0%, -'+ positionY +'%)'})
+                    $('.layer-2').css({'transform' : 'translate(0%, -'+ positionY +'%)'})
+                    $('.layer-3').css({'transform' : 'translate(0%, -'+ positionY +'%)'})
+                    $('.layer-4').css({'transform' : 'translate(0%, -'+ positionY +'%)'})
             });
         </script>
 
