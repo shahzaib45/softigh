@@ -177,7 +177,7 @@
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        centerMode: true,
+        
         arrows: false,
       }
     }
@@ -298,37 +298,7 @@
 
                 </div>
             </div>
-            <div class="mySlides">
-                <div class="slide_main">
-                    <div class="slide_main_1">
-                        <p>Lorem Ipsum
-                            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-                            velit..."
-                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply
-                            because it is pain..."</p>
-                    </div>
-                    <div class="slide_main_2">
-                        <img src="assets/img/index/testi_4.svg" />
-                    </div>
-                    <div class="slide_main_3">
-                        <b>
-                            <h3>Anjlena Jolli</h3>
-                        </b>
-                    </div>
-                    <div class="slide_main_4">
-                        <p>Graphic Designer</p>
-                    </div>
-                    <div class="slide_main_5">
-                        <div style="text-align:center">
-                            <span class="dot" onClick="currentSlide(1)"></span>
-                            <span class="dot" onClick="currentSlide(2)"></span>
-                            <span class="dot" onClick="currentSlide(3)"></span>
-                            <span class="dot" onClick="currentSlide(4)"></span>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
+           
 
             <!-- Next and previous buttons -->
             <a class="prev" onClick="plusSlides(-1)"><img src="assets/img/index/testi_arrow_left.png" /></a>
@@ -462,24 +432,38 @@
 <!-- Start queto Section -->
 <div class="container-fluid">
     <div class="container">
-        <div class="row queto_main">
+        <div class="row queto_main" id="queto">
             <div class="queto_heading" data-aos="fade-up" data-aos-duration="3000">
                 <h1>Looking for a software development partner?<br />Let's talk</h1>
             </div>
-            <div class="queto_image" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-                <a href="#"><button type="button" class="queto_btn">Get a Quote<img
-                            src="assets/img/index/queto_arrow.png" /></button></a>
+            <div class="queto_image" >
+                <a href="#"><button type="button" class="queto_btn">Get a Quote<img src="assets/img/index/queto_arrow.png" /></button></a> 
+				<img src="assets/img/index/cross.svg"  style="width: 15px;margin-left: 56px;margin-top: -174px; opacity: 0.6;" id="close" />
             </div>
+			
         </div>
     </div>
 </div>
+<script>
+$(document).ready(function(){
+  $("#close").click(function(){
+    $("#queto").hide();
+	$("#empty").hide();
+  });
+});
+</script>
 <!-- Start queto Section -->
-<div class="container-fluid empty">
-    <div class="container">
-        <div class="row">
-            &nbsp;
-
-        </div>
+<div class="container-fluid empty" id="empty">
+    <div class="icon">
+	<img src="assets/img/index/chat_ icon.svg" id="icon"/>
+        
     </div>
 </div>
+<script>
+$(document).ready(function(){
+  $("#icon").click(function(){
+    $("#queto").toggle();
+  });
+});
+</script>
 {{ end }}
