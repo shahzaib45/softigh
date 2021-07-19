@@ -3,7 +3,7 @@
     width:167px;
     }
 .bgimage{
-background-image:url("../img/index/hero_back.svg");
+background-image:url("../img/index/hero_back_img.svg");
 background-repeat:no-repeat;
     background-size: contain;
     background-position: 100% 80%;
@@ -25,6 +25,9 @@ background-repeat:no-repeat;
         height: 50px;
         text-align: center;
     }
+   a:hover{
+       text-decoration: none;
+   }
 	.nav-item {
 	margin-right:30px;
 	}
@@ -111,19 +114,7 @@ background-repeat:no-repeat;
     ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
     ul.social-footer2 li {display: inline-block;padding: 0;}
     ul.social-footer2 li a:hover {background-color:#ff8d1e;}
-    ul.social-footer2 li a {display: block;	height:30px;width: 30px;text-align: center;}
-    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    -webkit-transition: all 250ms ease-in-out 0s;
-    -moz-transition: all 250ms ease-in-out 0s;
-    -ms-transition: all 250ms ease-in-out 0s;
-    -o-transition: all 250ms ease-in-out 0s;
-    transition: all 250ms ease-in-out 0s;
     
-    }
     .footer_main{
         display: flex;
         width: 100%;
@@ -154,4 +145,41 @@ background-repeat:no-repeat;
         }
 .widget-title h5{
 font-size:19px!important;
+}
+@media only screen and (max-width: 600px) {
+    footer{
+        display: none!important;
+        visibility:hidden!important;
+
+    }
+    .footer_mobile{
+    display: block!important;
+    background-color: #0A143B;
+    width: 100%;
+    height: auto;
+    }
+    .footer_mobile_1 img{
+      padding-left: 85px;
+    }
+    .new_1{
+      color: #fff;
+      
+    }
+    .container_footer_mobile{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .footer_mobile_2 ul{
+      list-style-type: none;
+      
+    }
+    .footer_mobile_2 ul li{
+      float: left;
+      
+      
+    }
+}
+.footer_mobile{
+    display: none!important;
 }
