@@ -20,7 +20,7 @@
 
         </div>
         <div class="hero_right col-md-6 col-sm-12 col-xs-12" >
-            <img class="img-fluid" src="/assets/img/index/hero-base.png" alt="" />
+            <img class="img-fluid layer-base" src="/assets/img/index/hero-base.png" alt="" />
             <img class="img-fluid layer-1" src="/assets/img/index/hero-layer-1.png" alt="" />
             <img class="img-fluid layer-2" src="/assets/img/index/hero-layer-2.png" alt="" />
             <img class="img-fluid layer-3" src="/assets/img/index/hero-layer-3.png" alt="" />
@@ -28,12 +28,14 @@
         </div>
         <script>
             $(window).on("scroll", function() {
-                var wScroll = $(this).scrollTop();
-                    $('.layer-1').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
-                    $('.layer-2').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
-                    $('.layer-3').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
-                    $('.layer-4').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
-            });
+            var wScroll = $(this).scrollTop();
+            if (wScroll < 50) {
+                $('.layer-1').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+                $('.layer-2').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+                $('.layer-3').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+                $('.layer-4').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+            }
+        });
         </script>
 
     </div>
