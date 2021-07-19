@@ -20,7 +20,7 @@
 
         </div>
         <div class="hero_right col-md-6 col-sm-12 col-xs-12" >
-            <img class="img-fluid layer-base" src="/assets/img/index/hero-base.png" alt="" />
+            <img class="img-fluid" src="/assets/img/index/hero-base.png" alt="" />
             <img class="img-fluid layer-1" src="/assets/img/index/hero-layer-1.png" alt="" />
             <img class="img-fluid layer-2" src="/assets/img/index/hero-layer-2.png" alt="" />
             <img class="img-fluid layer-3" src="/assets/img/index/hero-layer-3.png" alt="" />
@@ -29,10 +29,10 @@
         <script>
             $(window).on("scroll", function() {
                 var wScroll = $(this).scrollTop();
-                    $('.layer-1').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                    $('.layer-2').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                    $('.layer-3').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
-                    $('.layer-4').css({'transform' : 'translate(0%, -'+ wScroll /1 +'%)'})
+                    $('.layer-1').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
+                    $('.layer-2').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
+                    $('.layer-3').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
+                    $('.layer-4').css({'transform' : 'translate(%, -'+ wScroll /2 +'%)'})
             });
         </script>
 
@@ -157,17 +157,27 @@
         </div>
 		<div class="row">
         <div class="logo-slider">
-           <div class="item"><a href="#"><img src="assets/img/index/chief_card.png" /></a></div>
-		   
-           <div class="item"><a href="#"><img src="assets/img/index/full_stack_card.png" /></a></div>
-		   
-           <div class="item"><a href="#"><img src="assets/img/index/UI_card.png" /></a></div>
+            {{ range .Site.Data.job }}
+           <div class="item">
+               <div class="card" >
+                   <div class="card_image">
+                       <img src="{{ .card_img }}" alt="">
+                   </div>
+                   <div class="card_heading">
+                       <h3>{{ .card_heading }}</h3>
+                   </div>
+                   <div class="card_learn">
+                       <ul>
+                           <li><a href="#">{{ .learn_more }}</a></li>
+                           <li><a href="#"><img src="{{ .card_arrow }}" alt=""></a></li>
+                       </ul>
+                   </div>
 
-           <div class="item"><a href="#"><img src="assets/img/index/chief_card.png" /></a></div>
+
+               </div>
+           </div>
+		   {{ end }}
            
-           <div class="item"><a href="#"><img src="assets/img/index/full_stack_card.png" /></a></div>
-           
-           <div class="item"><a href="#"><img src="assets/img/index/UI_card.png" /></a></div>
        </div>
 	   </div>
     </div>
@@ -267,7 +277,7 @@
                         </b>
                     </div>
                     <div class="slide_main_4">
-                        <p>triple-m group</p>
+                        <p>Triple-M Group</p>
                     </div>
                     <div class="slide_main_5">
                         <div style="text-align:center">
@@ -293,7 +303,7 @@
                     </div>
                     <div class="slide_main_3">
                         <b>
-                            <h3> HR coordinator</h3>
+                            <h3> HR Coordinator</h3>
                         </b>
                     </div>
                     <div class="slide_main_4">
@@ -441,6 +451,20 @@
     </div>
 </div>
 <!-- End Blogs Section -->
+<!-- Start queto_mobile Section -->
+<div class="container-fluid" >
+    <div class="container">
+        <div class="row queto_mobile" id="queto_mobile">
+            <div class="queto_mobile_heading col-sm-12 col-xs-12">
+                <h3>Looking for a software development partner?<br />Let's talk</h3>
+            </div>
+            <div class="queto_mobile_btn col-sm-12 col-xs-12">
+                <img src="/assets/img/index/queto_mobile_btn.png" alt="" class="src">
+            </div>
+
+        </div>
+    </div>
+</div>
 <!-- Start queto Section -->
 <div class="container-fluid">
     <div class="container">
@@ -454,7 +478,7 @@
             </div>
 			
         </div>
-    </div>
+    </div> 
 </div>
 <script>
 $(document).ready(function(){
@@ -464,22 +488,20 @@ $(document).ready(function(){
   });
 });
 </script>
+
 <!-- Start queto Section -->
 <div class="container-fluid empty" id="empty">
     <div class="icon">
-	<img src="assets/img/index/chat_ icon.svg" id="icon"/>
+	<img src="/assets/img/index/chat_icon.svg" id="icon"/>
         
     </div>
 </div>
 <script>
 $(document).ready(function(){
   $("#icon").click(function(){
-<<<<<<< HEAD
-    $("#queto_mobile").toggle(200);
-=======
-    $("#queto").toggle();
->>>>>>> 48e8d3868e44a4d0eaa79fda091a3cac01c79b42
+    $("#queto_mobile").toggle({ direction: "" },200);
   });
 });
 </script>
+
 {{ end }}
