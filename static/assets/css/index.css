@@ -128,19 +128,23 @@ body{
   .layer-1{
     position: absolute;
     left: 0;
+    transition: transform 3s;
   }
   .layer-2{
     position: absolute;
     left: 0;
+    transition: transform 3s;
   }
   .layer-3{
     position: absolute;
     left: 0;
+    transition: transform 3s;
   }
   .layer-4{
     position: absolute;
     left: 0;
     z-index: -1;
+    transition: transform 3s;
   }
   .hero_right{
   width:46%;
