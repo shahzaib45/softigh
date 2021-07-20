@@ -454,14 +454,13 @@ body{
   font-size:17px;
   }
   .design_btn{
-  width:117px!important;
-  height:36px!important;
- color: #033cfb;
-    background: #fff;
-    border: 1px solid #033cfb;
+  color: #033cfb;
+  background: #fff;
+  border: 1px solid #033cfb;
   border-radius:4px;
   font-size:15px;
-  
+  padding: 6px 18px;
+  font-weight: 600;
   }
   .design_btn:hover{
     background: #033cfb;
@@ -953,7 +952,7 @@ body{
       }
       .queto_image{
       width:25%;
-          margin-top: 80px;
+      margin-top: 75px;
       float:left;
       }
   .empty{
