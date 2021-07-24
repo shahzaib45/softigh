@@ -555,9 +555,8 @@ body{
   
   }
   .slide_main_1 p{
-  margin:20px 20px 0;
+  margin:20px 20px 10px;
     text-align: center;
-    text-justify: inter-word;
     color:#535353
   }
   .slide_main_2 img{
