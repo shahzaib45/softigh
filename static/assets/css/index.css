@@ -1373,13 +1373,13 @@ a:hover{
         margin: auto;
       }
       .modal-content{
-        background: url("/assets/img/index/queto_mobile_back.jpg")!important;
+        background: url("/assets/img/index/queto_mobile_back.jpg");
         border: none;
         padding-top: 50px;
         padding-bottom: 50px;
-        background-size: cover !important;
-        background-position: center !important;
-        background-repeat: no-repeat !important;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         border-radius: 15px;
       }
   .queto_mobile_heading h3{
@@ -1406,8 +1406,6 @@ a:hover{
   .nav-item{
     margin-right: 0;
   }
-  .fade{
-    animation-duration: 1s;
-  }
+  
 
 }
