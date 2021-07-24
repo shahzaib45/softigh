@@ -1373,7 +1373,7 @@ a:hover{
         margin: auto;
       }
       .modal-content{
-        background: url("/assets/img/index/queto_mobile_back.png")!important;
+        background: url("/assets/img/index/queto_mobile_back.jpg")!important;
         height: 454px;
         border: none;
         background-size: contain !important;
@@ -1394,6 +1394,16 @@ a:hover{
   }
   .btn-group-sm>.btn, .btn-sm {
     width: 100%!important;
+  }
+  .navbar{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .navbar-collapse{
+    padding: 0;
+  }
+  .nav-item{
+    margin-right: 0;
   }
 
 }
