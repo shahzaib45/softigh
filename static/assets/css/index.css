@@ -555,8 +555,7 @@ body{
   
   }
   .slide_main_1 p{
-  margin-top:20px;
-  margin-left:20px;
+  margin-top:20px 20px 0;
     text-align: center;
     text-justify: inter-word;
     color:#535353
