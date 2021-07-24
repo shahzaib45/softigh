@@ -1414,10 +1414,10 @@ a:hover{
   opacity: 1;
 }
 .nav-contact-btn-inner{
-  display: block;
+  display: block !important;
 }
 .nav-contact-btn-outer{
- display: none;
+ display: none !important;
 }
 }
 .nav-contact-btn-inner{
