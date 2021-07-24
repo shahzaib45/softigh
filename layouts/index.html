@@ -353,6 +353,11 @@
     var slideIndex = 1;
     showSlides(slideIndex);
 
+    window.addEventListener("load",function() {
+    showSlides(slideIndex);
+    myTimer = setInterval(function(){plusSlides(1)}, 1000);
+})
+
     // Next/previous controls
     function plusSlides(n) {
         showSlides(slideIndex += n);
@@ -362,6 +367,7 @@
     function currentSlide(n) {
         showSlides(slideIndex = n);
     }
+
 
     function showSlides(n) {
         var i;
