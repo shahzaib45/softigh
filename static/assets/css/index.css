@@ -769,7 +769,7 @@ body{
       
     height: 167px;
     background: #FFFFFF;
-    z-index: 10;
+    z-index: 0;
     margin-top: -110px;
     position: relative;
     width:347px;
@@ -799,7 +799,7 @@ body{
       
   height: 167px;
   background: #FFFFFF;
-  z-index: 10;
+  z-index: 0;
   margin-top: -110px;
   position: relative;
   width:347px;
@@ -1358,6 +1358,7 @@ a:hover{
      width: 56px;
     float: right;
     margin-top: 20px;
+    z-index: 10;
      }
      .queto_main{
       display:none;
