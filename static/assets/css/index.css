@@ -459,7 +459,6 @@ body{
   border: 1px solid #033cfb;
   border-radius:4px;
   font-size:15px;
-  width: 131px;
   padding: 6px 18px;
   font-weight: 600;
   }
@@ -933,7 +932,7 @@ body{
       background-image:url("../img/index/queto_back.png");
       background-repeat: no-repeat;
       z-index: 1000;
-    height:180px;
+    height:200px;
       background-size: contain;
       margin-top: 30px!important;
       margin-bottom: -100px;
@@ -976,8 +975,8 @@ body{
 font-size:26px;
 }
 .queto_btn{
-width:144px;
-height:44px;
+width:178px;
+height:55px;
 background:#fff;
 border-radius:4px;
 color::#707070;
@@ -1257,7 +1256,7 @@ a:hover{
     height: 366px;
     }
     .footer_mobile_1 img{
-      padding-left: 26px;
+      padding-left: 44px;
     /* margin-top: -1px; */
     padding-top: 36px;
     }
@@ -1378,8 +1377,8 @@ a:hover{
         height: 454px;
         border: none;
         background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
       }
   .queto_mobile_heading h3{
     text-align: center;
