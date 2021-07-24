@@ -932,7 +932,7 @@ body{
       background-image:url("../img/index/queto_back.png");
       background-repeat: no-repeat;
       z-index: 1000;
-    height:200px;
+    height:180px;
       background-size: contain;
       margin-top: 30px!important;
       margin-bottom: -100px;
@@ -975,8 +975,8 @@ body{
 font-size:26px;
 }
 .queto_btn{
-width:178px;
-height:55px;
+width:144px;
+height:44px;
 background:#fff;
 border-radius:4px;
 color::#707070;
