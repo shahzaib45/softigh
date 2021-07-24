@@ -1406,5 +1406,8 @@ a:hover{
   .nav-item{
     margin-right: 0;
   }
+  .fade{
+    animation-duration: 1s;
+  }
 
 }
