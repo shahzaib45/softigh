@@ -1148,8 +1148,7 @@ a:hover{
   height:420px;
   }
   .slide_main_1 p{
-    margin-top: 0;
-    margin-left: 0;
+    margin: 0;
   }
   .slide_main_2 img{
     width: 30%;
@@ -1257,7 +1256,7 @@ a:hover{
     height: 366px;
     }
     .footer_mobile_1 img{
-      padding-left: 44px;
+      padding-left: 26px;
     /* margin-top: -1px; */
     padding-top: 36px;
     }
@@ -1369,16 +1368,14 @@ a:hover{
       .queto_btn{
       display:none;
       }
-      .queto_mobile{
-        
-    background: url("/assets/img/index/queto_mobile_back.png")!important;
-    background-repeat: no-repeat!important;
-    background-position: 100% 100%;
-    margin-bottom: 20px;
-    height: 454px;
-    width: 100%;
-    margin-left: 14px;
-  }
+      .modal-dialog{
+        width: 80%;
+        margin: auto;
+      }
+      .modal-content{
+        background: url("/assets/img/index/queto_mobile_back.png")!important;
+        height: 454px;
+      }
   .queto_mobile_heading h3{
     text-align: center;
     padding-top: 100px;

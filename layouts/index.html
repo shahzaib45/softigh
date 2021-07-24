@@ -356,7 +356,11 @@
 
     window.addEventListener("load",function() {
     showSlides(slideIndex);
+<<<<<<< HEAD
     myTimer = setInterval(function(){plusSlides(1)}, 6000);
+=======
+    myTimer = setInterval(function(){plusSlides(1)}, 3000);
+>>>>>>> 0ca33e1b9c9ac5e4745aa1037884cd1fce5e81b9
 })
 
     // Next/previous controls
@@ -473,19 +477,23 @@
 </div>
 <!-- End Blogs Section -->
 <!-- Start queto_mobile Section -->
-<div class="container-fluid">
-    <div class="container">
-        <div class="row queto_mobile" id="queto_mobile">
-            <div class="queto_mobile_heading col-sm-12 col-xs-12">
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+            <div class="queto_mobile_heading">
                 <h3>Looking for a software development partner?<br />Let's talk</h3>
             </div>
-            <div class="queto_mobile_btn col-sm-12 col-xs-12">
+            <div class="queto_mobile_btn">
                 <img src="/assets/img/index/queto_mobile_btn.png" alt="" class="src">
             </div>
-
-        </div>
+      </div>
     </div>
+  </div>
 </div>
+
+
 <!-- Start queto Section -->
 <div class="container-fluid">
     <div class="container">
@@ -501,29 +509,13 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function () {
-        $("#close").click(function () {
-            $("#queto").hide();
-            $("#empty").hide();
-        });
-    });
-</script>
 
 <!-- Start queto Section -->
-<div class="container-fluid empty" id="empty">
-    <div class="icon">
+
+    <div class="icon" data-toggle="modal" data-target="#exampleModal">
         <img src="/assets/img/index/chat_icon.svg" id="icon" />
-
     </div>
-</div>
-<script>
-    $(document).ready(function () {
-        $("#icon").click(function () {
-            $("#queto_mobile").toggle(200);
 
-        });
-    });
-</script>
+
 
 {{ end }}
