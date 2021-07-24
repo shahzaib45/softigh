@@ -1388,4 +1388,8 @@ a:hover{
     margin-left: 130px;
     margin-top: 135px;
   }
+  .btn-group-sm>.btn, .btn-sm {
+    width: 100%!important;
+  }
+
 }
