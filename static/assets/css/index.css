@@ -1155,7 +1155,7 @@ a:hover{
     width: 30%;
   }
   .slide_main{
-    padding:  40px 10px 0;
+    padding:  -1px 10px 0;
   }
   .blog_1{
     margin-top: 100px;
