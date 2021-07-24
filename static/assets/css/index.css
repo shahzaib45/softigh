@@ -1413,9 +1413,19 @@ a:hover{
 .modal-backdrop.show{
   opacity: 1;
 }
-
+.nav-contact-btn-inner{
+  display: block;
 }
-
+.nav-contact-btn-outer{
+ display: none;
+}
+}
+.nav-contact-btn-inner{
+  display: none;
+}
+.nav-contact-btn-outer{
+  display: block;
+}
 
 
 /*--------------------------------------------------------------
