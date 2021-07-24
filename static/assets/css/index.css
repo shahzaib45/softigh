@@ -540,7 +540,7 @@ body{
        max-width: 80%;
       position: relative;
       margin: auto;
-      height: 360px;
+      padding: 50px 20px;
     margin-top:55px;
       border-radius: 16px;
           background: #fff;
@@ -1413,9 +1413,19 @@ a:hover{
 .modal-backdrop.show{
   opacity: 1;
 }
-
+.nav-contact-btn-inner{
+  display: block !important;
 }
-
+.nav-contact-btn-outer{
+ display: none !important;
+}
+}
+.nav-contact-btn-inner{
+  display: none;
+}
+.nav-contact-btn-outer{
+  display: block;
+}
 
 
 /*--------------------------------------------------------------
