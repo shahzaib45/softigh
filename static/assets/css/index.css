@@ -1376,6 +1376,10 @@ a:hover{
       .modal-content{
         background: url("/assets/img/index/queto_mobile_back.png")!important;
         height: 454px;
+        border: none;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
       }
   .queto_mobile_heading h3{
     text-align: center;
