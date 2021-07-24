@@ -1038,6 +1038,7 @@ a:hover{
 }
 .icon{
   display: none;
+  
   width: 70px;
     margin-top: -47px;
     float: right;
@@ -1048,6 +1049,7 @@ a:hover{
   }
   .queto_mobile{
     display: none;
+    
   }
   .card_heading h3{
     font-size: 18px;
