@@ -473,8 +473,8 @@
 </div>
 <!-- End Blogs Section -->
 <!-- Start queto_mobile Section -->
-<div class="container-fluid">
-    <div class="container">
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
         <div class="row queto_mobile" id="queto_mobile">
             <div class="queto_mobile_heading col-sm-12 col-xs-12">
                 <h3>Looking for a software development partner?<br />Let's talk</h3>
@@ -501,22 +501,12 @@
         </div>
     </div>
 </div>
-<script>
-    $(document).ready(function () {
-        $("#close").click(function () {
-            $("#queto").hide();
-            $("#empty").hide();
-        });
-    });
-</script>
 
 <!-- Start queto Section -->
-<div class="container-fluid empty" id="empty">
-    <div class="icon">
+    <div class="icon" data-toggle="modal" data-target="#myModal">
         <img src="/assets/img/index/chat_icon.svg" id="icon" />
 
     </div>
-</div>
 <script>
     $(document).ready(function () {
         $("#icon").click(function () {
