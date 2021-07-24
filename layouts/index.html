@@ -474,7 +474,10 @@
 <!-- End Blogs Section -->
 <!-- Start queto_mobile Section -->
 
-    <div id="myModal" class="modal">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
         <div class="row queto_mobile" id="queto_mobile">
             <div class="queto_mobile_heading col-sm-12 col-xs-12">
                 <h3>Looking for a software development partner?<br />Let's talk</h3>
@@ -482,10 +485,13 @@
             <div class="queto_mobile_btn col-sm-12 col-xs-12">
                 <img src="/assets/img/index/queto_mobile_btn.png" alt="" class="src">
             </div>
-
         </div>
+      </div>
     </div>
-    
+  </div>
+</div>
+
+
 <!-- Start queto Section -->
 <div class="container-fluid">
     <div class="container">
@@ -532,9 +538,8 @@ window.onclick = function(event) {
 
 <!-- Start queto Section -->
 
-    <div class="icon" id="myBtn">
+    <div data-toggle="modal" data-target="#exampleModal">
         <img src="/assets/img/index/chat_icon.svg" id="icon" />
-
     </div>
 
 
