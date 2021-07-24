@@ -555,8 +555,7 @@ body{
   
   }
   .slide_main_1 p{
-  margin-top:20px;
-  margin-left:20px;
+  margin:20px 20px 0;
     text-align: center;
     text-justify: inter-word;
     color:#535353
@@ -1243,6 +1242,9 @@ a:hover{
   }
    .icon{
        display:block!important;
+       position: fixed;
+       bottom: 30px;
+       right: 30px;
      }
     footer{
         display: none!important;

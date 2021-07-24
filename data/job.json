@@ -29,7 +29,7 @@
     },
     {
         "id": 4,
-        "card_img": "/assets/img/index/fullstack.png",
+        "card_img": "/assets/img/index/full_stack.png",
         "card_heading": "FULL-STACK DEVELOPER",
         "learn_more": "Senior",
         "card_arrow": "/assets/img/index/job_arrow.png"

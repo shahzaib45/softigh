@@ -354,6 +354,11 @@
     var slideIndex = 1;
     showSlides(slideIndex);
 
+    window.addEventListener("load",function() {
+    showSlides(slideIndex);
+    myTimer = setInterval(function(){plusSlides(1)}, 2000);
+})
+
     // Next/previous controls
     function plusSlides(n) {
         showSlides(slideIndex += n);
@@ -363,6 +368,7 @@
     function currentSlide(n) {
         showSlides(slideIndex = n);
     }
+
 
     function showSlides(n) {
         var i;
@@ -506,11 +512,17 @@
             <div class="queto_heading">
                 <h1>Looking for a software development partner?<br />Let's talk</h1>
             </div>
+<<<<<<< HEAD
             <div class="queto_image">
                 <a href="#"><button type="button" class="queto_btn">Get a Quote<img
                             src="assets/img/index/queto_arrow.png" /></button></a>
                 <img src="assets/img/index/cross.svg"
                     style="width: 15px;margin-left: 56px;margin-top: -174px; opacity: 0.6;" id="close" />
+=======
+            <div class="queto_image" >
+                <a href="#"><button type="button" class="queto_btn">Get a Quote<img src="assets/img/index/queto_arrow.png" /></button></a> 
+				<img src="assets/img/index/cross.svg"  style="width: 15px;margin-left: 56px;margin-top: -150px; opacity: 0.6;" id="close" />
+>>>>>>> 26d9b449b68c1c21d44752cb77ec6ff91f1d9661
             </div>
 
         </div>
