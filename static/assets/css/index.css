@@ -1,6 +1,8 @@
 body{
   overflow-x: hidden !important;
+  font-family: 'Poppins';
 }
+
 .navbar-brand{
   width: 50%;
 }
