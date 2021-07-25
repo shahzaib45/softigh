@@ -1622,11 +1622,14 @@ text-align:justify;
   font-weight: 400;
 
 }
+.middle_para{
+  margin-top: 30px;
+}
 .vision_main{
   
 }
 .vision_area_left{
-  padding: 70px;
+  padding: 10px 70px;
 }
 .vision_area_left p{
   font-size: 17px;
