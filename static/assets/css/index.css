@@ -1429,6 +1429,12 @@ a:hover{
 .nav-contact-btn-outer{
   display: block;
 }
+@media only screen and (min-width: 1400px) {
+.navbar-collapse{
+  margin-right: 0 !important;
+}
+
+}
 /*--------------------------------------------------------------
 
 
