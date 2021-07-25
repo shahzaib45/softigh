@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="416" viewBox="0 0 20 416">
+  <g id="Group_1167" data-name="Group 1167" transform="translate(0.331 0.011)">
+    <line id="Line_31" data-name="Line 31" y2="410.631" transform="translate(9.718 1.609)" fill="none" stroke="#033cfb" stroke-width="1"/>
+    <g id="Group_790" data-name="Group 790">
+      <circle id="Ellipse_27" data-name="Ellipse 27" cx="10" cy="10" r="10" transform="translate(-0.331 -0.011)" fill="#033cfb"/>
+      <circle id="Ellipse_28" data-name="Ellipse 28" cx="4" cy="4" r="4" transform="translate(5.669 5.989)" fill="#fff"/>
+    </g>
+    <g id="Group_791" data-name="Group 791" transform="translate(0 396.303)">
+      <circle id="Ellipse_27-2" data-name="Ellipse 27" cx="10" cy="10" r="10" transform="translate(-0.331 -0.315)" fill="#033cfb"/>
+      <circle id="Ellipse_28-2" data-name="Ellipse 28" cx="4" cy="4" r="4" transform="translate(5.669 5.685)" fill="#fff"/>
+    </g>
+    <g id="Group_789" data-name="Group 789" transform="translate(0 79.065)">
+      <circle id="Ellipse_29" data-name="Ellipse 29" cx="10" cy="10" r="10" transform="translate(-0.331 -0.077)" fill="#033cfb"/>
+      <path id="Union_6" data-name="Union 6" d="M0,5.235H0ZM0,0V0Z" transform="translate(6.169 8.697) rotate(-45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_789-2" data-name="Group 789" transform="translate(0 158.131)">
+      <circle id="Ellipse_29-2" data-name="Ellipse 29" cx="10" cy="10" r="10" transform="translate(-0.331 -0.142)" fill="#033cfb"/>
+      <path id="Union_6-2" data-name="Union 6" d="M0,5.235H0ZM0,0V0Z" transform="translate(6.313 8.872) rotate(-45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_789-3" data-name="Group 789" transform="translate(0 237.196)">
+      <circle id="Ellipse_29-3" data-name="Ellipse 29" cx="10" cy="10" r="10" transform="translate(-0.331 -0.208)" fill="#033cfb"/>
+      <path id="Union_6-3" data-name="Union 6" d="M0,5.235H0ZM0,0V0Z" transform="translate(6.313 9.07) rotate(-45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Group_789-4" data-name="Group 789" transform="translate(0 317.238)">
+      <circle id="Ellipse_29-4" data-name="Ellipse 29" cx="10" cy="10" r="10" transform="translate(-0.331 -0.249)" fill="#033cfb"/>
+      <path id="Union_6-4" data-name="Union 6" d="M0,5.235H0ZM0,0V0Z" transform="translate(6.313 8.691) rotate(-45)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
