@@ -1475,18 +1475,20 @@ about header
 }
 .about_hero_left p{
   font-size:18px;
-   font-weight: 300;
+   font-weight: 400;
+   margin-top: 22px;
     text-align: inherit;
 }
 .about_hero_right {
   padding: 40px 20px;
 }
 .about_hero_right img{
-  padding: 50px 50px;
+  width: 90%;
+  margin-left: 135px;
 }
 
 .about_values_head{
-  padding: 50px;
+  
 }
 .core_header_heading h1{
   font-weight:700;
@@ -1621,7 +1623,7 @@ text-align:justify;
 
 }
 .vision_main{
-  margin-top: 100px;
+  
 }
 .vision_area_left{
   padding: 70px;
@@ -1656,6 +1658,9 @@ text-align:justify;
 .about_work h1{
   font-size: 37px;
   font-weight: 700;
+}
+.work_right img{
+  width: 100%;
 }
 .about_work p{
   font-size: 17px;
