@@ -578,6 +578,9 @@ body{
     text-align: center;
     margin-top: 52px;
   }
+  .testi_section{
+    height: auto;
+  }
   .slide_main_3 h3{
   color:#535353;
   text-align:center;
