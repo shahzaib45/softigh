@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
   overflow-x: hidden !important;
+  
 }
 .navbar-brand{
   width: 50%;
 }
+
 .hero_section{
   height:740px;
   width:100%;
@@ -1428,11 +1431,13 @@ a:hover{
   display: block;
 }
 /*--------------------------------------------------------------
+about page start
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+about header
+--------------------------------------------------------------*/
 
 
-#content{
-  height: auto;
-}
 .about_hero{
   margin-top: 70px;
 }
@@ -1479,7 +1484,201 @@ a:hover{
 .about_criteria_right{
   padding: 0px 30px;
 }
+/*--------------------------------------------------------------
+about value start
+--------------------------------------------------------------*/
 
-# about values slider Start
+
+
+
+.wrapper_1 .outer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left:30px;
+  margin-top:50px;
+}
+.wrapper_1 .vision_card{
+  background: #fff;
+  width: 430px;
+  display: flex;
+  height: auto;
+  border-radius: 15px;
+     
+    margin-top: 350px;
+  align-items: center;
+  padding: 20px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  justify-content: space-between;
+
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  animation: animate 15s linear infinite;
+  animation-delay: calc(3s * var(--delay));
+}
+.outer:hover .vision_card{
+  animation-play-state: paused;
+}
+.wrapper_1 .vision_card:last-child{
+  animation-delay: calc(-3s * var(--delay));
+}
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: translateY(100%) scale(0.5);
+  }
+  5%, 20%{
+    opacity: 0.4;
+    transform: translateY(100%) scale(0.7);
+  }
+  25%, 40%{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0%) scale(1);
+  }
+  45%, 60%{
+    opacity: 0.4;
+    transform: translateY(-100%) scale(0.7);
+  }
+  65%, 100%{
+    opacity: 0;
+    transform: translateY(-100%) scale(0.5);
+  }
+}
+.vision_card .vision_content{
+  
+}
+.wrapper_1 .vision_card .vision_img{
+  height: 90px;
+  width: 90px;
+  position: absolute;
+ 
+  
+}
+.vision_card .vision_img img{
+  height: 100%;
+  width: 100%;
+ 
+  object-fit: cover;
+ margin-left: -14px;
+    /* margin-bottom: -13px; */
+    margin-top: -9px;
+}
+.vision_card .vision_details{
+  margin-left: 115px;
+}
+.vision_card .vision_details p{
+text-align:justify;
+}
+.vision_details span{
+  font-weight: 600;
+  font-size: 18px;
+}
+.vision_card a{
+  text-decoration: none;
+  padding: 7px 18px;
+  border-radius: 25px;
+  color: #fff;
+  background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+  transition: all 0.3s ease;
+}
+.vision_card a:hover{
+  transform: scale(0.94);
+}
+/*--------------------------------------------------------------
+# about vision Start
 --------------------------------------------------------------*/
+.vision_head h1{
+  font-size: 37px;
+  font-weight: 700;
+}
+.vision_head p{
+  font-size: 17px;
+  font-weight: 400;
+
+}
+.vision_main{
+  margin-top: 100px;
+}
+.vision_area_left{
+  padding: 100px;
+}
+.vision_area_left p{
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+}
+/*--------------------------------------------------------------
+# about team Start
 --------------------------------------------------------------*/
+.team_head{
+  margin-top: 100px;
+
+}
+.team_head h1{
+  font-size: 37PX;
+  font-weight: 700;
+}
+.team_head p{
+  font-size: 17px;
+  font-weight: 400;
+}
+/*--------------------------------------------------------------
+# about work Start
+--------------------------------------------------------------*/
+.about_work{
+  margin-top: 100px;
+
+}
+.about_work h1{
+  font-size: 37px;
+  font-weight: 700;
+}
+.about_work p{
+  font-size: 17px;
+  font-weight: 400;
+}
+.work_main{
+  margin-top: 100px;
+}
+.work_left{
+  height: 600px;
+}
+.work_left_1{
+  width: 10%;
+}
+.work_left_2 {
+  width: 90%;
+}
+.work_left_2 ul{
+  list-style-type: none;
+}
+.work_left_2 ul li h1{
+  font-size: 17px;
+  font-weight: 700;
+
+}
+.work_left_2 ul li p{
+  font-size: 17px;
+  font-weight: 300;
+}
+/*--------------------------------------------------------------
+# FaQ  Start
+--------------------------------------------------------------*/
+.faq_head h1{
+  font-size: 37px;
+  font-weight: 700;
+}
+.faq_head p{
+  font-size: 17px;
+  font-weight: 400;
+}
+.accordion{
+  width: 70%;
+}
+.accordion-item{
+  box-shadow:0px 0px 10px 0px #000000;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
