@@ -468,7 +468,7 @@ body{
   border-radius:4px;
   font-size:15px;
   padding: 8px 18px;
-  font-weight: 600;
+  font-weight: 500;
   }
   .design_btn:hover{
     background: #033cfb;
@@ -824,7 +824,7 @@ body{
   }
   .blog_3_1 li{
   float:left;
-  margin-right:8px;
+  margin-right:5px;
   }
   .blog_3_1 li p{
   color:#C7C5C4;
@@ -841,7 +841,7 @@ body{
   
     font-size: 15px;
     padding: 8px 18px;
-    font-weight: 600;
+    font-weight: 500;
   color:#535353;
   background:#f2f2f2;
   border:1px solid #535353;
