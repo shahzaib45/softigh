@@ -501,6 +501,8 @@ body{
  }
  .item img{
   width: 100%;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
  }
 .item:hover{
     display: block;

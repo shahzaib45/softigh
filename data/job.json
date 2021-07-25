@@ -1,14 +1,14 @@
 [
     {
         "id": 0,
-        "card_img": "/assets/img/index/chief.png",
+        "card_img": "/assets/img/index/chief.jpg",
         "card_heading": "CHIEF TECHNOLOGY OFFICER",
         "learn_more": "Senior",
         "card_arrow": "/assets/img/index/job_arrow.png"
     },
     {
         "id": 1,
-        "card_img": "/assets/img/index/full_stack.png",
+        "card_img": "/assets/img/index/full_stack.jpg",
         "card_heading": "FULL-STACK DEVELOPER",
         "learn_more": "Senior",
         "card_arrow": "/assets/img/index/job_arrow.png"
@@ -22,14 +22,14 @@
     },
     {
         "id": 3,
-        "card_img": "/assets/img/index/chief.png",
+        "card_img": "/assets/img/index/chief.jpg",
         "card_heading": "CHIEF TECHNOLOGY OFFICER",
         "learn_more": "Senior",
         "card_arrow": "/assets/img/index/job_arrow.png"
     },
     {
         "id": 4,
-        "card_img": "/assets/img/index/full_stack.png",
+        "card_img": "/assets/img/index/full_stack.jpg",
         "card_heading": "FULL-STACK DEVELOPER",
         "learn_more": "Senior",
         "card_arrow": "/assets/img/index/job_arrow.png"
