@@ -1,0 +1,72 @@
+<!-- Start Team Section -->
+<div class="fluid-container team">
+    <div class="container">
+        <div class="row team_head" style="margin-top:150px;">
+            <div class="col-md-12 col-sm-12 col-xs-12" data-aos="fade-right">
+                <div>
+                    <h1 class="display-5"><span style="color:#033cfb;">Our</span> Team
+                    </h1>
+                </div>
+                <div>
+                    <p>What is our power?</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="logo-slider">
+                {{ range .Site.Data.job }}
+                <div class="item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="{{ .card_img }}" alt="">
+                        </div>
+                        <div class="card_heading">
+                            <h3>{{ .card_heading }}</h3>
+                        </div>
+                        <div class="card_learn">
+                            <ul>
+                                <li><a href="#">{{ .learn_more }}</a></li>
+                                <li><a href="#"><img src="{{ .card_arrow }}" alt=""></a></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+                {{ end }}
+
+            </div>
+        </div>
+    </div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+ <script>
+    $('.logo-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        autoplayspeed: 2000,
+        infinite: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        loop: true,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: false,
+
+                    arrows: false,
+                }
+            }
+        ]
+    });
+ </script>
+ <!-- End Team Section -->
