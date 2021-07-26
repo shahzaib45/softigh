@@ -1513,7 +1513,13 @@ about header
 about value start
 --------------------------------------------------------------*/
 
+.values{
+  background-image: url("../img/about/values_back.png");
+  background-repeat: no-repeat;
+  background-position: 1% 0%;
 
+
+}
 
 
 .wrapper_1 .outer{
@@ -1614,6 +1620,11 @@ text-align:justify;
 /*--------------------------------------------------------------
 # about vision Start
 --------------------------------------------------------------*/
+.vision{
+  background-image: url("../img/about/vision_back.png");
+  background-repeat: no-repeat;
+  background-position: 1% 0%;
+}
 .vision_head h1{
   font-size: 37px;
   font-weight: 700;
@@ -1645,6 +1656,11 @@ text-align:justify;
 /*--------------------------------------------------------------
 # about team Start
 --------------------------------------------------------------*/
+.team{
+  background-image: url("../img/about/team_back.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .team_head{
   margin-top: 100px;
 
@@ -1702,6 +1718,11 @@ text-align:justify;
 /*--------------------------------------------------------------
 # FaQ  Start
 --------------------------------------------------------------*/
+.faq{
+  background-image: url("../img/about/faq_back.png");
+  background-repeat: no-repeat;
+  background-position: 95% 0%;
+}
 .faq_head h1{
   font-size: 37px;
   font-weight: 700;
