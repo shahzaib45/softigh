@@ -1615,7 +1615,7 @@ text-align:justify;
   transition: all 0.3s ease;
 }
 .vision_card a:hover{
-  transform: scale(0.94);
+  transform: scale(1);
 }
 /*--------------------------------------------------------------
 # about vision Start
@@ -1695,9 +1695,10 @@ text-align:justify;
   display: block;
   
 }
+
 .description p{
   font-size: 11px;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1794,6 +1795,9 @@ text-align:justify;
   }
   .accordion {
     width: 100%;
+  }
+  .work_left_1 img{
+    height: 524px;
   }
     
 
