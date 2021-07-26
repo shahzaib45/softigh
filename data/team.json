@@ -1,0 +1,89 @@
+[
+    {
+        "id": 0,
+        "card_img": "/assets/img/index/chief.jpg",
+        "card_heading": "SYED UMAIR SHAH",
+        "designation": "Junior Web Developer",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    },
+    {
+        "id": 1,
+        "card_img": "/assets/img/index/full_stack.jpg",
+        "card_heading": "SHAHZAIB HASHMI",
+        "designation": "Senior Web Developer",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    },
+    {
+        "id": 2,
+        "card_img": "/assets/img/index/UI.jpg",
+        "card_heading": "ANAS ZUBAIR",
+        "designation": "UI/UX Designers",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    },
+    {
+        "id": 3,
+        "card_img": "/assets/img/index/chief.jpg",
+        "card_heading": "USMAN AHMAD",
+        "designation": "Admin",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    },
+    {
+        "id": 4,
+        "card_img": "/assets/img/index/full_stack.jpg",
+        "card_heading": "SYED UMAIR SHAH",
+        "designation": "Junior Web Developer",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    },
+    {
+        "id": 5,
+        "card_img": "/assets/img/index/UI.jpg",
+        "card_heading": "SHAHZAIB HASHMI",
+        "designation": "Senior Web Developer",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+
+    },
+    {
+        "id": 6,
+        "card_img": "/assets/img/index/UI.jpg",
+        "card_heading": "ANAS ZUBAIR",
+        "designation": "UI/UX Designer",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    },
+    {
+        "id": 7,
+        "card_img": "/assets/img/index/UI.jpg",
+        "card_heading": "USMAN AHMAD",
+        "designation": "Admin",
+        "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
+
+        "instra": "/assets/img/about/instagram.png",
+        "facebook": "/assets/img/about/facebook.png",
+        "link": "/assets/img/about/linkedin.png"
+    }
+]
