@@ -1688,8 +1688,12 @@ text-align:justify;
 .team_icons ul li img{
   
 }
-.description{
+.card .description{
   display: none;
+}
+.card:hover .description {
+  display: block;
+  
 }
 .description p{
   font-size: 11px;
