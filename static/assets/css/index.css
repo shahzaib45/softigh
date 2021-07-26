@@ -1600,11 +1600,13 @@ about value start
   margin-left: 115px;
 }
 .vision_card .vision_details p{
-text-align:justify;
+text-align:inherit;
+font-size: 13px;
+font-weight: 400;
 }
 .vision_details span{
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
 }
 .vision_card a{
   text-decoration: none;
