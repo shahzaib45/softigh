@@ -1769,3 +1769,32 @@ text-align:justify;
   margin-bottom: 25px;
   border-radius: 15px;
 }
+@media only screen and (max-width: 600px) {
+  .about_hero_left{
+    width: 100%;
+    padding: 0px 25px;
+  }
+  .about_hero_right img{
+    margin-left: 0px;
+  }
+  .values{
+    height: 800px;
+  }
+  .wrapper_1 .vision_card{
+    width: 100%;
+  }
+  .wrapper_1 .outer{
+    margin-left: 0px;
+  }
+  .vision_area_right img {
+    margin: 20px;
+  }
+  .faq{
+    margin-top: 50px;
+  }
+  .accordion {
+    width: 100%;
+  }
+    
+
+}
