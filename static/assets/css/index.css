@@ -1637,6 +1637,11 @@ text-align:justify;
   font-weight: 400;
   text-align: inherit;
 }
+.vision_area_right img{
+  width: 90%;
+  margin-left: 40px;
+
+}
 /*--------------------------------------------------------------
 # about team Start
 --------------------------------------------------------------*/
