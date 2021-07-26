@@ -1799,6 +1799,12 @@ text-align:justify;
   .work_left_1 img{
     height: 524px;
   }
+  .work_left_1 {
+    width: 13%;
+  }
+  .work_left_2{
+    width: 87%;
+  }
     
 
 }
