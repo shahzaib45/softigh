@@ -1700,7 +1700,8 @@ font-weight: 400;
 
 .description p{
   font-size: 11px;
-  padding: 10px 10px;
+  margin-top: -27px;
+  padding: 10px 20px;
 }
 
 /*--------------------------------------------------------------
