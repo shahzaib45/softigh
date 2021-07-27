@@ -2086,7 +2086,7 @@ font-weight: 400;
 }
 @media only screen and (max-width: 600px) {
   .method_right IMG{
-    width: 1005;
+    width: 100%;
   }
   .method_left ul li h1{
     padding: 0px;
