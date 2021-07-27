@@ -2084,4 +2084,15 @@ font-weight: 400;
   padding: 30px;
   text-align: inherit;
 }
+@media only screen and (max-width: 600px) {
+  .method_right IMG{
+    width: 1005;
+  }
+  .method_left ul li h1{
+    padding: 0px;
+  }
+  .method_left ul li p{
+    padding: 0px;
+  }
 
+}
