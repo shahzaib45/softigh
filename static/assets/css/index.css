@@ -369,20 +369,26 @@ body{
   .card_img_1{
     margin-top: 20px;;
   }
+  .card_img_1 img{
+    width: 35%;
+  }
  .card_heading_1 h4{
  font-size:18px;
  margin-top: 20px;
+ margin-left: 10px;
  }
   .card_para_1 p{
  
   color:#033CFB;
   font-size:15px;
+  margin-left: 10px;
   }
  
  
   .card_a a{
   color:#000000!important;
   text-decoration: none;
+  margin-left: 15px;
   }
   .card_a img{
   margin-left:20px;
