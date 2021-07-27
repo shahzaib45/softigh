@@ -1602,6 +1602,7 @@ about value start
 }
 .vision_card .vision_details{
   margin-left: 115px;
+  margin-top: -6px;
 }
 .vision_card .vision_details p{
 text-align:inherit;
