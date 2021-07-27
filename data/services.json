@@ -8,15 +8,15 @@
 },{
     "id": 1,
     "icon": "/assets/img/index/cloud.svg",
-    "title": "Cloud Computing",
-    "desc": "Softigh provides a journey to cloud native assisted with reference architectures..........",
+    "title": "Web Development",
+    "desc": "Softigh provides a journey to cloud native..........",
     "LearnMore" : "Learn More",
     "URL" : "assets/img/index/services_arrow.png"
 },{
     "id": 2,
     "icon": "/assets/img/index/it.svg",
     "title": "IT Consulting",
-    "desc": "Simply put, the Consulting-as-a-Service model offers remote consultancy.........",
+    "desc": "Simply put, the Consulting-as-a-Service .........",
     "LearnMore" : "Learn More",
     "URL" : "assets/img/index/services_arrow.png"
 

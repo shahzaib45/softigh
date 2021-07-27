@@ -220,7 +220,7 @@ body{
   }
   .clients_logo_1 ul li img{
     -webkit-filter: grayscale(1);
-    -webkit-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
     height: 100px!important;
   }
   .clients_logo_1 ul li:nth-child(6) img{
@@ -432,6 +432,10 @@ body{
   width:100%;
   background:#fbfcfb;
   height:630px;
+  background-image: url(../img/index/hero_back_img.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 80%;
   }
   .design_main{
   width:1090px;
@@ -1690,10 +1694,10 @@ font-weight: 400;
 .team_icons ul li img{
   
 }
-.card .description{
+.card .job_show{
   display: none;
 }
-.card:hover .description {
+.card:hover .job_show {
   display: block;
   
 }
@@ -1715,6 +1719,178 @@ font-weight: 400;
   font-size: 37px;
   font-weight: 700;
 }
+.stategy{
+  height: 20px!important;
+}
+.stategy ul{
+  list-style-type: none;
+}
+.stategy ul li{
+  float: left;
+  margin-right: 50px;
+}
+.stategy ul li p{
+  font-size: 17px;
+  font-weight: 600;
+}
+.research ul li p{
+  font-size: 17px;
+  font-weight: 600;
+}
+.Analysis ul li p{
+  font-size: 17px;
+  font-weight: 600;
+}
+.launch ul li p{
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+.line ul{
+  list-style-type: none;
+}
+.line ul li{
+  float: left;
+}
+.line ul li img{
+  margin-left: -184px;
+  margin-top: -20px;
+}
+.line ul li p{
+  margin-left: -85px;
+}
+.research{
+  height: 20px!important;
+  margin-top: -38px;
+}
+.research ul{
+  list-style-type: none;
+}
+.research ul li{
+  float: left;
+  margin-right: 50px;
+}
+.research_line ul{
+  list-style-type: none;
+}
+.research_line ul li{
+  float: left;
+}
+.research_line ul li img{
+  margin-left: -191px;
+  margin-top: -20px;
+}
+.research_line ul li p{
+  margin-left: -98px;
+}
+.Analysis{
+  height: 20px!important;
+  margin-top: -38px;
+}
+.Analysis ul{
+  list-style-type: none;
+}
+.Analysis ul li{
+  float: left;
+  margin-right: 50px;
+}
+.analysis_line ul{
+  list-style-type: none;
+}
+.analysis_line ul li{
+  float: left;
+}
+.analysis_line ul li img{
+  margin-left: -183px;
+  margin-top: -20px;
+}
+.analysis_line ul li p{
+  margin-left: -98px;
+}
+.design_line ul{
+  list-style-type: none;
+}
+.design_line ul li{
+  float: left;
+}
+.design_line ul li img{
+  margin-left: -169px;
+  margin-top: -20px;
+}
+.design_line ul li p{
+  margin-left: -98px;
+}
+.production_line ul{
+  list-style-type: none;
+}
+.production_line ul li{
+  float: left;
+}
+.production_line ul li img{
+  margin-left: -204px;
+  margin-top: -20px;
+}
+.production_line ul li p{
+  margin-left: -98px;
+}
+.launch{
+  height: 20px!important;
+  margin-top: -38px;
+}
+.launch ul{
+  list-style-type: none;
+}
+.launch ul li{
+  float: left;
+  margin-right: 50px;
+}
+.launch_line ul{
+  list-style-type: none;
+}
+.launch_line ul li{
+  float: left;
+}
+.launch_line ul li img{
+  margin-left: -176px;
+  margin-top: -20px;
+}
+.launch_line ul li p{
+  margin-left: -98px;
+}
+.empty_work{
+  height: 140px;
+  margin-top: -20px;
+  display: none;
+  
+}
+.launch_empty_work{
+  height: 140px;
+  margin-top: 0px;
+  display: none;
+
+}
+.launch_empty_work ul{
+  list-style-type: none;
+}
+.launch_empty_work ul li{
+  float: left;
+}
+.launch_empty_work ul li img{
+margin-left: -173px;
+margin-top: -14px;
+}
+.empty_work ul{
+  list-style-type: none;
+}
+.empty_work ul li{
+  float: left;
+}
+.empty_work ul li img{
+  margin-top: -23px;
+  margin-left: 10px;
+}
+
 .work_right img{
   width: 100%;
 }
