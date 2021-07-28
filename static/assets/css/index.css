@@ -435,9 +435,9 @@ body{
   /*--------------------------------------------------------------
   # Design
   --------------------------------------------------------------*/
-  .design{
+  .Design{
   width:100%;
-  background:#fbfcfb;
+  background:#768376;
   height:630px;
   background-image: url(../img/index/hero_back_img.svg);
     background-repeat: no-repeat;
@@ -995,11 +995,11 @@ body{
     background-size: cover;
     height: 996px;
     padding-bottom: 500px;
-    margin-top: 80px;
+    
     background-position: bottom;
   }
   .job_section_1{
-    margin-top: 150px;
+    
   }
 .queto_heading h1{
 font-size:26px;
