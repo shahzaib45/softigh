@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="email" transform="translate(0 0.069)">
+    <rect id="Rectangle_127" data-name="Rectangle 127" width="46" height="46" rx="8" transform="translate(0 -0.069)" fill="#ff7b6b"/>
+    <g id="email-2" data-name="email" transform="translate(7.758 11.924)">
+      <g id="Group_859" data-name="Group 859" transform="translate(20.57 3.933)">
+        <g id="Group_858" data-name="Group 858">
+          <path id="Path_1230" data-name="Path 1230" d="M339.392,151.789l10.462,6.614V144.9Z" transform="translate(-339.392 -144.896)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_861" data-name="Group 861" transform="translate(0 3.933)">
+        <g id="Group_860" data-name="Group 860">
+          <path id="Path_1231" data-name="Path 1231" d="M0,144.9V158.4l10.462-6.614Z" transform="translate(0 -144.896)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_863" data-name="Group 863" transform="translate(0.058 0)">
+        <g id="Group_862" data-name="Group 862">
+          <path id="Path_1232" data-name="Path 1232" d="M29.994,80H2.841A1.915,1.915,0,0,0,.96,81.651L16.418,91.835,31.876,81.651A1.915,1.915,0,0,0,29.994,80Z" transform="translate(-0.96 -80)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_865" data-name="Group 865" transform="translate(0.062 11.996)">
+        <g id="Group_864" data-name="Group 864">
+          <path id="Path_1233" data-name="Path 1233" d="M19.756,277.922l-2.744,1.808a.974.974,0,0,1-1.067,0L13.2,277.92l-12.176,7.7A1.912,1.912,0,0,0,2.9,287.259H30.054a1.912,1.912,0,0,0,1.877-1.637Z" transform="translate(-1.024 -277.92)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
