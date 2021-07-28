@@ -2095,6 +2095,7 @@ margin-top: -14px;
   .empty_work p {
    font-size: 11px;
    margin-left: 58px;
+   margin-top: 0px;
   }
   .research_line ul li p {
     margin-left: 58px;
@@ -2102,6 +2103,7 @@ margin-top: -14px;
   }
   .empty_work_2 p {
     font-size: 11px;
+    margin-top: -4px;
   }
   .analysis_line ul li p {
     margin-left: 57px;
@@ -2109,6 +2111,7 @@ margin-top: -14px;
   }
   .empty_work_3 p {
     font-size: 11px;
+    margin-top: -2px;
   }
   .design_line ul li p {
     margin-left: 58px;
@@ -2116,6 +2119,7 @@ margin-top: -14px;
   }
   .empty_work_4 p {
     font-size: 11px;
+    margin-top: -3px;
   }
   .production_line ul li p {
     margin-left: 59px;
@@ -2123,12 +2127,14 @@ margin-top: -14px;
   }
   .empty_work_5 p{
     font-size: 11px;
+    margin-top: 0px;
   }
   .stategy ul li {
     margin-right: 37px;
   }
   .line ul li img{
     margin-left: -175px;
+    margin-top: -15px;
   }
   .empty_work ul li img{
     margin-top: 0px;
@@ -2140,9 +2146,11 @@ margin-top: -14px;
   }
   .research_line ul li img {
     margin-left: -162px;
+    margin-top: -16px;
   }
   .empty_work_2 ul li img {
     margin-left: -162px;
+    margin-top: 5px;
   }
   .empty_work_2 p {
     margin-left: 58px;
@@ -2152,30 +2160,33 @@ margin-top: -14px;
   }
   .analysis_line ul li img{
     margin-left: -145px;
+    margin-top: -16px;
   }
   .empty_work_3 ul li img {
-    margin-left: -146px;
-    margin-top: 0px;
+    margin-left: -145px;
+    margin-top: 4px;
   }
   .empty_work_3 p {
     margin-left: 60px;
   }
   .design_line ul li img {
     margin-left: -167px;
+    margin-top: -16px;
   }
   .empty_work_4 ul li img {
     margin-left: -167px;
-    margin-top: 0px;
+    margin-top: 5px;
   }
   .empty_work_4 p {
     margin-left: 58px;
   }
   .production_line ul li img {
     margin-left: -122px;
+    margin-top: -16px;
   }
   .empty_work_5 ul li img {
     margin-left: -122px;
-    margin-top: 0px;
+    margin-top: 5px;
   }
   .empty_work_5 p {
     margin-left: 60px;
