@@ -2087,6 +2087,46 @@ margin-top: -14px;
   .middle_para {
     margin-top: 0px;
   }
+  .line ul li p {
+    font-size: 11px;
+    margin-left: 59px;
+  }
+  .empty_work p {
+   font-size: 11px;
+  }
+  .research_line ul li p {
+    margin-left: 58px;
+    font-size: 11px;
+  }
+  .empty_work_2 p {
+    font-size: 11px;
+  }
+  .analysis_line ul li p {
+    margin-left: 57px;
+    font-size: 11px;
+  }
+  .empty_work_3 p {
+    font-size: 11px;
+  }
+  .design_line ul li p {
+    margin-left: 58px;
+    font-size: 11px;
+  }
+  .empty_work_4 p {
+    font-size: 11px;
+  }
+  .production_line ul li p {
+    margin-left: 59px;
+    font-size: 11px;
+  }
+  .empty_work_5 p{
+    font-size: 11px;
+  }
+
+
+
+
+
     
 
 }
