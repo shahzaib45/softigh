@@ -224,17 +224,18 @@ body{
     height: 100px!important;
   }
   .clients_logo_1 ul li:nth-child(6) img{
-    opacity: 0.4;
-    width:75px;
+    opacity: 0.9;
+    
   }
   .clients_logo_1 ul li:nth-child(5) img{
     opacity: 0.1;
   }
   .clients_logo_1 ul li:nth-child(4) img{
     opacity: 0.1;
+    width:75px;
   }
   .clients_logo_1 ul li:nth-child(3) img{
-    opacity: 0.6;
+    opacity: 0.2;
   }
   .clients_logo_1 ul li:nth-child(2) img{
     opacity: 0.4;
@@ -1071,8 +1072,8 @@ a:hover{
     float: right;
 }
 .clients_logo_1 ul li:nth-child(6) img{
-    opacity: 0.4;
-    width:70px;
+    opacity: 0.9;
+    
   }
   .queto_mobile{
     display: none;
