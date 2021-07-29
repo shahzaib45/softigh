@@ -1469,7 +1469,12 @@ about page start
 /*--------------------------------------------------------------
 about header
 --------------------------------------------------------------*/
-
+.bgimageabout{
+  background-image: url("../img/about/about_hero_back.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:100%;
+}
 
 .about_hero{
   margin-top: 70px;
@@ -2227,7 +2232,12 @@ margin-top: -14px;
 /*--------------------------------------------------------------
 # carrer hero Start
 --------------------------------------------------------------*/
-
+.bgimagecareer{
+  background-image: url("../img/carrer/carrer_hero_back.svg");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: contain;
+}
 
 
 .career_hero{
