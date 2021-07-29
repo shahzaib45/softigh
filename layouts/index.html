@@ -79,6 +79,51 @@
                             </div>
                         </ul>
                     </div>
+                    <div class="row">
+                        <div class="logo-slider_1 ">
+                            {{ range .Site.Data.clients }}
+                            <div class="item_1 clients_logo_1">
+                                <ul class="client_slider">
+                                
+                                    <li class="list-inline-item col-md-2 col-5"><img src="{{ .src }}"></li>
+                                </ul>
+                    
+                                
+                            </div>
+                            {{ end }}
+                    
+                        </div>
+                    </div>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+                    <script>
+                        $('.logo-slider_1').slick({
+                            slidesToShow: 5,
+                            slidesToScroll: 1,
+                            dots: false,
+                            arrows: true,
+                            autoplayspeed: 2000,
+                            infinite: true,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: false,
+                            loop: true,
+                            responsive: [
+                                {
+                                    breakpoint: 600,
+                                    settings: {
+                                        slidesToShow: 1,
+                                        slidesToScroll: 1,
+                                        autoplay: true,
+                                        autoplayTimeout: 2000,
+                                        autoplayHoverPause: false,
+                    
+                                        arrows: false,
+                                    }
+                                }
+                            ]
+                        });
+                    </script>
                 </div>
 
             </div>
@@ -623,6 +668,10 @@
 <div class="icon" data-toggle="modal" data-target="#exampleModal">
     <img src="/assets/img/index/chat_icon.svg" id="icon" />
 </div>
+
+
+
+
 
 
 

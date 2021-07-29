@@ -2727,3 +2727,15 @@ margin-top: -14px;
 .modal-content{
   border-radius: 15px;
 }
+.item_1 ul li img{
+  width: 100px;
+  opacity: 0.2;
+}
+.item_1 ul li img:hover{
+  opacity: 1;
+}
+.logo-slider_1 .client_slider ul li:nth-child(1) img{
+  width: 70px!important;
+  opacity: 1!important;
+
+}
