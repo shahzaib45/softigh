@@ -2,7 +2,7 @@
 .button{
     width:167px;
     }
-.bgimage{
+.bgimagehome{
 background-image:url("../img/index/hero_back_img.svg");
 background-repeat:no-repeat;
     background-size: contain;

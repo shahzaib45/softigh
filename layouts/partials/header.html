@@ -1,4 +1,13 @@
-<div class="container-fluid bgimage">
+{{ if .IsHome }}
+<div class="container-fluid bgimagepadding bgimagehome">
+{{ else if eq .Type "about" }}
+<div class="container-fluid bgimagepadding bgimageabout">
+{{ else if eq .Type "career" }}
+<div class="container-fluid bgimagepadding bgimagecareer">
+{{ else if eq .Type "contact_us" }}
+<div class="container-fluid bgimagepadding bgimagecontact">
+{{ else }}
+{{ end }}
   <div class="container ">
         <nav class="navbar navbar-expand-lg navbar-light">
           <a class="navbar-brand" href="/"><svg class="web-logo" id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="218.558" height="64.211" viewBox="0 0 218.558 64.211">
