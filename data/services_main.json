@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "icon": "/assets/img/services/service_1.svg",
+        "title": "Software Development",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 1,
+        "icon": "/assets/img/services/services_2.svg",
+        "title": "Web Development",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 2,
+        "icon": "/assets/img/services/services_3.svg",
+        "title": "Dedicated Team",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 3,
+        "icon": "/assets/img/services/services_4.svg",
+        "title": "IT Consulting Services",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 4,
+        "icon": "/assets/img/services/services_5.svg",
+        "title": "Mobile Application Development",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 5,
+        "icon": "/assets/img/services/services_6.svg",
+        "title": "Cloud & Saas",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 6,
+        "icon": "/assets/img/services/services_7.svg",
+        "title": "Social Media Marketing",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 7,
+        "icon": "/assets/img/services/services_8.svg",
+        "title": "Search Engine Optimization",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    },
+    {
+        "id": 8,
+        "icon": "/assets/img/services/services_9.svg",
+        "title": "Web Design",
+        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "LearnMore": "Learn More",
+        "URL": "assets/img/index/services_arrow.png"
+    }
+]
