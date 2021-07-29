@@ -192,98 +192,91 @@
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-scrollable">
         <div class="modal-content">
+            {{ range .Site.Data.job_des }}
 
             <div class="modal-body">
                 <div class="cto_heading">
                     <h1>
-                        CHIEF TECHNOLOGY OFFICER
+                        {{ .heading }}
                     </h1>
                 </div>
                 <div class="job_des">
                     <p>
-                        We are seeking a highly-skilled CTO with a storied history in the technological sector. CTO's
-                        are tasked with making executive technology decisions on behalf of the company, including
-                        managing a technology budget and making investments to align the company with their vision for
-                        its technological needs. You should be a strategic thinker, an effective communicator and an
-                        expert in technological development.
-                        You will work directly under the CEO and will act as both a technology and business expert,
-                        making decisions in accordance with the company's Vison that will impact the current and future
-                        operations of the company.
+                        {{ .job_desc }}
 
                     </p>
                     <h1>
-                        CTO Responsibilities:
+                        {{ .sub_heading_1 }}
 
                     </h1>
 
                     <ul>
                         <li>
-                            <p>Setting a vision for how technology will be used in the company.</p>
+                            <p>{{ .responsiblity_1 }}</p>
                         </li>
                         <li>
-                            <p>Ensuring that technological resources meet the company's short and long-term needs.</p>
+                            <p>{{ .responsiblity_2 }}</p>
                         </li>
                         <li>
-                            <p>Outline the goals for research and development.</p>
+                            <p>{{ .responsiblity_3 }}</p>
                         </li>
                         <li>
-                            <p>Creating timelines for the development and deployment of all technological services.</p>
+                            <p>{{ .responsiblity_4 }}</p>
                         </li>
                         <li>
-                            <p>Making executive decisions on behalf of the company's technological requirements.</p>
+                            <p>{{ .responsiblity_5 }}</p>
                         </li>
                         <li>
-                            <p>Acting as a mentor to team members.</p>
+                            <p>{{ .responsiblity_6 }}</p>
                         </li>
                         <li>
-                            <p>Maintaining a consumer-focused outlook and aiding in the delivering of IT projects to
-                                market.</p>
+                            <p>{{ .responsiblity_7 }}</p>
                         </li>
                         <li>
-                            <p>Managing technology budgets and time frames.</p>
+                            <p>{{ .responsiblity_8 }}</p>
                         </li>
                         <li>
-                            <p>Staying on top of technology trends and developments.</p>
+                            <p>{{ .responsiblity_9 }}</p>
                         </li>
                         <li>
-                            <p>Ensuring all technology practices adhere to regulatory standards.</p>
+                            <p>{{ .responsiblity_10 }}</p>
                         </li>
                         <li>
-                            <p>Building/Recruiting expert and passionate tech team</p>
+                            <p>{{ .responsiblity_11 }}</p>
                         </li>
                     </ul>
                     <h1>
-                        CTO Requirements:
+                        {{ .sub_heading_2 }}
 
                     </h1>
 
                     <ul>
                         <li>
-                            <p>Masters degree in Computer Science.</p>
+                            <p>{{ .require_1 }}</p>
                         </li>
                         <li>
-                            <p>8 years working in a technological role.</p>
+                            <p>{{ .require_2 }}</p>
                         </li>
                         <li>
-                            <p>5 years of managerial experience.</p>
+                            <p>{{ .require_3 }}</p>
                         </li>
                         <li>
-                            <p>5-6 years of E-commerce experience</p>
+                            <p>{{ .require_4 }}</p>
                         </li>
                         <li>
-                            <p>Advanced technological skillset and a demonstrated history with technology.</p>
+                            <p>{{ .require_5 }}</p>
                         </li>
                         <li>
-                            <p>Exceptional team management skills.</p>
+                            <p>{{ .require_6 }}</p>
                         </li>
                         <li>
-                            <p>Excellent verbal and written communication.</p>
+                            <p>{{ .require_7 }}</p>
                         </li>
                         <li>
-                            <p>Ability to delegate efficiently.</p>
+                            <p>{{ .require_8 }}</p>
                         </li>
                         <li>
-                            <p>Extensive industry knowledge with an eye towards the future</p>
+                            <p>{{ .require_9 }}</p>
                         </li>
                         
                     </ul>
@@ -294,6 +287,7 @@
                     <button type="button" class="btn btn-secondary pop_btn" style="width: 90px;"
                 data-bs-dismiss="modal">Close</button>
             </div>
+            {{ end }}
             
 
         </div>

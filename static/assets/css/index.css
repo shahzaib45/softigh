@@ -2710,12 +2710,14 @@ margin-top: -14px;
 .cto_heading h1{
   font-size: 24px;
   font-weight: 600;
+  margin-top: 25px;
+  margin-left: 10px;
 }
 .job_des{
   padding: 15px 50px 50px 50px;
 }
 .job_des p{
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
 }
 .job_des h1{
