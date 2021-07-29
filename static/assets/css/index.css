@@ -2572,38 +2572,39 @@ margin-top: -14px;
 }
 #name{
   width: 100%;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
   border:1px solid #033cfb;
 }
 #email{
   width: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
   border:1px solid #033cfb;
 
 }
 #phone{
   width: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
   border:1px solid #033cfb;
 
 }
 #website{
   width: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
   border:1px solid #033cfb;
 }
 #message{
   width: 100%;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
   border:1px solid #033cfb;
   
 
@@ -2654,7 +2655,9 @@ margin-top: -14px;
 }
 .services_hero_right img{
   width: 100%;
-  padding: 35px;
+    padding: 30px;
+    /* margin-bottom: -16px; */
+    margin-top: -39px;
 }
 .service_card_img_1 img{
   width: 100%;

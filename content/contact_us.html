@@ -97,11 +97,16 @@ type: contact
 
             <div class="col-md-6 col-sm-12 col-xs-12 adress_right">
                 <form action="#">
-                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
-                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
-                    <input type="tel" name="phone" id="phone" placeholder="Phone">
-                    <input type="text" name="website" id="website" placeholder="Enter Your Website">
-                    <textarea name="paragraph_text" cols="50" rows="10" id="message"></textarea>
+                    <label for="name">Name/Company Name*</label><br>
+                    <input type="text" name="name" id="name" ><br>
+                    <label for="email">Email*</label><br>
+                    <input type="email" name="email" id="email">
+                    <label for="phone">Phone*</label><br>
+                    <input type="tel" name="phone" id="phone" >
+                    <label for="Website">website</label><br>
+                    <input type="text" name="website" id="website">
+                    <label for="message">Short Message(optional)</label><br>
+                    <textarea name="paragraph_text" cols="50" rows="3" id="message"></textarea>
                     <a href="#"> <button type="button" class="hero_btn" id="submit">Submit<img
                         src="/assets/img/index/hero_arrow.png" /></button></a>
                 </form>
