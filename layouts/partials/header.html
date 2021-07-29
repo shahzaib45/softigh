@@ -83,7 +83,7 @@
                 <a class="nav-link" aria-current="page" href="/blog">Blogs</a>
               </li>
             </ul>
-              <a href="/contact_us" style="text-decoration: none;"><button type="button" class="btn-sm btn-primary nav-contact-btn-inner">Contact Us</button></a>
+              <a href="/contact_us" style="text-decoration: none;" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><button type="button" class="btn-sm btn-primary nav-contact-btn-inner">Contact Us</button></a>
                 
             
           </div>
@@ -91,5 +91,28 @@
             <!-- <div>
               <a href="#" type="button" class="btn btn-primary">Contact Us</a>
             </div> -->
-          <a href="/contact_us" class="btn-sm btn-primary nav-contact-btn-outer">Contact Us</a>
+          <a href="/contact_us" class="btn-sm btn-primary nav-contact-btn-outer" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact Us</a>
         </nav>
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+              <div class="modal-body">
+                <form action="#">
+                  <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                  <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                  <input type="tel" name="phone" id="phone" placeholder="Phone">
+                  <input type="text" name="website" id="website" placeholder="Enter Your Website">
+                  <textarea name="paragraph_text" cols="50" rows="10" id="message"></textarea>
+                  <a href="#"> <button type="button" class="hero_btn" id="submit">Submit<img
+                      src="/assets/img/index/hero_arrow.png" /></button></a>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </form>
+              </div>
+              <div class="modal-footer">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
