@@ -2482,6 +2482,9 @@ margin-top: -14px;
   padding: 30px;
   text-align: inherit;
 }
+.method_right img{
+  width: 100%;
+}
 @media only screen and (max-width: 600px) {
   .method_right IMG{
     width: 100%;
@@ -2501,9 +2504,12 @@ margin-top: -14px;
 # Contact Us hero Start
 --------------------------------------------------------------*/
 .contact_us_hero_right img{
-  width: 90%;
+  width: 100%;
   padding: 35px;
 
+}
+.contact_us_hero{
+  margin-top: 60px;
 }
 .contact_us_hero_left_heading h1{
   font-size: 55px;
@@ -2591,4 +2597,18 @@ margin-top: -14px;
   border: none;
   border-radius: 8px;
   color: #ffffff;
+}
+.fsd_heading h1{
+  font-size: 28px;
+  font-weight: 600;
+}
+.adress_left p{
+  font-size: 17px;
+  font-weight: 400;
+}
+.adress{
+  margin-top: 180px;
+}
+.map{
+  margin-top: 100px;
 }
