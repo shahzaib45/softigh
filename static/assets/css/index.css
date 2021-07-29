@@ -2669,3 +2669,35 @@ margin-top: -14px;
 .services_main_head{
   margin-top: 70px;
 }
+/*--------------------------------------------------------------
+# Team Page Start
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Team Hero  Start
+--------------------------------------------------------------*/
+.team_hero_img{
+  width: 80%;
+}
+.image_2 img{
+  width: 70%;
+  padding: 100px;
+  margin-left: 151px;
+}
+.team_para p{
+  padding: 50px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.team_heading_1 h1{
+  margin-top: 100px;
+  font-size: 27px;
+  font-weight: 600;
+}
+.team_heading_2 h1
+{
+  font-size: 27px;
+  font-weight: 600;
+}
+.team_main_head{
+  margin-top: 40px;
+}
