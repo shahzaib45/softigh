@@ -2707,3 +2707,18 @@ margin-top: -14px;
 .pop_btn{
   width: 90px;
 }
+.cto_heading h1{
+  font-size: 24px;
+  font-weight: 600;
+}
+.job_des{
+  padding: 15px 50px 50px 50px;
+}
+.job_des p{
+  font-size: 18px;
+  font-weight: 400;
+}
+.job_des h1{
+  font-size: 20px;
+  font-weight: 600;
+}

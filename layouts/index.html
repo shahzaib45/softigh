@@ -6,8 +6,8 @@
         <div class="hero__left col-md-6 col-sm-12 col-xs-12">
             <div class="hero_left_1">
                 <h1>It's Time to<br /> <span style="color:#033cfb;">Shine<span
-                                style="color:#000;">,</span>Innovate</span><br><span style="color:#000;">and</span><span
-                            style="color:#033cfb;"> Think Big<span style="color:#000;">.</span></span></h1><br>
+                            style="color:#000;">,</span>Innovate</span><br><span style="color:#000;">and</span><span
+                        style="color:#033cfb;"> Think Big<span style="color:#000;">.</span></span></h1><br>
             </div>
             <div class="hero_left_2">
                 <p>Listening to your needs and answering with an<br> innovative solution.
@@ -121,7 +121,8 @@
 
 <!-- End Services Section -->
 <!-- Start design Section -->
-<div class="fluid-container Design" style="background-image: url('../assets/img/index/design_back.svg');background-repeat: no-repeat;background-position: 95% 96%;">
+<div class="fluid-container Design"
+    style="background-image: url('../assets/img/index/design_back.svg');background-repeat: no-repeat;background-position: 95% 96%;">
     <div class="container">
         <div class="row design_1 col-reverse">
             <div class="design_left col-md-6 col-sm-12 col-xs-12" data-aos="fade-right" data-aos-offset="300"
@@ -163,8 +164,8 @@
         <div class="row">
             <div class="logo-slider">
                 {{ range .Site.Data.job }}
-                <div class="item">
-                    <div class="card">
+                <div class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop_1">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop_1">
                         <div class="card_image">
                             <img src="{{ .card_img }}" alt="">
                         </div>
@@ -184,6 +185,117 @@
                 {{ end }}
 
             </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="staticBackdrop_1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <div class="cto_heading">
+                    <h1>
+                        CHIEF TECHNOLOGY OFFICER
+                    </h1>
+                </div>
+                <div class="job_des">
+                    <p>
+                        We are seeking a highly-skilled CTO with a storied history in the technological sector. CTO's
+                        are tasked with making executive technology decisions on behalf of the company, including
+                        managing a technology budget and making investments to align the company with their vision for
+                        its technological needs. You should be a strategic thinker, an effective communicator and an
+                        expert in technological development.
+                        You will work directly under the CEO and will act as both a technology and business expert,
+                        making decisions in accordance with the company's Vison that will impact the current and future
+                        operations of the company.
+
+                    </p>
+                    <h1>
+                        CTO Responsibilities:
+
+                    </h1>
+
+                    <ul>
+                        <li>
+                            <p>Setting a vision for how technology will be used in the company.</p>
+                        </li>
+                        <li>
+                            <p>Ensuring that technological resources meet the company's short and long-term needs.</p>
+                        </li>
+                        <li>
+                            <p>Outline the goals for research and development.</p>
+                        </li>
+                        <li>
+                            <p>Creating timelines for the development and deployment of all technological services.</p>
+                        </li>
+                        <li>
+                            <p>Making executive decisions on behalf of the company's technological requirements.</p>
+                        </li>
+                        <li>
+                            <p>Acting as a mentor to team members.</p>
+                        </li>
+                        <li>
+                            <p>Maintaining a consumer-focused outlook and aiding in the delivering of IT projects to
+                                market.</p>
+                        </li>
+                        <li>
+                            <p>Managing technology budgets and time frames.</p>
+                        </li>
+                        <li>
+                            <p>Staying on top of technology trends and developments.</p>
+                        </li>
+                        <li>
+                            <p>Ensuring all technology practices adhere to regulatory standards.</p>
+                        </li>
+                        <li>
+                            <p>Building/Recruiting expert and passionate tech team</p>
+                        </li>
+                    </ul>
+                    <h1>
+                        CTO Requirements:
+
+                    </h1>
+
+                    <ul>
+                        <li>
+                            <p>Masters degree in Computer Science.</p>
+                        </li>
+                        <li>
+                            <p>8 years working in a technological role.</p>
+                        </li>
+                        <li>
+                            <p>5 years of managerial experience.</p>
+                        </li>
+                        <li>
+                            <p>5-6 years of E-commerce experience</p>
+                        </li>
+                        <li>
+                            <p>Advanced technological skillset and a demonstrated history with technology.</p>
+                        </li>
+                        <li>
+                            <p>Exceptional team management skills.</p>
+                        </li>
+                        <li>
+                            <p>Excellent verbal and written communication.</p>
+                        </li>
+                        <li>
+                            <p>Ability to delegate efficiently.</p>
+                        </li>
+                        <li>
+                            <p>Extensive industry knowledge with an eye towards the future</p>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
+                <a href="#"> <button type="button" class="hero_btn">Apply Now<img
+                    src="/assets/img/index/hero_arrow.png" /></button></a>
+                    <button type="button" class="btn btn-secondary pop_btn" style="width: 90px;"
+                data-bs-dismiss="modal">Close</button>
+            </div>
+            
+
         </div>
     </div>
 </div>
@@ -245,7 +357,8 @@
                     <div class="slide_main_1">
                         <p>I am really impressed by the quality of services I received from Softigh Tecnologies. You
                             were right on schedule, charged reasonable prices, were professional and courteous in
-                            dealings, and delivered items well before time.It was a great time working with this organization .
+                            dealings, and delivered items well before time.It was a great time working with this
+                            organization .
                         </p>
                     </div>
                     <div class="slide_main_2">
@@ -351,10 +464,10 @@
     var slideIndex = 1;
     showSlides(slideIndex);
 
-    window.addEventListener("load",function() {
-    showSlides(slideIndex);
-    myTimer = setInterval(function(){plusSlides(1)}, 3000);
-})
+    window.addEventListener("load", function () {
+        showSlides(slideIndex);
+        myTimer = setInterval(function () { plusSlides(1) }, 3000);
+    })
 
     // Next/previous controls
     function plusSlides(n) {
@@ -472,18 +585,18 @@
 <!-- Start queto_mobile Section -->
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-body">
-            <div class="queto_mobile_heading">
-                <h3>Looking for a software development partner?<br />Let's talk</h3>
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="queto_mobile_heading">
+                    <h3>Looking for a software development partner?<br />Let's talk</h3>
+                </div>
+                <div class="queto_mobile_btn">
+                    <img src="/assets/img/index/queto_mobile_btn.png" alt="" class="src">
+                </div>
             </div>
-            <div class="queto_mobile_btn">
-                <img src="/assets/img/index/queto_mobile_btn.png" alt="" class="src">
-            </div>
-      </div>
+        </div>
     </div>
-  </div>
 </div>
 
 
@@ -494,26 +607,28 @@
             <div class="queto_heading">
                 <h1>Looking for a software development partner?<br />Let's talk</h1>
             </div>
-            <div class="queto_image" >
-                <a href="#"><button type="button" class="queto_btn">Get a Quote<img src="assets/img/index/queto_arrow.png" /></button></a> 
-				<img src="assets/img/index/cross.svg"  style="width: 15px;margin-left: 246px;margin-top: -249px; opacity: 0.6;" id="close" />
+            <div class="queto_image">
+                <a href="#"><button type="button" class="queto_btn">Get a Quote<img
+                            src="assets/img/index/queto_arrow.png" /></button></a>
+                <img src="assets/img/index/cross.svg"
+                    style="width: 15px;margin-left: 246px;margin-top: -249px; opacity: 0.6;" id="close" />
             </div>
 
         </div>
     </div>
 </div>
 <script>
-    $("#close").click(function(){
-  $("#queto").hide();
-});
+    $("#close").click(function () {
+        $("#queto").hide();
+    });
 
 </script>
 
 <!-- Start queto Section -->
 
-    <div class="icon" data-toggle="modal" data-target="#exampleModal">
-        <img src="/assets/img/index/chat_icon.svg" id="icon" />
-    </div>
+<div class="icon" data-toggle="modal" data-target="#exampleModal">
+    <img src="/assets/img/index/chat_icon.svg" id="icon" />
+</div>
 
 
 
