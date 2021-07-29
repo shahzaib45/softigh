@@ -2608,6 +2608,9 @@ margin-top: -14px;
 }
 .adress{
   margin-top: 180px;
+  background-image: url("../img/contact_us/address_back.svg ");
+  background-repeat: no-repeat;
+  background-position: 1% 100%;
 }
 .map{
   margin-top: 100px;
