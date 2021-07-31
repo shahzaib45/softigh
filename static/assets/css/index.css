@@ -2951,3 +2951,6 @@ input[type=text], select{
   border-radius: 3px;
   border: 2px solid #033cfb;
 }
+input#file-upload-button{
+  color: #033cfb;
+}
