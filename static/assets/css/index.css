@@ -1397,6 +1397,18 @@ a:hover{
       #close{
      display:none
       }
+      .pop_btn{
+        margin-left: 0px!important;
+        background-color: #C0ECF7;
+      }
+      .modal.show .modal-dialog {
+        transform: none;
+        margin: 30px 26px 26px 38px;
+    }
+      #close_1{
+        margin-top: -121px;
+        margin-left: 222px;
+      }
       .queto_btn{
       display:none;
       }
@@ -2838,6 +2850,11 @@ input[type=text], select{
   width: 17px;
   margin-left: 415px;
   margin-top: -26px;
+  opacity: 0.6;
+}
+#close_1{
+  width: 17px;
+  
   opacity: 0.6;
 }
 .contact_us_pop{
