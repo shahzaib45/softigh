@@ -2573,10 +2573,11 @@ margin-top: -14px;
 }
 #name{
   width: 100%;
+  background: none;
   padding: 10px;
   height: 35px;
   margin-bottom: 20px;
-  border-radius: 8px;
+  border-radius: 3px;
   
 }
 input[type=text], select{ 
@@ -2586,45 +2587,49 @@ input[type=text], select{
 #email{
   width: 100%;
   height: 35px;
+  background: none;
   margin-bottom: 20px;
   border: 2px solid #033cfb;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 3px;
   
 
 }
 #phone{
   width: 100%;
   height: 35px;
+  background: none;
   margin-bottom: 20px;
   border: 2px solid #033cfb;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 3px;
  
 
 }
 #website{
   width: 100%;
   margin-bottom: 20px;
+  background: none;
   border: 2px solid #033cfb;
   height: 35px;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 3px;
   
 }
 #message{
   width: 100%;
   margin-bottom: 20px;
+  background: none;
   border: 2px solid #033cfb;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 4px;
   
   
 
 }
 #submit{
-  margin-top: 20px;
-  padding: 14px 40px;
+  
+  padding: 14px 50px;
   background-color: #033cfb;
   border: none;
   margin-left: 342px;
@@ -2800,23 +2805,29 @@ input[type=text], select{
 }
 .logo_1{
   opacity: 0.4;
+  margin-left: -40px;
 }
 .logo_3{
   opacity: 0.1;
   width: 70px!important;
-  margin-left: -35px;
+  margin-left: -40px;
 }
 .logo_4{
   opacity: 0.1;
-  margin-left: -35px;
+  margin-left: -40px;
 }
 .logo_5{
   opacity: 0.9;
-  margin-left: -35px;
+  margin-left: -40px;
 }
 #close{
   width: 17px;
   margin-left: 415px;
   margin-top: -26px;
   opacity: 0.6;
+}
+.contact_us_pop{
+  background-image: url("../img/index/contact_us_pop_back.svg");
+  background-repeat: no-repeat;
+  background-position: 78% 98%;
 }
