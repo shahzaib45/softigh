@@ -149,25 +149,51 @@
           </nav>
           <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
             aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-xl">
               <div class="modal-content">
 
-                <div class="modal-body">
+                <div class="modal-body ">
+                  <div class="contact_us_form_heading">
+                    <h1>
+                      Contact Us
+                    </h1>
+                  </div>
+                  <div class="contact_us_form_para">
+                    <p>
+                      Please use the contact form below to get in touch
+                    </p>
+                  </div>
                   <form action="#">
-                    <label for="name">Name/Company Name*</label><br>
-                    <input type="text" name="name" id="name" ><br>
-                    <label for="email">Email*</label><br>
-                    <input type="email" name="email" id="email">
-                    <label for="phone">Phone*</label><br>
-                    <input type="tel" name="phone" id="phone" >
-                    <label for="Website">website</label><br>
-                    <input type="text" name="website" id="website">
-                    <label for="message">Short Message(optional)</label><br>
-                    <textarea name="paragraph_text" cols="50" rows="3" id="message"></textarea>
+                    
+                    <div class="contact_us_form_left col-md-6">
+                      <label for="name">Name/Company Name*</label><br>
+                      <input type="text" name="name" id="name" ><br>
+                      <label for="email">Email*</label><br>
+                      <input type="email" name="email" id="email">
+                      <label for="phone">Phone*</label><br>
+                      <input type="tel" name="phone" id="phone" >
+                      <label for="Website">website</label><br>
+                      <input type="text" name="website" id="website">
+                    </div>
+                    <div class="contact_us_form_right col-md-6">
+                      <label for="message">Short Message(optional)</label><br>
+                    <textarea name="paragraph_text" cols="50" rows="13" id="message"></textarea>
+
+                    </div>
+
+                      
+
+                    </div>
+                    <div class="contact_us_form_right col-md-6">
+                      
+                    </div>
+                   
+                    
                     <a href="#"> <button type="button" class="hero_btn" id="submit">Submit<img
                           src="/assets/img/index/hero_arrow.png" /></button></a>
-                    <button type="button" class="btn btn-secondary pop_btn"style="width: 90px;" data-bs-dismiss="modal">Close</button>
                   </form>
+                  <button type="button" class="btn btn-secondary pop_btn"style="width: 90px;" data-bs-dismiss="modal">Cancel</button>
+
                 </div>
                 
               </div>

@@ -2505,6 +2505,7 @@ margin-top: -14px;
   .method_left ul li p{
     padding: 0px;
   }
+  
 
 }
 /*--------------------------------------------------------------
@@ -2614,6 +2615,8 @@ margin-top: -14px;
   padding: 14px 40px;
   background-color: #033cfb;
   border: none;
+  margin-left: 800px;
+  margin-top: -15px;
   border-radius: 8px;
   color: #ffffff;
 }
@@ -2706,6 +2709,11 @@ margin-top: -14px;
 }
 .pop_btn{
   width: 90px;
+  margin-left: 524px;
+  background: #033CFB;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
 }
 .cto_heading h1{
   font-size: 24px;
@@ -2734,8 +2742,29 @@ margin-top: -14px;
 .item_1 ul li img:hover{
   opacity: 1;
 }
-.logo-slider_1 .client_slider ul li:nth-child(1) img{
+.logo-slider_1 .item_1 ul li:nth-child(1) img{
   width: 70px!important;
-  opacity: 1!important;
+  opacity: 0.9!important;
 
+}
+.logo-slider_1 .item_1 ul li:nth-child(2) img{
+  width: 70px!important;
+  opacity: 0.2!important;
+
+}
+.contact_us_form_left{
+  float: left;
+}
+.contact_us_form_right{
+  float: right;
+}
+.contact_us_form_heading h1{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 600;
+}
+.contact_us_form_para p{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
 }
