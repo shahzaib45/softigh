@@ -2616,7 +2616,7 @@ margin-top: -14px;
   background-color: #033cfb;
   border: none;
   margin-left: 800px;
-  margin-top: -15px;
+  margin-top: 15px;
   border-radius: 8px;
   color: #ffffff;
 }
@@ -2767,4 +2767,7 @@ margin-top: -14px;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+}
+.brochure__form__captcha{
+  margin-left: 700px;
 }
