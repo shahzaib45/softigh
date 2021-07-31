@@ -216,7 +216,7 @@ body{
   
   }
   .clients_logo_1 {
-      margin-top: 116px;
+      margin-top: 45px;
   }
   .clients_logo_1 ul li img{
     -webkit-filter: grayscale(1);
@@ -2579,10 +2579,15 @@ margin-top: -14px;
   border-radius: 8px;
   
 }
+input[type=text], select{ 
+  border: 2px solid #033cfb;
+
+}
 #email{
   width: 100%;
   height: 35px;
   margin-bottom: 20px;
+  border: 2px solid #033cfb;
   padding: 10px;
   border-radius: 8px;
   
@@ -2592,6 +2597,7 @@ margin-top: -14px;
   width: 100%;
   height: 35px;
   margin-bottom: 20px;
+  border: 2px solid #033cfb;
   padding: 10px;
   border-radius: 8px;
  
@@ -2600,6 +2606,7 @@ margin-top: -14px;
 #website{
   width: 100%;
   margin-bottom: 20px;
+  border: 2px solid #033cfb;
   height: 35px;
   padding: 10px;
   border-radius: 8px;
@@ -2608,6 +2615,7 @@ margin-top: -14px;
 #message{
   width: 100%;
   margin-bottom: 20px;
+  border: 2px solid #033cfb;
   padding: 10px;
   border-radius: 8px;
   
@@ -2619,8 +2627,9 @@ margin-top: -14px;
   padding: 14px 40px;
   background-color: #033cfb;
   border: none;
-  margin-left: 500px;
-  margin-top: 15px;
+  margin-left: 342px;
+  
+  margin-bottom: 20px;
   border-radius: 8px;
   color: #ffffff;
 }
@@ -2712,14 +2721,14 @@ margin-top: -14px;
   margin-top: 40px;
 }
 .pop_btn{
-  padding: 14px 40px;
-  margin-left: 315px;
-  margin-top: 20px;
-  background: #033CFB;
   border: none;
-  color: #fff;
-  margin-bottom: 20px;
+  margin-left: 315px;
 }
+.btn-secondary:hover{
+  background: none;
+  border: none;
+}
+ 
 .cto_heading h1{
   font-size: 24px;
   font-weight: 600;
@@ -2741,7 +2750,7 @@ margin-top: -14px;
   border-radius: 15px;
 }
 .item_1 ul li img{
-  width: 70px;
+  width: 85px;
 }
 .item_1 ul li img:hover{
   opacity: 1;
@@ -2762,6 +2771,7 @@ margin-top: -14px;
   text-align: center;
   font-size: 55px;
   font-weight: 600;
+  margin-top: -20px;
 }
 .contact_us_form_para p{
   text-align: center;
@@ -2784,19 +2794,29 @@ margin-top: -14px;
   float: right;
 }
 .logo_2{
-  opacity: 0.2;
+  opacity: 0.1;
   width: 100%;
+  margin-left: -35px;
 }
 .logo_1{
-  opacity: 0.9;
+  opacity: 0.4;
 }
 .logo_3{
-  opacity: 0.2;
-  width: 60px!important;
+  opacity: 0.1;
+  width: 70px!important;
+  margin-left: -35px;
 }
 .logo_4{
-  opacity: 0.2;
+  opacity: 0.1;
+  margin-left: -35px;
 }
 .logo_5{
   opacity: 0.9;
+  margin-left: -35px;
+}
+#close{
+  width: 17px;
+  margin-left: 415px;
+  margin-top: -26px;
+  opacity: 0.6;
 }
