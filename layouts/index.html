@@ -69,24 +69,14 @@
         <div class="container">
             <div class="clients_logo">
                 <div class="clients_logo_1">
-                    <div class="row clients_logo_1 ">
-                        <ul class="list-inline">
-                            <div class="row dis-blc">
-                                <div class="col-1"></div>
-                                {{ range .Site.Data.clients }}
-                                <li class="list-inline-item col-md-2 col-5"><img src="{{ .src }}"></li>
-                                {{ end }}
-                                <div class="col-1"></div>
-                            </div>
-                        </ul>
-                    </div>
+                    
                     <div class="row slider_client">
                         <div class="logo-slider_1 ">
                             {{ range .Site.Data.clients }}
                             <div class="item_1 clients_logo_1">
                                 <ul class="client_slider">
                                 
-                                    <li class="list-inline-item col-md-2 col-5"><img src="{{ .src }}"></li>
+                                    <li class="list-inline-item col-md-2 col-5"><img class="{{ .class }}" src="{{ .src }}"></li>
                                 </ul>
                     
                                 

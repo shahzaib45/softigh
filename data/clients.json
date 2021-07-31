@@ -1,16 +1,25 @@
 [{
     "id": 0,
-    "src": "/assets/img/index/logo_1.svg"
+    "src": "/assets/img/index/logo_1.svg",
+    "class":"logo_1"
 },{
     "id": 1,
-    "src": "/assets/img/index/logo_3.svg"
+    "src": "/assets/img/index/logo_3.svg",
+    "class":"logo_2"
+
 },{
     "id": 2,
-    "src": "/assets/img/index/logo_5.svg"
+    "src": "/assets/img/index/logo_5.svg",
+    "class":"logo_3"
+
 },{
     "id": 3,
-    "src": "/assets/img/index/logo_4.svg"
+    "src": "/assets/img/index/logo_4.svg",
+    "class":"logo_4"
+
 },{
     "id": 4,
-    "src": "/assets/img/index/logo_2.svg"
+    "src": "/assets/img/index/logo_2.svg",
+    "class":"logo_5"
+
 }]

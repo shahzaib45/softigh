@@ -2741,17 +2741,12 @@ margin-top: -14px;
   border-radius: 15px;
 }
 .item_1 ul li img{
-  width: 100px;
-  opacity: 0.2;
+  width: 70px;
 }
 .item_1 ul li img:hover{
   opacity: 1;
 }
-.logo-slider_1 .item_1 ul li:nth-child(1) img{
-  width: 70px!important;
-  opacity: 0.9!important;
 
-}
 .logo-slider_1 .item_1 ul li:nth-child(2) img{
   width: 70px!important;
   opacity: 0.2!important;
@@ -2787,4 +2782,21 @@ margin-top: -14px;
 }
 .services_button a{
   float: right;
+}
+.logo_2{
+  opacity: 0.2;
+  width: 100%;
+}
+.logo_1{
+  opacity: 0.9;
+}
+.logo_3{
+  opacity: 0.2;
+  width: 60px!important;
+}
+.logo_4{
+  opacity: 0.2;
+}
+.logo_5{
+  opacity: 0.9;
 }
