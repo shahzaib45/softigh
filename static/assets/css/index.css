@@ -2708,7 +2708,7 @@ margin-top: -14px;
   margin-top: 40px;
 }
 .pop_btn{
-  width: 90px;
+  padding: 14px 40px;
   margin-left: 524px;
   background: #033CFB;
   border: none;
@@ -2770,4 +2770,9 @@ margin-top: -14px;
 }
 .brochure__form__captcha{
   margin-left: 700px;
+}
+.jobs_pop{
+  background-image: url("../img/index/job_pop_back.svg");
+  background-repeat: no-repeat;
+  background-position: 80% 80%;
 }

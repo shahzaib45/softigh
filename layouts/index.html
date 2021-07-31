@@ -235,11 +235,11 @@
 </div>
 <div class="modal fade" id="staticBackdrop_1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-dialog modal-xl modal-dialog-scrollable">
         <div class="modal-content">
             {{ range .Site.Data.job_des }}
 
-            <div class="modal-body">
+            <div class="modal-body jobs_pop">
                 <div class="cto_heading">
                     <h1>
                         {{ .heading }}
@@ -329,7 +329,7 @@
                 </div>
                 <a href="#"> <button type="button" class="hero_btn">Apply Now<img
                     src="/assets/img/index/hero_arrow.png" /></button></a>
-                    <button type="button" class="btn btn-secondary pop_btn" style="width: 90px;"
+                    <button type="button" class="btn btn-secondary pop_btn_1" style="width: 90px;"
                 data-bs-dismiss="modal">Close</button>
             </div>
             {{ end }}
