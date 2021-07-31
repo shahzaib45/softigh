@@ -1409,6 +1409,14 @@ a:hover{
         margin-top: -121px;
         margin-left: 222px;
       }
+      #close_2{
+        margin-top: -121px;
+        margin-left: 222px;
+      }
+      .cto_heading h1 {
+        margin-top: -35px;
+      }
+
       .queto_btn{
       display:none;
       }
@@ -2853,6 +2861,11 @@ input[type=text], select{
   opacity: 0.6;
 }
 #close_1{
+  width: 17px;
+  
+  opacity: 0.6;
+}
+#close_2{
   width: 17px;
   
   opacity: 0.6;
