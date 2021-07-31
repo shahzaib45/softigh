@@ -2577,7 +2577,7 @@ margin-top: -14px;
   height: 35px;
   margin-bottom: 20px;
   border-radius: 8px;
-  border:1px solid #033cfb;
+  
 }
 #email{
   width: 100%;
@@ -2585,7 +2585,7 @@ margin-top: -14px;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 8px;
-  border:1px solid #033cfb;
+  
 
 }
 #phone{
@@ -2594,7 +2594,7 @@ margin-top: -14px;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 8px;
-  border:1px solid #033cfb;
+ 
 
 }
 #website{
@@ -2603,14 +2603,14 @@ margin-top: -14px;
   height: 35px;
   padding: 10px;
   border-radius: 8px;
-  border:1px solid #033cfb;
+  
 }
 #message{
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
   border-radius: 8px;
-  border:1px solid #033cfb;
+  
   
 
 }
@@ -2781,4 +2781,10 @@ margin-top: -14px;
   background-image: url("../img/index/job_pop_back.svg");
   background-repeat: no-repeat;
   background-position: 80% 80%;
+}
+.services_button {
+  margin-top: 228px;
+}
+.services_button a{
+  float: right;
 }
