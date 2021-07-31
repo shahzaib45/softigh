@@ -1527,6 +1527,7 @@ about header
 .about_hero_right img{
   
   margin-left: 135px;
+  height: 100%;
 }
 
 .about_values_head{
@@ -1709,7 +1710,7 @@ font-weight: 400;
   background-image: url("../img/about/team_back.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 2000px;
+  height: 1432px;
 }
 .team_head{
   margin-top: 100px;
@@ -2718,6 +2719,7 @@ input[type=text], select{
 }
 .services_main{
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 .services_main_head{
   margin-top: 70px;
