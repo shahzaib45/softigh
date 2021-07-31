@@ -2854,3 +2854,44 @@ input[type=text], select{
   border-radius: 8px;
   color: #ffffff;
 }
+#f_name{
+  width: 100%;
+  background: none;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 2px solid #033cfb;
+  
+}
+#main_email{
+  width: 100%;
+  background: none;
+  padding: 10px;
+  
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 2px solid #033cfb!important;
+}
+#main_phone{
+  width: 100%;
+  background: none;
+  padding: 10px;
+
+  border: 2px solid #033cfb!important;
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+#main_website{
+  width: 100%;
+  background: none;
+  padding: 10px;
+
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 2px solid #033cfb;
+}
+#main_message{
+  width: 100%;
+  border: 2px solid #033cfb;
+}
