@@ -1709,6 +1709,7 @@ font-weight: 400;
   background-image: url("../img/about/team_back.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  height: 2000px;
 }
 .team_head{
   margin-top: 100px;
@@ -2019,6 +2020,8 @@ margin-top: -14px;
 
 .work_right img{
   width: 100%;
+    padding: 50px;
+    margin-top: -35px;
 }
 .about_work p{
   font-size: 17px;
