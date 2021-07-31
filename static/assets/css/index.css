@@ -1414,10 +1414,10 @@ a:hover{
         margin-left: 222px;
       }
       .services_button{
-        margin-top: 0px;
+        margin-top: 0px!important;
       }
       .services_button a{
-        float: left;
+        float: left!important;
       }
       .cto_heading h1 {
         margin-top: -35px;
@@ -2868,7 +2868,8 @@ input[type=text], select{
 }
 #close_1{
   width: 17px;
-  
+  margin-left: 411px;
+    margin-top: -34px;
   opacity: 0.6;
 }
 #close_2{
