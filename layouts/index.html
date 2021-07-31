@@ -235,6 +235,8 @@
             {{ range .Site.Data.job_des }}
 
             <div class="modal-body jobs_pop">
+                <button type="button" class="btn btn-secondary pop_btn" style="    "
+                  data-bs-dismiss="modal"><img src="assets/img/index/cross.svg" id="close"></button>
                 <div class="cto_heading">
                     <h1>
                         {{ .heading }}
@@ -322,10 +324,8 @@
                     </ul>
                     
                 </div>
-                <a href="/apply_for_job"> <button type="button" class="hero_btn">Apply Now<img
-                    src="/assets/img/index/hero_arrow.png" /></button></a>
-                    <button type="button" class="btn btn-secondary pop_btn_1" style="width: 90px;"
-                data-bs-dismiss="modal">Close</button>
+                <a href="/apply_for_job"> <button type="button" id="job_pop_button">Apply Now</button></a>
+                    
             </div>
             {{ end }}
             
