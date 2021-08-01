@@ -20,6 +20,7 @@
         "responsiblity_9": "Staying on top of technology trends and developments.",
         "responsiblity_10": "Ensuring all technology practices adhere to regulatory standards.",
         "responsiblity_11": "Building/Recruiting expert and passionate tech team.",
+        "res_quantity": "11",
         "sub_heading_2": "CTO Requirements:",
         "require_1": "Masters degree in Computer Science.",
         "require_2": "8 years working in a technological role.",
@@ -29,7 +30,8 @@
         "require_6": "Exceptional team management skills..",
         "require_7": "Excellent verbal and written communication.",
         "require_8": "Ability to delegate efficiently.",
-        "require_9": "SExtensive industry knowledge with an eye towards the future"
+        "require_9": "SExtensive industry knowledge with an eye towards the future",
+        "req_quantity": "9"
     },
     {
         "id": 1,
@@ -59,6 +61,7 @@
         "responsiblity_16": "Good to have coding experience and knowledge of Java to build back end services and APIs.",
         "responsiblity_17": "Must have solid understanding of web application designs and system architectures.",
         "responsiblity_18": "Must have the ability to lead the project.",
+        "res_quantity": "18",
         "sub_heading_2": "Full-Stack Developer Requirements:",
         "require_1": "Degree in Computer Science of a reputable university",
         "require_2": "5 to 6 years’ Experience of web development",
@@ -66,7 +69,8 @@
         "require_4": "Familiarity with cloud base development",
         "require_5": "Proficiency with fundamental front end languages such as HTML, CSS and JavaScript.",
         "require_6": "Familiarity with JavaScript frameworks such as Angular JS, React and Amber.",
-        "require_7": "Proficiency with server side languages such as Python, Ruby, Java, PHP and .Net"
+        "require_7": "Proficiency with server side languages such as Python, Ruby, Java, PHP and .Net",
+        "req_quantity": "7"
     },
     {
         "id": 2,
@@ -92,6 +96,7 @@
         "responsiblity_12": "Create wireframes, storyboards, user flows, process flows and site maps to communicate interaction and design ideas",
         "responsiblity_13": "Present and defend designs and key deliverables to peers and executive level stakeholders",
         "responsiblity_14": "Establish and promote design guidelines, best practices and standards",
+        "res_quantity": "14",
         "sub_heading_2": "UI/UX Designer Requirements:",
         "require_1": "Web Designer Qualifications/Skills:",
         "require_2": "Demonstrated ability to take a project from concept to launch",
@@ -110,7 +115,8 @@
         "require_15": "Up-to-date knowledge of design software like Adobe Illustrator and Photoshop",
         "require_16": "Team spirit; strong communication skills to collaborate with various stakeholders",
         "require_17": "Good time-management skills",
-        "require_18": "BSc in Design, Computer Science or relevant field"
+        "require_18": "BSc in Design, Computer Science or relevant field",
+        "req_quantity": "18"
     },
     {
         "id": 3,
@@ -133,6 +139,7 @@
         "responsiblity_9": "Staying on top of technology trends and developments.",
         "responsiblity_10": "Ensuring all technology practices adhere to regulatory standards.",
         "responsiblity_11": "Building/Recruiting expert and passionate tech team.",
+        "res_quantity": "11",
         "sub_heading_2": "CTO Requirements:",
         "require_1": "Masters degree in Computer Science.",
         "require_2": "8 years working in a technological role.",
@@ -142,7 +149,8 @@
         "require_6": "Exceptional team management skills..",
         "require_7": "Excellent verbal and written communication.",
         "require_8": "Ability to delegate efficiently.",
-        "require_9": "SExtensive industry knowledge with an eye towards the future"
+        "require_9": "SExtensive industry knowledge with an eye towards the future",
+        "req_quantity": "9"
     },
     {
         "id": 4,
@@ -172,6 +180,7 @@
         "responsiblity_16": "Good to have coding experience and knowledge of Java to build back end services and APIs.",
         "responsiblity_17": "Must have solid understanding of web application designs and system architectures.",
         "responsiblity_18": "Must have the ability to lead the project.",
+        "res_quantity": "18",
         "sub_heading_2": "Full-Stack Developer Requirements:",
         "require_1": "Degree in Computer Science of a reputable university",
         "require_2": "5 to 6 years’ Experience of web development",
@@ -179,7 +188,8 @@
         "require_4": "Familiarity with cloud base development",
         "require_5": "Proficiency with fundamental front end languages such as HTML, CSS and JavaScript.",
         "require_6": "Familiarity with JavaScript frameworks such as Angular JS, React and Amber.",
-        "require_7": "Proficiency with server side languages such as Python, Ruby, Java, PHP and .Net"
+        "require_7": "Proficiency with server side languages such as Python, Ruby, Java, PHP and .Net",
+        "req_quantity": "7"
     },
     {
         "id": 5,
@@ -205,6 +215,7 @@
         "responsiblity_12": "Create wireframes, storyboards, user flows, process flows and site maps to communicate interaction and design ideas",
         "responsiblity_13": "Present and defend designs and key deliverables to peers and executive level stakeholders",
         "responsiblity_14": "Establish and promote design guidelines, best practices and standards",
+        "res_quantity": "14",
         "sub_heading_2": "UI/UX Designer Requirements:",
         "require_1": "Web Designer Qualifications/Skills:",
         "require_2": "Demonstrated ability to take a project from concept to launch",
@@ -223,6 +234,7 @@
         "require_15": "Up-to-date knowledge of design software like Adobe Illustrator and Photoshop",
         "require_16": "Team spirit; strong communication skills to collaborate with various stakeholders",
         "require_17": "Good time-management skills",
-        "require_18": "BSc in Design, Computer Science or relevant field"
+        "require_18": "BSc in Design, Computer Science or relevant field",
+        "req_quantity": "18"
     }
 ]
