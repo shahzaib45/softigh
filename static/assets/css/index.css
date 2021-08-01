@@ -3231,5 +3231,7 @@ blog_main_heading_para p{
 }
 .blog_main_empty{
   height: 400px;
-  background-color: blueviolet;
+  background-image: url("../img/blogs/blog_main_empty.png");
+  background-repeat: no-repeat;
+
 }
