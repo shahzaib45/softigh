@@ -60,15 +60,14 @@
         "responsiblity_17": "Must have solid understanding of web application designs and system architectures.",
         "responsiblity_18": "Must have the ability to lead the project.",
         "sub_heading_2": "Full-Stack Developer Requirements:",
-        "require_1": "Lorem Ipsum",
-        "require_2": "Lorem Ipsum",
-        "require_3": "Lorem Ipsum",
-        "require_4": "Lorem Ipsum",
-        "require_5": "Lorem Ipsum",
-        "require_6": "Lorem Ipsum",
-        "require_7": "Lorem Ipsum",
-        "require_8": "Lorem Ipsum",
-        "require_9": "Lorem Ipsum"
+        "require_1": "Degree in Computer Science of a reputable university",
+        "require_2": "5 to 6 years’ Experience of web development",
+        "require_3": "Strong organizational and project management skills.",
+        "require_4": "Familiarity with cloud base development",
+        "require_5": "Proficiency with fundamental front end languages such as HTML, CSS and JavaScript.",
+        "require_6": "Familiarity with JavaScript frameworks such as Angular JS, React and Amber.",
+        "require_7": "Proficiency with server side languages such as Python, Ruby, Java, PHP and .Net"
+        
     },
     {
         "id": 2,
