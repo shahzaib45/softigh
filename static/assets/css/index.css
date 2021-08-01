@@ -1502,7 +1502,7 @@ about header
   background-image: url("../img/about/about_hero_back.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position:100%;
+  
 }
 
 .about_hero{
@@ -1713,7 +1713,7 @@ font-weight: 400;
   background-image: url("../img/about/team_back.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 1432px;
+  height: 1600px;
 }
 .team_head{
   margin-top: 100px;
@@ -2850,26 +2850,26 @@ input[type=text], select{
 }
 .logo_1{
   opacity: 0.4;
-  margin-left: -40px;
+  margin-left: 15px;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 .logo_3{
   opacity: 0.1;
   width: 70px!important;
-  margin-left: -40px;
+  margin-left: -70px;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 .logo_4{
   opacity: 0.1;
-  margin-left: -40px;
+  margin-left: -115px;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 .logo_5{
   opacity: 0.9;
-  margin-left: -40px;
+  margin-left: -140px;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.2s ease-in-out;
 }
@@ -2909,7 +2909,7 @@ input[type=text], select{
   background: none;
   padding: 10px;
 
-  margin-bottom: 20px;
+  
   border-radius: 3px;
   border: 2px solid #033cfb;
   
@@ -2919,7 +2919,7 @@ input[type=text], select{
   background: none;
   padding: 10px;
   
-  margin-bottom: 20px;
+  
   border-radius: 3px;
   border: 2px solid #033cfb!important;
 }
@@ -2929,7 +2929,7 @@ input[type=text], select{
   padding: 10px;
 
   border: 2px solid #033cfb!important;
-  margin-bottom: 20px;
+  
   border-radius: 3px;
 }
 #main_website{
@@ -2937,7 +2937,7 @@ input[type=text], select{
   background: none;
   padding: 10px;
 
-  margin-bottom: 20px;
+  
   border-radius: 3px;
   border: 2px solid #033cfb;
 }
@@ -3238,4 +3238,22 @@ blog_main_heading_para p{
   background-image: url("../img/blogs/blog_main_empty.png");
   background-repeat: no-repeat;
 
+}
+.adress_right{
+  background-image: url("../img/contact_us/form_back.svg");
+  background-repeat: no-repeat;
+}
+#contact_us_page_submit{
+  padding: 14px 50px;
+  background-color: #033cfb;
+  border: none;
+  margin-left: 211px;
+  margin-top: 15px;
+  /* margin-bottom: 20px; */
+  border-radius: 8px;
+  color: #ffffff;
+}
+.upper img{
+  width: 80%;
+  margin-left: 45px;
 }
