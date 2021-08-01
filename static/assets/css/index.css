@@ -3031,6 +3031,7 @@ blog_main_heading_para p{
 .card_desc h4{
   font-size: 15px;
   font-weight: 600;
+  margin-top: 10px;
 }
 .blog_main_list ul li{
   list-style-type: none;
