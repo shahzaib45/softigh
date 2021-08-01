@@ -204,8 +204,8 @@
         <div class="row">
             <div class="logo-slider">
                 {{ range .Site.Data.job }}
-                <div class="item" data-bs-toggle="modal" data-bs-target="#staticBackdrop_1">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="#staticBackdrop_1">
+                <div class="item" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
                         <div class="card_image">
                             <img src="{{ .card_img }}" alt="">
                         </div>
@@ -228,19 +228,16 @@
         </div>
     </div>
 </div>
-<div class="modal fade" id="staticBackdrop_1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+{{ range .Site.Data.job }}
+<div class="modal fade" id="{{ .dataId }}" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
-            {{ range .Site.Data.job_des }}
-
+            
             <div class="modal-body jobs_pop">
                 <button type="button" class="btn btn-secondary pop_btn" style="    "
                   data-bs-dismiss="modal"><img src="assets/img/index/cross.svg" id="close_2"></button>
                 <div class="cto_heading">
-                    <h1>
-                        {{ .heading }}
-                    </h1>
+                    <h1>{{ .card_heading }}</h1>
                 </div>
                 <div class="job_des">
                     <p>
@@ -327,12 +324,13 @@
                 <a href="/apply_for_job" > <button type="button" id="job_pop_button">Apply Now</button></a>
                     
             </div>
-            {{ end }}
+            
             
 
         </div>
     </div>
 </div>
+{{ end }}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script>
@@ -663,11 +661,4 @@
 <div class="icon" data-toggle="modal" data-target="#exampleModal">
     <img src="/assets/img/index/chat_icon.svg" id="icon" />
 </div>
-
-
-
-
-
-
-
 {{ end }}
