@@ -20,6 +20,7 @@
         "responsiblity_9": "Staying on top of technology trends and developments.",
         "responsiblity_10": "Ensuring all technology practices adhere to regulatory standards.",
         "responsiblity_11": "Building/Recruiting expert and passionate tech team.",
+        "res_quantity": "11",
         "sub_heading_2": "CTO Requirements:",
         "require_1": "Masters degree in Computer Science.",
         "require_2": "8 years working in a technological role.",
@@ -29,7 +30,8 @@
         "require_6": "Exceptional team management skills..",
         "require_7": "Excellent verbal and written communication.",
         "require_8": "Ability to delegate efficiently.",
-        "require_9": "SExtensive industry knowledge with an eye towards the future"
+        "require_9": "SExtensive industry knowledge with an eye towards the future",
+        "req_quantity": "9"
     },
     {
         "id": 1,
@@ -52,6 +54,14 @@
         "responsiblity_9": "Lorem Ipsum",
         "responsiblity_10": "Lorem Ipsum",
         "responsiblity_11": "Lorem Ipsum",
+        "responsiblity_12": "Lorem Ipsum",
+        "responsiblity_13": "Lorem Ipsum",
+        "responsiblity_14": "Lorem Ipsum",
+        "responsiblity_15": "Lorem Ipsum",
+        "responsiblity_16": "Lorem Ipsum",
+        "responsiblity_17": "Lorem Ipsum",
+        "responsiblity_18": "Lorem Ipsum",
+        "res_quantity": "18",
         "sub_heading_2": "Full-Stack Developer Requirements:",
         "require_1": "Lorem Ipsum",
         "require_2": "Lorem Ipsum",
@@ -60,8 +70,7 @@
         "require_5": "Lorem Ipsum",
         "require_6": "Lorem Ipsum",
         "require_7": "Lorem Ipsum",
-        "require_8": "Lorem Ipsum",
-        "require_9": "Lorem Ipsum"
+        "req_quantity": "7"
     },
     {
         "id": 2,
@@ -84,7 +93,11 @@
         "responsiblity_9": "Lorem Ipsum",
         "responsiblity_10": "Lorem Ipsum",
         "responsiblity_11": "Lorem Ipsum",
-        "sub_heading_2": "UI/UX Designer Requirements:",
+        "responsiblity_12": "Lorem Ipsum",
+        "responsiblity_13": "Lorem Ipsum",
+        "responsiblity_14": "Lorem Ipsum",
+        "res_quantity": "14",
+        "sub_heading_2": "Full-Stack Developer Requirements:",
         "require_1": "Lorem Ipsum",
         "require_2": "Lorem Ipsum",
         "require_3": "Lorem Ipsum",
@@ -93,7 +106,17 @@
         "require_6": "Lorem Ipsum",
         "require_7": "Lorem Ipsum",
         "require_8": "Lorem Ipsum",
-        "require_9": "Lorem Ipsum"
+        "require_9": "Lorem Ipsum",
+        "require_10": "Lorem Ipsum",
+        "require_11": "Lorem Ipsum",
+        "require_12": "Lorem Ipsum",
+        "require_13": "Lorem Ipsum",
+        "require_14": "Lorem Ipsum",
+        "require_15": "Lorem Ipsum",
+        "require_16": "Lorem Ipsum",
+        "require_17": "Lorem Ipsum",
+        "require_18": "Lorem Ipsum",
+        "req_quantity": "18"
     },
     {
         "id": 3,
@@ -116,6 +139,7 @@
         "responsiblity_9": "Staying on top of technology trends and developments.",
         "responsiblity_10": "Ensuring all technology practices adhere to regulatory standards.",
         "responsiblity_11": "Building/Recruiting expert and passionate tech team.",
+        "res_quantity": "11",
         "sub_heading_2": "CTO Requirements:",
         "require_1": "Masters degree in Computer Science.",
         "require_2": "8 years working in a technological role.",
@@ -125,7 +149,8 @@
         "require_6": "Exceptional team management skills..",
         "require_7": "Excellent verbal and written communication.",
         "require_8": "Ability to delegate efficiently.",
-        "require_9": "SExtensive industry knowledge with an eye towards the future"
+        "require_9": "SExtensive industry knowledge with an eye towards the future",
+        "req_quantity": "9"
     },
     {
         "id": 4,
@@ -148,6 +173,14 @@
         "responsiblity_9": "Lorem Ipsum",
         "responsiblity_10": "Lorem Ipsum",
         "responsiblity_11": "Lorem Ipsum",
+        "responsiblity_12": "Lorem Ipsum",
+        "responsiblity_13": "Lorem Ipsum",
+        "responsiblity_14": "Lorem Ipsum",
+        "responsiblity_15": "Lorem Ipsum",
+        "responsiblity_16": "Lorem Ipsum",
+        "responsiblity_17": "Lorem Ipsum",
+        "responsiblity_18": "Lorem Ipsum",
+        "res_quantity": "18",
         "sub_heading_2": "Full-Stack Developer Requirements:",
         "require_1": "Lorem Ipsum",
         "require_2": "Lorem Ipsum",
@@ -156,8 +189,7 @@
         "require_5": "Lorem Ipsum",
         "require_6": "Lorem Ipsum",
         "require_7": "Lorem Ipsum",
-        "require_8": "Lorem Ipsum",
-        "require_9": "Lorem Ipsum"
+        "req_quantity": "7"
     },
     {
         "id": 5,
@@ -180,7 +212,11 @@
         "responsiblity_9": "Lorem Ipsum",
         "responsiblity_10": "Lorem Ipsum",
         "responsiblity_11": "Lorem Ipsum",
-        "sub_heading_2": "UI/UX Designer Requirements:",
+        "responsiblity_12": "Lorem Ipsum",
+        "responsiblity_13": "Lorem Ipsum",
+        "responsiblity_14": "Lorem Ipsum",
+        "res_quantity": "14",
+        "sub_heading_2": "Full-Stack Developer Requirements:",
         "require_1": "Lorem Ipsum",
         "require_2": "Lorem Ipsum",
         "require_3": "Lorem Ipsum",
@@ -189,6 +225,16 @@
         "require_6": "Lorem Ipsum",
         "require_7": "Lorem Ipsum",
         "require_8": "Lorem Ipsum",
-        "require_9": "Lorem Ipsum"
+        "require_9": "Lorem Ipsum",
+        "require_10": "Lorem Ipsum",
+        "require_11": "Lorem Ipsum",
+        "require_12": "Lorem Ipsum",
+        "require_13": "Lorem Ipsum",
+        "require_14": "Lorem Ipsum",
+        "require_15": "Lorem Ipsum",
+        "require_16": "Lorem Ipsum",
+        "require_17": "Lorem Ipsum",
+        "require_18": "Lorem Ipsum",
+        "req_quantity": "18"
     }
 ]
