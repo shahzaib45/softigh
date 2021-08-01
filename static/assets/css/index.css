@@ -2541,7 +2541,9 @@ margin-top: -14px;
   #submit{
     margin-left: 63px!important;
   }
-  
+  .blog_main__left_1{
+    margin-left: 4px!important;
+  }
 
 }
 /*--------------------------------------------------------------
@@ -3009,6 +3011,7 @@ Blog Page start
 
   font-size: 37px;
   font-weight: 600;
+  margin-top: 50px;
 }
 blog_main_heading_para p{
   font-size: 17px;
