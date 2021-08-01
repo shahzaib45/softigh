@@ -1,0 +1,23 @@
+{{ range .Site.Data.top_blogs }}
+<div class="top_blogs_detail">
+    <div class="top_blogs_details_left">
+        <p>{{ .desc }}</p>
+
+        <div class="top_blog_list">
+            <ul>
+
+                <li><img src="{{ .clock }}" alt=""></li>
+                <li>
+                    <p>{{ .time }}</p>
+                </li>
+                <li>
+                    <p>{{ .date }}</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="top_blogs_details_right">
+        <img src="{{ .img }}" alt="">
+    </div>
+</div>
+{{ end }}
