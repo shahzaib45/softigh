@@ -273,6 +273,9 @@ body{
     .clients .container {
       padding: 30px;
     }
+    .queto_empty_div{
+      display: none;
+    }
   }
   
   
@@ -3463,4 +3466,8 @@ font-weight: 400;
   font-size: 17px;
   font-weight: 600;
   margin-top: 20px;
+}
+.queto_empty_div{
+  height: 150px;
+  background-color: #0A143B; ;
 }

@@ -619,16 +619,17 @@
 <script>
     $("#close").click(function () {
         $("#queto").hide();
+        $("#queto_empty_div").hide();
     });
 
 </script>
-
+<div class="container-fluid queto_empty_div" id="queto_empty_div">
+&nbsp;
+</div>
 <!-- Start queto Section -->
 
 <div class="icon" data-toggle="modal" data-target="#exampleModal">
     <img src="/assets/img/index/chat_icon.svg" id="icon" />
 </div>
-<script>
-    document.getElementById('name').oninput = function() { this.classList.add('error-input-border'); }
-</script>
+
 {{ end }}
