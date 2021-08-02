@@ -1431,7 +1431,7 @@ a:hover{
       }
       #close_2{
         margin-top: -121px;
-        margin-left: 222px;
+        margin-left: 222px!important;
       }
       .services_button{
         margin-top: 0px!important;
