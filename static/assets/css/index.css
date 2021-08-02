@@ -801,8 +801,10 @@ body{
     width:315px;
     float: left;
     margin-top: 22px;
-    margin-left: 74px;
-    box-shadow: 1px 1px 20px 3px #f7f8f8;
+    margin-left: 109px;
+    box-shadow: 0px -1px 10px 17px rgb(0 0 0 / 3%);
+
+  
         }
       
       
@@ -829,7 +831,7 @@ body{
   .blog_3_1 {
       
     height: 110px;
-    margin-left: 201px;
+    margin-left: 237px;
     background: #FFFFFF;
     z-index: 0;
     margin-top: -100px;
@@ -2328,6 +2330,7 @@ margin-top: -14px;
       margin-top: 30px;
       font-size: 18px;
       font-weight: 400;
+      margin-bottom: 30px;
   
   animation-duration:2s;
   }
@@ -2536,6 +2539,7 @@ margin-top: -14px;
 --------------------------------------------------------------*/
 .job{
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .job_header_heading h1{
   font-size: 37px;
@@ -2971,6 +2975,7 @@ margin-top: -14px;
 #main_message{
   width: 100%;
   border: 2px solid #033cfb;
+  background: none;
 }
 #job_f_name{
   width: 100%;
@@ -3269,6 +3274,8 @@ blog_main_heading_para p{
 .adress_right{
   background-image: url("../img/contact_us/form_back.svg");
   background-repeat: no-repeat;
+  background-position: 100%!important;
+  background-size: contain!important;
 }
 #contact_us_page_submit{
   padding: 14px 50px;
