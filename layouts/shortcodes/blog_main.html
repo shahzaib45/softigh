@@ -1,4 +1,5 @@
 {{ range .Site.Data.blog_main }}
+<a href="/blog_sub">
             <div class="blog_main__left_1 col-md-8 col-sm-12 col-xs-12">
                 <div class="blog_main_card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>
                 <div class="card_desc">
@@ -15,4 +16,5 @@
                 </div>
                 
             </div>
+            </a>
             {{ end }}
