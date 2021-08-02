@@ -2116,6 +2116,9 @@ margin-top: -14px;
   .about_hero_left h1 {
     margin-top: 0px;
   }
+  .team{
+    height: auto;
+  }
 
   .about_hero_left{
     width: 100%;
