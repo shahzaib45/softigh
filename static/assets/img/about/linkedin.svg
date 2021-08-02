@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="17.808" height="17.022" viewBox="0 0 17.808 17.022">
-  <g id="linkedin" transform="translate(0 0)">
-    <path id="Path_790" data-name="Path 790" d="M2.16-.668A1.99,1.99,0,1,0,2.11,3.3h.025A1.991,1.991,0,1,0,2.16-.668Zm0,0" transform="translate(0 0.668)" fill="#535353"/>
-    <path id="Path_791" data-name="Path 791" d="M8.109,198.313h3.818V209.8H8.109Zm0,0" transform="translate(-7.884 -192.776)" fill="#535353"/>
-    <path id="Path_792" data-name="Path 792" d="M228.473,188.625a4.783,4.783,0,0,0-3.44,1.935v-1.666h-3.818V200.38h3.817v-6.414a2.616,2.616,0,0,1,.126-.932,2.09,2.09,0,0,1,1.959-1.4c1.381,0,1.934,1.053,1.934,2.6v6.144h3.817v-6.585c0-3.528-1.883-5.169-4.395-5.169Zm0,0" transform="translate(-215.06 -183.358)" fill="#535353"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.81 17.81"><defs><style>.cls-1{fill:#535453;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M17.81,17.81h0V11.28c0-3.2-.69-5.66-4.42-5.66a3.9,3.9,0,0,0-3.5,1.92H9.84V5.92H6.3V17.81H10V11.92c0-1.55.29-3.05,2.21-3.05s1.92,1.77,1.92,3.15v5.79Z"/><path class="cls-1" d="M.29,5.92H4V17.81H.29Z"/><path class="cls-1" d="M2.14,0a2.15,2.15,0,0,0,0,4.3,2.15,2.15,0,0,0,0-4.3Z"/></g></g></svg>

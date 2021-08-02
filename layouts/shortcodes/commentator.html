@@ -1,0 +1,41 @@
+{{ range .Site.Data.commentator }}
+<div class="commentator">
+    <div class="comentator_1">
+        <ul>
+            <li><img src="{{ .image }}" alt=""></li>
+            <li>
+                <p>{{ .name }}</p>
+            </li>
+            <li><img src="{{ .clock }}" alt=""></li>
+            <li>
+                <p>{{ .time }}</p>
+            </li>
+            <li>
+                <p>{{ .date }}</p>
+            </li>
+
+        </ul>
+    </div>
+    <br>
+    <div class="comentator_para">
+        <p>
+            {{ .comment }}
+
+        </p>
+    </div>
+<br>
+    <div class="des_left_icons">
+        <ul>
+            <li><img src="{{ .like }}" alt="">
+                <p>{{ .like_num }}</p>
+            </li>
+            <li><img src="{{ .chat }}" alt="">
+                <p>{{ .chat_num }}</p>
+            </li>
+            <li><img src="{{ .share }}" alt="">
+                <p>{{ .share_num }}</p>
+            </li>
+        </ul>
+    </div>
+</div>
+{{ end }}
