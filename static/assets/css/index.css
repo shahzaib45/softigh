@@ -2904,7 +2904,8 @@ input[type=text], select{
 }
 #close_2{
   width: 17px;
-  
+  margin-left: 416px;
+  margin-top: -37px
   opacity: 0.6;
 }
 .contact_us_pop{
