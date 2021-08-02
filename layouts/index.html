@@ -606,7 +606,8 @@
                 <h1>Looking for a software development partner?<br />Let's talk</h1>
             </div>
             <div class="queto_image">
-                <a href="#"><button type="button" class="queto_btn">Get a Quote<img
+                <a href="#" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"><button type="button" class="queto_btn">Get a Quote<img
                             src="assets/img/index/queto_arrow.png" /></button></a>
                 <img src="assets/img/index/cross.svg"
                     style="width: 15px;margin-left: 246px;margin-top: -249px; opacity: 0.6;" id="close" />
@@ -627,4 +628,7 @@
 <div class="icon" data-toggle="modal" data-target="#exampleModal">
     <img src="/assets/img/index/chat_icon.svg" id="icon" />
 </div>
+<script>
+    document.getElementById('name').oninput = function() { this.classList.add('error-input-border'); }
+</script>
 {{ end }}
