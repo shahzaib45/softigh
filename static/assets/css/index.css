@@ -53,7 +53,7 @@ body{
 .navbar-brand{
   width: 50%;
 }
-input:focus{
+input:focus {
   border: 2px solid #033cfb;
 }
 .hero_section{
