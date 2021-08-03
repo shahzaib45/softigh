@@ -13,7 +13,7 @@ body{
   left: -5px;
   top: -5px;
   border-radius: 50%;
-  background: red;
+  background: #033cfb;
   pointer-events: none;
   -webkit-transition: -webkit-transform .1s;
   transition: -webkit-transform .1s;
