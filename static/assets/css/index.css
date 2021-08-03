@@ -1540,6 +1540,7 @@ a:hover{
 .navbar-collapse{
   margin-right: 0 !important;
 }
+
 }
 /*--------------------------------------------------------------
 about page start
@@ -2606,7 +2607,8 @@ margin-top: -14px;
     padding: 0px;
   }
   #submit{
-    margin-left: 63px!important;
+    margin-left: 49px!important;
+    padding: 12px 22px;
   }
   .blog_main__left_1{
     margin-left: 4px!important;
