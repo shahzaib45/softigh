@@ -53,7 +53,9 @@ body{
 .navbar-brand{
   width: 50%;
 }
-
+input[type=text]:focus{
+  outline: 2px solid #033cfb;
+}
 .hero_section{
   height:740px;
   width:100%;
