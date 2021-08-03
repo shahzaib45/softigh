@@ -30,7 +30,7 @@ body{
   }
   .hero__left{
   margin-left:35px;
-  z-index: -1;
+  
       
   }
   .hide img{
@@ -1522,9 +1522,6 @@ a:hover{
 @media only screen and (min-width: 1400px) {
 .navbar-collapse{
   margin-right: 0 !important;
-}
-.navbar{
-  z-index: -1;
 }
 }
 /*--------------------------------------------------------------
