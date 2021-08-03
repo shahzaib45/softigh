@@ -329,6 +329,9 @@ body{
     .queto_empty_div{
       display: none;
     }
+    #contact_us_page_submit{
+      margin-left: 82px;
+    }
   }
   
   
@@ -3349,7 +3352,7 @@ blog_main_heading_para p{
   padding: 14px 50px;
   background-color: #033cfb;
   border: none;
-  margin-left: 211px;
+  margin-left: 244px;
   margin-top: 15px;
   /* margin-bottom: 20px; */
   border-radius: 8px;
