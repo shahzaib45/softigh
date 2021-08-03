@@ -18,7 +18,8 @@ body{
           background-size: contain;
   }
   .hero{
-  justify-content: space-between
+  justify-content: space-between;
+  z-index: -1;
   }
   .hero_left{
       width: 40%;
@@ -29,7 +30,12 @@ body{
   }
   .hero__left{
   margin-left:35px;
+  z-index: -1;
       
+  }
+  .hide img{
+    padding: 400px;
+    margin-left: 327px;
   }
   .hero_btn{
     font-size: 14px;
@@ -153,6 +159,7 @@ body{
   }
   .hero_right{
   width:46%;
+  z-index: -1;
   }
   .hero_left_2{
   margin-top:-46px;
@@ -1516,7 +1523,9 @@ a:hover{
 .navbar-collapse{
   margin-right: 0 !important;
 }
-
+.navbar{
+  z-index: -1;
+}
 }
 /*--------------------------------------------------------------
 about page start

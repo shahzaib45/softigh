@@ -6,6 +6,7 @@
 background-image:url("../img/index/hero_back_img.svg");
 background-repeat:no-repeat;
     background-size: contain;
+    z-index: -1;
     background-position: 100% 80%;
 }
     .btn-group-sm>.btn, .btn-sm {
