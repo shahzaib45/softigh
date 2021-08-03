@@ -1,12 +1,4 @@
-<div class="container-fluid hide" id="curtain" style="height: 1000px;margin-bottom: -1000px; z-index: 100000; background-color: #fff;">
-  <img src="/assets/img/index/Hourglass.gif" alt="">
-</div>
-<script>
-$(function(){
-setTimeout(function() { $("#curtain").fadeOut(1500); }, 3000)
 
-})
-</script>
 {{ if .IsHome }}
 <div class="container-fluid bgimagepadding bgimagehome">
   {{ else if eq .Type "about" }}
