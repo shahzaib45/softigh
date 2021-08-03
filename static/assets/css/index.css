@@ -1532,6 +1532,7 @@ a:hover{
   }
   .queto_mobile_btn img{
     margin-top: 55px;
+    width: 45px!important;
   }
   .queto_mobile_btn{
     text-align: center;
