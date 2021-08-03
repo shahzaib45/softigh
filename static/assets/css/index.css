@@ -3012,69 +3012,58 @@ margin-top: -14px;
   width: 100%;
   background: none;
   padding: 10px;
-
-  
   border-radius: 3px;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
   
 }
 #main_email{
   width: 100%;
   background: none;
   padding: 10px;
-  
-  
   border-radius: 3px;
-  border: 2px solid #033cfb!important;
+  border: 2px solid #000;
 }
 #main_phone{
   width: 100%;
   background: none;
   padding: 10px;
-
-  border: 2px solid #033cfb!important;
-  
+  border: 2px solid #000;
   border-radius: 3px;
 }
 #main_website{
   width: 100%;
   background: none;
   padding: 10px;
-
-  
   border-radius: 3px;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
 }
 #main_message{
   width: 100%;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
   background: none;
 }
 #job_f_name{
   width: 100%;
   background: none;
   padding: 10px;
-
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
   
 }
 #job_email{
   width: 100%;
   background: none;
   padding: 10px;
-  
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 2px solid #033cfb!important;
+  border: 2px solid #000;
 }
 #job_phone{
   width: 100%;
   background: none;
   padding: 10px;
-
-  border: 2px solid #033cfb!important;
+  border: 2px solid #000;
   margin-bottom: 20px;
   border-radius: 3px;
 }
@@ -3082,10 +3071,9 @@ margin-top: -14px;
   width: 100%;
   background: none;
   padding: 10px;
-
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
 }
 #date{
   width: 100%;
@@ -3094,7 +3082,7 @@ margin-top: -14px;
 
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
 
 }
 #file{
@@ -3104,7 +3092,7 @@ margin-top: -14px;
 
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 2px solid #033cfb;
+  border: 2px solid #000;
 }
 input#file-upload-button{
   color: #033cfb;
