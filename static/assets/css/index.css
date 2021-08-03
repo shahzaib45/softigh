@@ -21,6 +21,35 @@ body{
   transition: transform .1s;
   transition: transform .1s, -webkit-transform .1s;
 }
+.preloader {
+  width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #E05858;
+    z-index: 1045;
+}
+.preloader .spinner-border {
+    position: absolute;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border-color: rgba(255,255,255,1);
+    border-right-color: transparent;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.preloader-img {
+  width: 54px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
 .navbar-brand{
   width: 50%;
 }

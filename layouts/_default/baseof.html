@@ -4,13 +4,18 @@
     {{- partial "head.html" . -}}
 </head>
     <body>
+        <div class="preloader">
+            <div class="spinner-border " role="status">
+            </div>
+            <img src="/assets/img/index/fav.png" class="preloader-img" alt="">
+        </div>
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial "footer.html" . -}}
          <div class="cursor"></div>
-         
+
 <script>
   // set the starting position of the cursor outside of the screen
 var clientX = -100;
