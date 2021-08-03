@@ -54,13 +54,13 @@ body{
   width: 50%;
 }
 input[type=text]:focus {
-  border: 2px solid #033cfb;
+  border: 2px solid #033cfb !important;
 }
 input[type=tel]:focus {
-  border: 2px solid #033cfb;
+  border: 2px solid #033cfb !important;
 }
 input[type=email]:focus {
-  border: 2px solid #033cfb;
+  border: 2px solid #033cfb !important;
 }
 .hero_section{
   height:740px;
