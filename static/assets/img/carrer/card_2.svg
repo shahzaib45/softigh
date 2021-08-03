@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257" height="281" viewBox="0 0 257 281">
+  <defs>
+    <filter id="Rectangle_208" x="0" y="0" width="257" height="281" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_92" x="32.733" y="34.11" width="82.083" height="82.083" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="card_2" transform="translate(22.605 16.497)">
+    <g transform="matrix(1, 0, 0, 1, -22.6, -16.5)" filter="url(#Rectangle_208)">
+      <rect id="Rectangle_208-2" data-name="Rectangle 208" width="212" height="236" rx="13" transform="translate(22.5 16.5)" fill="#fff"/>
+    </g>
+    <g id="Group_1057" data-name="Group 1057" transform="translate(19.128 23.613)">
+      <g transform="matrix(1, 0, 0, 1, -41.73, -40.11)" filter="url(#Rectangle_92)">
+        <rect id="Rectangle_92-2" data-name="Rectangle 92" width="64.083" height="64.083" rx="8" transform="translate(41.73 40.11)" fill="#624f85"/>
+      </g>
+      <g id="fencing" transform="translate(12.754 12.86)">
+        <path id="Path_977" data-name="Path 977" d="M37.937,26.257l-2.191-3.129a1.146,1.146,0,0,0-1.6-.281l-1.659,1.162a5.746,5.746,0,0,0-6.222-1.1l-5.314-7.589L30.422,1.8A1.146,1.146,0,0,0,28.545.488L19.556,13.325,10.568.488A1.146,1.146,0,0,0,8.691,1.8l9.467,13.52-5.314,7.589a5.746,5.746,0,0,0-6.222,1.1L4.963,22.847a1.146,1.146,0,0,0-1.6.281L1.176,26.257a6.5,6.5,0,0,0,.839,8.426,3.437,3.437,0,0,0,6.106,2.965l4.6-6.571.939.657a1.146,1.146,0,0,0,1.6-.281,5.739,5.739,0,0,0-.535-7.228l4.835-6.9,4.835,6.9a5.739,5.739,0,0,0-.535,7.228,1.146,1.146,0,0,0,1.6.281l.939-.657,4.6,6.571A3.437,3.437,0,0,0,37.1,34.683a6.5,6.5,0,0,0,.839-8.426Zm-34.7,6.379a4.2,4.2,0,0,1-.184-5.065l1.534-2.19,2.5,1.753Zm3.006,3.7a1.146,1.146,0,1,1-1.877-1.314l.657-.938L6.9,35.4Zm1.972-2.816L6.338,32.2l2.629-3.755,1.877,1.314Zm5.66-4.43-5.31-3.718a3.438,3.438,0,0,1,5.31,3.718Zm11.362,0a3.438,3.438,0,0,1,5.31-3.718Zm5.66,4.43-2.629-3.755,1.877-1.314L32.775,32.2Zm3.567,3.1a1.147,1.147,0,0,1-1.6-.281l-.657-.938,1.877-1.315.657.938A1.147,1.147,0,0,1,34.465,36.615Zm2.291-5.9a4.177,4.177,0,0,1-.88,1.925l-3.853-5.5,2.5-1.753,1.534,2.19A4.174,4.174,0,0,1,36.756,30.711Z" transform="translate(0 0.001)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Be_Disciplined" data-name="Be Disciplined" transform="translate(18.895 123.003)" fill="#535353" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">Be Disciplined</tspan></text>
+    <text id="Remain_dedicated_and_self-controlled_even_when_challenged_" data-name="Remain dedicated and
+self-controlled, even when
+challenged " transform="translate(19.095 147.63)" fill="#303030" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.02em" opacity="0.6"><tspan x="0" y="0">Remain dedicated and</tspan><tspan x="0" y="18">self-controlled, even when</tspan><tspan x="0" y="36">challenged </tspan></text>
+    <line id="Line_44" data-name="Line 44" x2="113.863" transform="translate(49.152 235.153)" fill="none" stroke="#033cfb" stroke-linecap="round" stroke-width="3" opacity="0.53"/>
+  </g>
+</svg>

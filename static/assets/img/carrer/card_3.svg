@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257.168" height="280.506" viewBox="0 0 257.168 280.506">
+  <defs>
+    <filter id="Rectangle_207" x="0" y="0" width="257.168" height="280.506" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_92" x="32.628" y="34.821" width="82.083" height="82.083" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="card_3" transform="translate(22.5 16.5)">
+    <g id="Group_1117" data-name="Group 1117" transform="translate(0 0)">
+      <g transform="matrix(1, 0, 0, 1, -22.5, -16.5)" filter="url(#Rectangle_207)">
+        <rect id="Rectangle_207-2" data-name="Rectangle 207" width="212.168" height="235.506" rx="13" transform="translate(22.5 16.5)" fill="#fff"/>
+      </g>
+      <line id="Line_45" data-name="Line 45" x2="113.863" transform="translate(49.152 235.86)" fill="none" stroke="#033cfb" stroke-linecap="round" stroke-width="3" opacity="0.53"/>
+    </g>
+    <g id="Group_810" data-name="Group 810" transform="translate(19.128 24.321)">
+      <g transform="matrix(1, 0, 0, 1, -41.63, -40.82)" filter="url(#Rectangle_92)">
+        <rect id="Rectangle_92-2" data-name="Rectangle 92" width="64.083" height="64.083" rx="8" transform="translate(41.63 40.82)" fill="#c0ecf7"/>
+      </g>
+      <g id="Group_770" data-name="Group 770" transform="translate(12.786 12.258)">
+        <rect id="Rectangle_93" data-name="Rectangle 93" width="3.263" height="1.305" rx="0.653" transform="matrix(0.545, 0.839, -0.839, 0.545, 12.513, 33.17)" fill="#fff"/>
+        <g id="goal" transform="translate(0 0)">
+          <g id="Group_769" data-name="Group 769" transform="translate(0)">
+            <g id="Group_768" data-name="Group 768">
+              <path id="Path_973" data-name="Path 973" d="M39.181,38.19,28.166,21.4v-8.32h.653a1.958,1.958,0,1,0,0-3.915h-.653V5.673l5.488-2.441A.653.653,0,0,0,33.6,2.018L27.722.061a.658.658,0,0,0-.861.62V9.164H25.556V7.206A1.958,1.958,0,0,0,23.6,5.248H21.928a2.552,2.552,0,0,0,.365-1.305V1.986A1.958,1.958,0,0,0,20.335.028H17.073a.653.653,0,0,0-.581.946l.581,1.168v1.8a2.552,2.552,0,0,0,.365,1.305H15.115V2.057A2.016,2.016,0,0,0,13.483.028,1.958,1.958,0,0,0,11.2,1.986V6.554a2.61,2.61,0,0,0,2.61,2.61h2.61V20.91h-.653a.653.653,0,0,0-.522.261l-3.72,4.959H9.242a.653.653,0,0,0-.529.268L.23,38.144a.653.653,0,0,0,.529,1.038H38.607a.666.666,0,0,0,.574-.992ZM28.166,1.588l3.419,1.135-3.419,1.52Zm0,8.881h.653a.653.653,0,1,1,0,1.305h-.653ZM20.335,1.333a.653.653,0,0,1,.653.653V3.943a1.305,1.305,0,1,1-2.61,0V1.986a.653.653,0,0,0-.072-.294l-.176-.359h2.206ZM13.81,7.859A1.305,1.305,0,0,1,12.5,6.554V1.986a.667.667,0,0,1,.77-.653.711.711,0,0,1,.535.724V5.9a.653.653,0,0,0,.653.653H23.6a.653.653,0,0,1,.653.653v2.61a.653.653,0,0,0,.653.653h1.958v1.305h-2.61a1.305,1.305,0,0,1-1.305-1.305V7.859H21.64v3.915H17.725V8.511a.653.653,0,0,0-.653-.653Zm13.051,5.221v6.33l-.1-.163a.653.653,0,0,0-.548-.294H24.9a.653.653,0,0,0-.653.444l-.483,1.449-.822-.855V12.727a2.61,2.61,0,0,0,1.305.352ZM19.03,14.384v5.873a.653.653,0,0,0,.189.463l.2.189h-1.69V13.079H21.64v7.178a.653.653,0,0,0,.189.463l.2.189h-.77l-.92-.92V14.384ZM2.064,37.877,6.305,32h3.915l2.421,3.622,1.083-.718-2.61-3.915a.653.653,0,0,0-.568-.294H7.219l2.356-3.263h6.467l2.421,4.242A.653.653,0,0,0,19.03,32h3.53l3.2,5.873Zm25.209,0-2.134-3.915h2.7L29.6,36.31l1.044-.783-1.958-2.61a.653.653,0,0,0-.522-.261H24.4l-.881-1.618a.652.652,0,0,0-.574-.339H19.409l-2.421-4.242a.653.653,0,0,0-.568-.326H13.157l2.937-3.915h8.157a.653.653,0,0,0,.653-.444l.47-1.514h.483L37.4,37.877H27.272Z" transform="translate(-0.104 0)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <rect id="Rectangle_94" data-name="Rectangle 94" width="3.263" height="1.305" rx="0.653" transform="matrix(0.602, 0.799, -0.799, 0.602, 29.36, 33.932)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Be_Courageous" data-name="Be Courageous" transform="translate(19.095 124.084)" fill="#535353" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">Be Courageous</tspan></text>
+    <text id="Stand_up_for_what_you_believe_is_just_and_good" data-name="Stand up for what you
+believe is just and good" transform="translate(19.095 148.337)" fill="#303030" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.02em" opacity="0.6"><tspan x="0" y="0">Stand up for what you</tspan><tspan x="0" y="18">believe is just and good</tspan></text>
+  </g>
+</svg>

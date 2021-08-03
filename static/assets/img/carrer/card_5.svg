@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257" height="280" viewBox="0 0 257 280">
+  <defs>
+    <filter id="Rectangle_214" x="0" y="0" width="257" height="280" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1210" x="32.287" y="34.055" width="81.926" height="81.926" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="card_5" transform="translate(22.231 16.5)">
+    <g transform="matrix(1, 0, 0, 1, -22.23, -16.5)" filter="url(#Rectangle_214)">
+      <rect id="Rectangle_214-2" data-name="Rectangle 214" width="212" height="235" rx="13" transform="translate(22.5 16.5)" fill="#fff"/>
+    </g>
+    <g id="Group_1070" data-name="Group 1070" transform="translate(19.056 23.555)">
+      <g transform="matrix(1, 0, 0, 1, -41.29, -40.06)" filter="url(#Path_1210)">
+        <path id="Path_1210-2" data-name="Path 1210" d="M7.1,0h49.72a7.1,7.1,0,0,1,7.1,7.1v49.72a7.1,7.1,0,0,1-7.1,7.1H7.1a7.1,7.1,0,0,1-7.1-7.1V7.1A7.1,7.1,0,0,1,7.1,0Z" transform="translate(41.29 40.06)" fill="#b2b2b2"/>
+      </g>
+      <g id="goal1" transform="translate(13.318 12.43)">
+        <path id="Path_1221" data-name="Path 1221" d="M42.155,8.255,39.934,6.041l2.254-2.446a1.119,1.119,0,0,0-.823-1.876h-8.7v-.6a1.118,1.118,0,1,0-2.237,0V14.168H26.391a1.118,1.118,0,0,0-1.118,1.118v7.626H16.082a1.118,1.118,0,0,0-1.118,1.118v5.145H5.772a1.118,1.118,0,0,0-1.118,1.118v6.765a1.118,1.118,0,0,0,1.118,1.118H36.89a1.118,1.118,0,0,0,1.118-1.118V15.286a1.119,1.119,0,0,0-1.118-1.118H32.664v-4h8.7a1.12,1.12,0,0,0,.79-1.911ZM6.891,31.413h8.072v4.528H6.891ZM17.2,25.149h8.072V35.941H17.2V25.149ZM35.772,35.941H27.509V16.4h8.262ZM37.593,6.866l1.066,1.063H32.664V3.955h6.15L37.56,5.316A1.119,1.119,0,0,0,37.593,6.866Z" transform="translate(-4.307 0)" fill="#fff"/>
+        <path id="Path_1222" data-name="Path 1222" d="M1.556,76.6a33,33,0,0,0,10.521-7.1,33.051,33.051,0,0,0,6.1-8.377l.8,1.622a1.118,1.118,0,1,0,2-.994l-1.838-3.706a1.12,1.12,0,0,0-1.232-.6l-3.978.837a1.119,1.119,0,0,0,.229,2.213,14.366,14.366,0,0,0,2.022-.4A30.824,30.824,0,0,1,10.5,67.914,30.769,30.769,0,0,1,.685,74.535a1.118,1.118,0,0,0,.871,2.06Z" transform="translate(-0.002 -53.138)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Be_Persevering" data-name="Be Persevering" transform="translate(18.269 123)" fill="#535353" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">Be Persevering</tspan></text>
+    <text id="Work_through_difficulty_and_discouragement_in_pursuit_of_individual_and_team_objectives" data-name="Work through difficulty and
+discouragement in pursuit
+of individual and team
+objectives" transform="translate(19.056 147.298)" fill="#303030" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.02em" opacity="0.6"><tspan x="0" y="0">Work through difficulty and</tspan><tspan x="0" y="18">discouragement in pursuit</tspan><tspan x="0" y="36">of individual and team</tspan><tspan x="0" y="54">objectives</tspan></text>
+    <line id="Line_52" data-name="Line 52" x2="113.584" transform="translate(49.04 234.576)" fill="none" stroke="#033cfb" stroke-linecap="round" stroke-width="3" opacity="0.53"/>
+  </g>
+</svg>

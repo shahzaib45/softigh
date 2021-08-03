@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="257" height="280" viewBox="0 0 257 280">
+  <defs>
+    <filter id="Rectangle_212" x="0" y="0" width="257" height="280" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_92" x="32.996" y="34.055" width="81.926" height="81.926" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="card_6" transform="translate(22.961 16.5)">
+    <g transform="matrix(1, 0, 0, 1, -22.96, -16.5)" filter="url(#Rectangle_212)">
+      <rect id="Rectangle_212-2" data-name="Rectangle 212" width="212" height="235" rx="13" transform="translate(22.5 16.5)" fill="#fff"/>
+    </g>
+    <g id="Group_1069" data-name="Group 1069" transform="translate(19.035 23.555)">
+      <g transform="matrix(1, 0, 0, 1, -42, -40.06)" filter="url(#Rectangle_92)">
+        <rect id="Rectangle_92-2" data-name="Rectangle 92" width="63.926" height="63.926" rx="8" transform="translate(42 40.06)" fill="#624f85"/>
+      </g>
+      <g id="shield" transform="translate(16.158 11.912)">
+        <path id="Path_1219" data-name="Path 1219" d="M82.579,5.368,67.649.068a1.185,1.185,0,0,0-.793,0l-14.93,5.3a1.185,1.185,0,0,0-.789,1.117V22.125A18.369,18.369,0,0,0,67.1,40.3a1.183,1.183,0,0,0,.305,0A18.369,18.369,0,0,0,83.368,22.125V6.484A1.185,1.185,0,0,0,82.579,5.368ZM81,22.125a15.994,15.994,0,0,1-13.745,15.8,15.994,15.994,0,0,1-13.745-15.8V7.321L67.253,2.442,81,7.321Z" transform="translate(-51.138 0)" fill="#fff"/>
+        <path id="Path_1220" data-name="Path 1220" d="M165.441,161.589a4.034,4.034,0,0,0,1.44,3.09,7.188,7.188,0,0,0-4.744,6.7v.4a1.185,1.185,0,0,0,2.37,0v-.4a4.98,4.98,0,0,1,9.953,0v.4a1.185,1.185,0,1,0,2.37,0v-.4a7.188,7.188,0,0,0-4.744-6.7,4.041,4.041,0,1,0-6.644-3.09Zm4.042-1.672a1.672,1.672,0,1,1-1.672,1.672A1.674,1.674,0,0,1,169.484,159.917Z" transform="translate(-153.369 -145.102)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="Be_Accountable" data-name="Be Accountable" transform="translate(18.539 123)" fill="#535353" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">Be Accountable</tspan></text>
+    <text id="Accept_that_your_actions_impact_everyone_around_you" data-name="Accept that your actions
+impact everyone around
+you" transform="translate(19.035 147.298)" fill="#303030" font-size="13" font-family="Roboto-Light, Roboto" font-weight="300" letter-spacing="0.02em" opacity="0.6"><tspan x="0" y="0">Accept that your actions</tspan><tspan x="0" y="18">impact everyone around</tspan><tspan x="0" y="36">you</tspan></text>
+    <line id="Line_50" data-name="Line 50" x2="113.584" transform="translate(49.018 234.576)" fill="none" stroke="#033cfb" stroke-linecap="round" stroke-width="3" opacity="0.53"/>
+  </g>
+</svg>
