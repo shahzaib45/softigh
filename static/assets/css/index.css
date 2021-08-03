@@ -330,7 +330,7 @@ body{
       display: none;
     }
     #contact_us_page_submit{
-      margin-left: 82px;
+      margin-left: 82px!important;
     }
   }
   
