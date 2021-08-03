@@ -3,7 +3,24 @@ body{
   overflow-x: hidden !important;
   font-family: 'Poppins';
 }
-
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 11000;
+  width: 10px;
+  height: 10px;
+  left: -5px;
+  top: -5px;
+  border-radius: 50%;
+  background: red;
+  pointer-events: none;
+  -webkit-transition: -webkit-transform .1s;
+  transition: -webkit-transform .1s;
+  -o-transition: transform .1s;
+  transition: transform .1s;
+  transition: transform .1s, -webkit-transform .1s;
+}
 .navbar-brand{
   width: 50%;
 }
