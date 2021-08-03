@@ -1,3 +1,11 @@
+
+<script>
+$(function(){
+setTimeout(function() { $("#preloader").fadeOut(100); }, 2000)
+
+})
+
+</script>
 {{ if .IsHome }}
 <div class="container-fluid bgimagepadding bgimagehome">
   {{ else if eq .Type "about" }}

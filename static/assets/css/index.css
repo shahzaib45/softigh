@@ -25,7 +25,7 @@ body{
   width: 100%;
     height: 100%;
     position: fixed;
-    background: #E05858;
+    background: #ffffff;
     z-index: 1045;
 }
 .preloader .spinner-border {
@@ -33,7 +33,7 @@ body{
     margin: auto;
     height: 100px;
     width: 100px;
-    border-color: rgba(255,255,255,1);
+    border-color: #033CFB;
     border-right-color: transparent;
     top: 0;
     left: 0;

@@ -4,11 +4,13 @@
     {{- partial "head.html" . -}}
 </head>
     <body>
-        <div class="preloader">
+        <div class="preloader" id="preloader">
             <div class="spinner-border " role="status">
             </div>
-            <img src="/assets/img/index/fav.png" class="preloader-img" alt="">
+            <img src="/assets/img/index/preloader.gif" class="preloader-img" alt="">
         </div>
+       
+        
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
