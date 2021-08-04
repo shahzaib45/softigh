@@ -54,7 +54,7 @@ body{
   width: 50%;
 }
 input[type=text]:focus {
-  border: 2px solid #033cfb !important;
+  outline: 2px solid #033cfb !important;
 }
 input[type=tel]:focus {
   border: 2px solid #033cfb !important;
