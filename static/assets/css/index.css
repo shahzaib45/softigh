@@ -1043,8 +1043,8 @@ body{
       }
       .queto_image{
       width:25%;
-      margin-top: 75px;
-      float:left;
+      display: flex;
+      align-items: center;
       }
   .empty{
       height: 200px;
@@ -3628,10 +3628,6 @@ font-weight: 400;
     margin-left: 15px;
     padding: 61px;
   }
-  .queto_image {
-    padding-left: 79px!important;
-  }
-
 }
 @media (min-width: 1330px){
   .navbar-expand-lg .navbar-nav {
@@ -3647,9 +3643,6 @@ font-weight: 400;
   .queto_heading {
     padding: 60px;
     
-  }
-  .queto_image {
-    padding-left: 40px;
   }
 }
 @media (min-width: 2560px){
