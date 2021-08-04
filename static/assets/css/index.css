@@ -3674,32 +3674,32 @@ font-weight: 400;
 .footer_1_2  ul li:nth-child(2) img{
   width: 12px!important;
 }
-@media only screen and (max-width: 425px){
+@media only screen and (min-width: 425px){
   .footer-copyright_mobile p {
-    margin-left: 145px;
+    margin-left: 145px!important;
   }
   #submit {
     margin-left: 92px!important;
   }
   .footer_mobile_4 ul li {
     float: left;
-    margin-right: 58px;
+    margin-right: 58px!important;
 }
 .footer_mobile_3 ul li {
   float: left;
-  margin-right: 51px;
+  margin-right: 51px!important;
 }
 .blog_3_1 li p {
-  font-size: 10px;
-  margin-right: 22px;
+  font-size: 10px!important;
+  margin-right: 22px!important;
 }
 .blog_3_1 {
   /* width: 80%; */
-  margin-left: 40px;
+  margin-left: 40px!important;
 }
 .blog_3_1_1 li {
   /* float: left; */
-  margin-right: 15px;
+  margin-right: 15px!important;
 }
 #job_pop_button {
   margin-left: 63px!important;
