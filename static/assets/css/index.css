@@ -3746,3 +3746,15 @@ font-weight: 400;
 }
 
 }
+@media only screen and (max-width: 310px){
+  .container_footer_mobile a {
+    font-size: 8px!important;
+}
+.footer_mobile_4 ul li {
+  /* float: left; */
+  margin-right: 34px;
+}
+.footer-copyright_mobile p {
+  margin-left: 100px;
+}
+}
