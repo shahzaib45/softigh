@@ -1356,8 +1356,8 @@ a:hover{
    .icon{
        display:block!important;
        position: fixed;
-       bottom: 30px;
-       right: 30px;
+       bottom: 5%;
+       right: 5%;
      }
     footer{
         display: none!important;
