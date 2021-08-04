@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1169.39" height="823.496" viewBox="0 0 1169.39 823.496">
-  <g id="about_hero_back" transform="translate(22.495 0.496)">
-    <g id="Group_734" data-name="Group 734" transform="translate(1069.325 682.085)">
-      <line id="Line_21" data-name="Line 21" y2="139.915" transform="translate(0)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
-      <line id="Line_21-2" data-name="Line 21" y2="139.915" transform="translate(15.314)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
-      <line id="Line_21-3" data-name="Line 21" y2="139.915" transform="translate(30.628)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
-      <line id="Line_21-4" data-name="Line 21" y2="139.915" transform="translate(45.942)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
-      <line id="Line_21-5" data-name="Line 21" y2="139.915" transform="translate(61.256)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
-      <line id="Line_21-6" data-name="Line 21" y2="139.915" transform="translate(76.57)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1370.211" height="817.58" viewBox="0 0 1370.211 817.58">
+  <g id="about_hero_back" transform="translate(4.211 0.497)">
+    <rect id="Rectangle_249" data-name="Rectangle 249" width="1366" height="768" fill="none"/>
+    <g id="about_hero_back-2" data-name="about_hero_back">
+      <g id="Group_734" data-name="Group 734" transform="translate(1053 676.167)">
+        <line id="Line_21" data-name="Line 21" y2="139.915" transform="translate(0)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+        <line id="Line_21-2" data-name="Line 21" y2="139.915" transform="translate(15.314)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+        <line id="Line_21-3" data-name="Line 21" y2="139.915" transform="translate(30.628)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+        <line id="Line_21-4" data-name="Line 21" y2="139.915" transform="translate(45.942)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+        <line id="Line_21-5" data-name="Line 21" y2="139.915" transform="translate(61.256)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+        <line id="Line_21-6" data-name="Line 21" y2="139.915" transform="translate(76.57)" fill="none" stroke="#ff7b6b" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 18" opacity="0.58"/>
+      </g>
+      <path id="Path_1877" data-name="Path 1877" d="M2144,0s-268,28-156,148,44,68,156,140,80-208-36-92,300,436,0,492-496,4-384-48,180,176-20,84-212-112-272-84" transform="translate(-1436)" fill="none" stroke="#033cfb" stroke-width="1" opacity="0.5"/>
     </g>
-    <path id="Path_1877" data-name="Path 1877" d="M2170,0s-226,28-140,102,110,112,30,134c-78.64,21.626-60-174,96-86,234,138-56,268-38,414s-292,204-264,96-188-132-216-40,202,24,0-68-224,56-224,56" transform="translate(-1436)" fill="none" stroke="#035afb" stroke-width="1" opacity="0.5"/>
   </g>
 </svg>
