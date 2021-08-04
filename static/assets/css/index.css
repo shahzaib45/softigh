@@ -3672,3 +3672,53 @@ font-weight: 400;
 .footer_1_2  ul li:nth-child(2) img{
   width: 12px!important;
 }
+@media only screen and (max-width: 425px){
+  .footer-copyright_mobile p {
+    margin-left: 145px;
+  }
+  #submit {
+    margin-left: 92px!important;
+  }
+  .footer_mobile_4 ul li {
+    float: left;
+    margin-right: 58px;
+}
+.footer_mobile_3 ul li {
+  float: left;
+  margin-right: 51px;
+}
+.blog_3_1 li p {
+  font-size: 10px;
+  margin-right: 22px;
+}
+.blog_3_1 {
+  /* width: 80%; */
+  margin-left: 40px;
+}
+.blog_3_1_1 li {
+  /* float: left; */
+  margin-right: 15px;
+}
+#job_pop_button {
+  margin-left: 63px!important;
+}
+}
+@media only screen and (max-width: 375px){
+.container_footer_mobile a{
+  font-size: 13px!important;
+}
+.footer_mobile_4 ul li {
+  float: left;
+  margin-right: 48px;
+}
+.footer-copyright_mobile p {
+  margin-left: 130px;
+}
+.footer_mobile_1 img {
+  padding-left: 37px;
+}
+#submit {
+  margin-left: 75px!important;
+}
+
+}
