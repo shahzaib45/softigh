@@ -1037,9 +1037,10 @@ body{
       .queto_heading{
       width: 65%;
       height: auto;
-      margin-top: 65px;
       float: left;
-      margin-left: 88px;
+      display: flex;
+      align-items: center;
+      padding-left: 8%;
       }
       .queto_image{
       width:25%;
@@ -3584,11 +3585,6 @@ font-weight: 400;
   .queto_main {
     justify-content: space-between;
   }
-  .queto_heading {
-    margin-top: 0px;
-    margin-left: 15px;
-    padding: 50px;
-  }
   .company{
     padding-left: 0px;
   }
@@ -3623,11 +3619,6 @@ font-weight: 400;
   .blog_3_1_1 {
     margin-left: 133px!important;
   }
-  .queto_heading {
-    margin-top: 0px;
-    margin-left: 15px;
-    padding: 61px;
-  }
 }
 @media (min-width: 1330px){
   .navbar-expand-lg .navbar-nav {
@@ -3639,10 +3630,6 @@ font-weight: 400;
   .blog_3_1_1 {
     margin-left: 95px;
     margin-top: 10px;
-  }
-  .queto_heading {
-    padding: 60px;
-    
   }
 }
 @media (min-width: 2560px){
