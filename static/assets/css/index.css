@@ -568,7 +568,7 @@ body{
  .card{
   padding-bottom: 23px;
   border-radius: 25px;
-  box-shadow: 0px 8px 30px 0px rgb(0 0 0 / 16%);
+  box-shadow: 0px 0px 15px 0px rgb(0 0 0 / 10%);
  }
  .item img{
   width: 100%;
@@ -656,15 +656,10 @@ body{
   margin-top: 15px;
   font-size: 16px;
   }
-  .slide_main_4{
-  
-  }
   .slide_main_4 p{
   color:#535353;
   text-align:center;
   font-size: 13px;
-  margin-bottom: -40px;
-  
   }
   
   
@@ -691,11 +686,11 @@ body{
   
   /* Position the "next button" to the right */
   .next {
-    right: -46px;
+    right: -42px;
     border-radius: 3px 0 0 3px;
   }
   .prev{
-  left:-38px;
+  left:-42px;
   }
   /* On hover, add a black background color with a little bit see-through */
   
@@ -3564,7 +3559,7 @@ font-weight: 400;
 
   }
   .slick-next:before {
-    margin-left: -26px;
+    margin-left: -30px;
   }
   .next{
     margin-top: -40px;
@@ -3692,10 +3687,6 @@ font-weight: 400;
 .blog_3_1 li p {
   font-size: 10px!important;
   margin-right: 22px!important;
-}
-.blog_3_1 {
-  /* width: 80%; */
-  margin-left: 40px!important;
 }
 .blog_3_1_1 li {
   /* float: left; */
