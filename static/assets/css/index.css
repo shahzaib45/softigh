@@ -3758,3 +3758,14 @@ font-weight: 400;
   margin-left: 100px;
 }
 }
+@media only screen and (max-width: 395px){
+  .container_footer_mobile a {
+    /* text-decoration: none; */
+    /* color: #fff; */
+    font-size: 14px!important;
+}
+.footer_mobile_4 ul li {
+  /* float: left; */
+  margin-right: 51px;
+}
+}
