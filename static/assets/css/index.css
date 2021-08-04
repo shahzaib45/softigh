@@ -3006,11 +3006,14 @@ margin-top: -14px;
   border-radius: 8px;
   color: #ffffff;
 }
-input#f_name:focus, input#main_email:focus, input#main_phone:focus, input#main_email:focus, input#main_website:focus, input#main_message:focus, input#job_f_name:focus, input#job_email:focus, input#job_phone:focus, input#position:focus, input#file:focus, input#date:focus {
+input#f_name:focus, input#main_email:focus, input#main_phone:focus, input#main_email:focus, input#main_website:focus, input#job_f_name:focus, input#job_email:focus, input#job_phone:focus, input#position:focus, input#file:focus, input#date:focus {
   outline: 0 !important;
   border: 2px solid #033cfb !important;
 }
-
+textarea#main_message:focus{
+  outline: 0 !important;
+  border: 2px solid #033cfb !important;
+}
 
 #f_name{
   width: 100%;
