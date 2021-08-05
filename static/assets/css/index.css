@@ -883,7 +883,7 @@ body{
     }
     
   .blog_3_1 {
-      margin: -75px auto 0;
+      margin: 0px auto;
     height: auto;
     background: #FFFFFF;
     z-index: 0;
@@ -1004,9 +1004,9 @@ body{
   margin-top:16px;
   }
   .lower{
-    margin-top: -100px;
+    margin-top: -75px;
   }
-  
+   
   /*--------------------------------------------------------------
   # queto
   --------------------------------------------------------------*/
