@@ -1169,7 +1169,7 @@ a:hover{
   html, body{
     overflow-x: hidden !important;
   }
-  modal-dialog{
+  modal-dialog {
     margin: 0;
     width: 100%
     }
@@ -1474,7 +1474,7 @@ a:hover{
         margin-left: 0px!important;
         background-color: #C0ECF7;
       }
-      .modal.show .modal-dialog {
+      .modal.show .queto_pop_up_class {
         transform: none;
         margin: 0;
         width: 100%;
