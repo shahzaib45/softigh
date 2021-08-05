@@ -2814,8 +2814,8 @@ margin-top: -14px;
   padding: 14px 50px;
   background-color: #033cfb;
   border: none;
-  margin: 0px 321px;
-  
+  display: table;
+  margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 8px;
   color: #ffffff;
@@ -3702,9 +3702,7 @@ font-weight: 400;
 #job_pop_button {
   margin-left: 63px!important;
 }
-#submit{
-  margin: 0px 117px;
-}
+
 }
 @media only screen and (min-width: 375px){
 .container_footer_mobile a{
