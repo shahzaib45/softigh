@@ -2169,12 +2169,51 @@ margin-top: -14px;
   margin-bottom: 25px;
   border-radius: 15px;
 }
+#message_mobile{
+  display: none;
+}
 /*--------------------------------------------------------------
 # about Responsive Start
 --------------------------------------------------------------*/
 @media only screen and (max-width: 600px) {
   .about_hero_left h1 {
     margin-top: 0px;
+  }
+  #message_mobile{
+    display: block;
+  }
+  #message{
+    display: none;
+  }
+  .contact_us_form_heading h1{
+    text-align: left!important;
+  }
+  .contact_us_form_para p{
+    text-align: left!important;
+  }
+  #name{
+    border: none!important;
+    border-radius: 0px!important;
+    border-radius: 0px;
+    border-bottom: 1px solid #000!important;
+  }
+  #email{
+    border: none!important;
+    border-radius: 0px!important;
+    border-radius: 0px;
+    border-bottom: 1px solid #000!important;
+  }
+  #phone{
+    border: none!important;
+    border-radius: 0px!important;
+    border-radius: 0px;
+    border-bottom: 1px solid #000!important;
+  }
+  #website{
+    border: none!important;
+    border-radius: 0px!important;
+    border-radius: 0px;
+    border-bottom: 1px solid #000!important;
   }
   .team{
     height: auto;
@@ -2637,7 +2676,7 @@ margin-top: -14px;
     padding: 0px;
   }
   #submit{
-    margin-left: 49px!important;
+    margin-left: 49px;
     padding: 12px 22px;
   }
   .blog_main__left_1{
@@ -2763,6 +2802,15 @@ margin-top: -14px;
   
   
 
+}
+#message_mobile{
+  width: 100%;
+  margin-bottom: 20px;
+  background: none;
+  border-bottom: 1px solid #000!important;
+  padding: 10px;
+  border: none;
+  
 }
 #submit{
   
@@ -3008,7 +3056,7 @@ input#name:focus, input#email:focus, input#phone:focus, input#website:focus, inp
   outline: 0 !important;
   border: 2px solid #033cfb !important;
 }
-textarea#main_message:focus, textarea#message:focus {
+textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:focus {
   outline: 0 !important;
   border: 2px solid #033cfb !important;
 }
@@ -3634,11 +3682,10 @@ font-weight: 400;
   .footer-copyright_mobile p {
     margin-left: 145px!important;
   }
-  #submit {
-    margin-left: 92px!important;
-  }
+  
   .blog_3_1 li {
     margin-right: 4px;
+  
   }
   .footer_mobile_4 ul li {
     float: left;
@@ -3675,7 +3722,7 @@ font-weight: 400;
   padding-left: 37px;
 }
 #submit {
-  margin-left: 75px!important;
+  margin-left: 75px;
 }
 
 }
@@ -3697,7 +3744,7 @@ font-weight: 400;
   margin-left: -7px;
 }
 #submit {
-  margin-left: 54px!important;
+  margin-left: 54px;
 }
 
 }
