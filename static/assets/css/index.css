@@ -2754,7 +2754,7 @@ margin-top: -14px;
   height: 35px;
   margin-bottom: 20px;
   border-radius: 3px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   
 }
 .error-input-border {
@@ -2765,7 +2765,7 @@ margin-top: -14px;
   height: 35px;
   background: none;
   margin-bottom: 20px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   padding: 10px;
   border-radius: 3px;
   
@@ -2776,7 +2776,7 @@ margin-top: -14px;
   height: 35px;
   background: none;
   margin-bottom: 20px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   padding: 10px;
   border-radius: 3px;
  
@@ -2786,7 +2786,7 @@ margin-top: -14px;
   width: 100%;
   margin-bottom: 20px;
   background: none;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   height: 35px;
   padding: 10px;
   border-radius: 3px;
@@ -2796,7 +2796,7 @@ margin-top: -14px;
   width: 100%;
   margin-bottom: 20px;
   background: none;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   padding: 10px;
   border-radius: 4px;
   
