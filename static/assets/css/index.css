@@ -1806,6 +1806,10 @@ font-weight: 400;
   margin-right: 20px;
 }
 .team_icons ul li img{
+  width: 25px;
+  height: 65px;
+}
+.team_icons ul li:nth-child(2) img{
   
 }
 .card .job_show{
@@ -2300,7 +2304,7 @@ margin-top: -14px;
   }
   .production_line ul li img {
     margin-left: -122px;
-    margin-top: -13px;
+    margin-top: -19px;
   }
   .empty_work_5 ul li img {
     margin-left: -122px;

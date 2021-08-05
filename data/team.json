@@ -5,9 +5,9 @@
         "card_heading": "SYED UMAIR SHAH",
         "designation": "Junior Web Developer",
         "description": "Assisting the web development team with all aspects of website and application design.",
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     },
     {
         "id": 1,
@@ -15,9 +15,9 @@
         "card_heading": "SHAHZAIB HASHMI",
         "designation": "Senior Web Developer",
         "description": "Assisting with the testing and maintenance of backend and front-end applications.",
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     },
     {
         "id": 2,
@@ -26,9 +26,9 @@
         "designation": "UI/UX Designers",
         "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
 
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     },
     {
         "id": 3,
@@ -37,9 +37,9 @@
         "designation": "Admin",
         "description": "Administrator provides office support to either an individual or team and is vital for the smooth-running of a business",
 
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     },
     {
         "id": 4,
@@ -47,9 +47,9 @@
         "card_heading": "SYED UMAIR SHAH",
         "designation": "Junior Web Developer",
         "description": "Assisting the web development team with all aspects of website and application design.",
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     },
     {
         "id": 5,
@@ -58,9 +58,9 @@
         "designation": "Senior Web Developer",
         "description": "Assisting with the testing and maintenance of backend and front-end applications.",
 
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
 
     },
     {
@@ -70,9 +70,9 @@
         "designation": "UI/UX Designer",
         "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
 
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     },
     {
         "id": 7,
@@ -81,8 +81,8 @@
         "designation": "Admin",
         "description": "Administrator provides office support to either an individual or team and is vital for the smooth-running of a business",
 
-        "instra": "/assets/img/about/instagram.png",
-        "facebook": "/assets/img/about/facebook.png",
-        "link": "/assets/img/about/linkedin.png"
+        "instra": "/assets/img/about/instagram.svg",
+        "facebook": "/assets/img/about/facebook.svg",
+        "link": "/assets/img/about/linkedin.svg"
     }
 ]
