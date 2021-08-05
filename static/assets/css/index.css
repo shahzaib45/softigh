@@ -1481,7 +1481,7 @@ a:hover{
     }
       #close_1{
         margin-top: -28px;
-        margin-left: 235px;
+        margin-left: 366px!important;
       }
       #job_pop_button{
         margin-left: 35px!important;
@@ -2676,7 +2676,7 @@ margin-top: -14px;
     padding: 0px;
   }
   #submit{
-    margin-left: 49px;
+    margin-left: 133px!important;
     padding: 12px 22px;
   }
   .blog_main__left_1{
@@ -3721,9 +3721,7 @@ font-weight: 400;
 .footer_mobile_1 img {
   padding-left: 37px;
 }
-#submit {
-  margin-left: 75px;
-}
+
 
 }
 @media only screen and (min-width: 320px){
@@ -3743,9 +3741,7 @@ font-weight: 400;
   margin-top: 63px;
   margin-left: -7px;
 }
-#submit {
-  margin-left: 54px;
-}
+
 
 }
 @media only screen and (min-width: 310px){
