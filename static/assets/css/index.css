@@ -1485,9 +1485,7 @@ a:hover{
         width: 100%;
     }
       
-      #job_pop_button{
-        margin-left: 35px!important;
-      }
+      
       #close_2{
         margin-top: -28px!important;
         margin-left: 251px!important;
@@ -3047,7 +3045,8 @@ margin-top: -14px;
   padding: 14px 50px;
   background-color: #033cfb;
   border: none;
-  margin-left: 320px;
+  display: table;
+  margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 8px;
   color: #ffffff;
@@ -3708,9 +3707,6 @@ font-weight: 400;
 .blog_3_1_1 li {
   /* float: left; */
   margin-right: 15px;
-}
-#job_pop_button {
-  margin-left: 63px!important;
 }
 
 }
