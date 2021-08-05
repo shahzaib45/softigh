@@ -1479,10 +1479,7 @@ a:hover{
         margin: 0;
         width: 100%;
     }
-      #close_1{
-        margin-top: -28px;
-        margin-left: 366px!important;
-      }
+      
       #job_pop_button{
         margin-left: 35px!important;
       }
@@ -2676,7 +2673,7 @@ margin-top: -14px;
     padding: 0px;
   }
   #submit{
-    margin-left: 133px!important;
+    
     padding: 12px 22px;
   }
   .blog_main__left_1{
@@ -2817,7 +2814,7 @@ margin-top: -14px;
   padding: 14px 50px;
   background-color: #033cfb;
   border: none;
-  margin-left: 342px;
+  margin: 0px 321px;
   
   margin-bottom: 20px;
   border-radius: 8px;
@@ -2913,7 +2910,7 @@ margin-top: -14px;
 }
 .pop_btn{
   border: none;
-  margin-left: 315px;
+  float: right;
 }
 .btn-secondary:hover{
   background: none;
@@ -3028,8 +3025,7 @@ margin-top: -14px;
 }
 #close_1{
   width: 17px;
-  margin-left: 423px;
-  margin-top: -17px;
+  
   opacity: 0.6;
 }
 #close_2{
@@ -3706,6 +3702,9 @@ font-weight: 400;
 #job_pop_button {
   margin-left: 63px!important;
 }
+#submit{
+  margin: 0px 117px;
+}
 }
 @media only screen and (min-width: 375px){
 .container_footer_mobile a{
@@ -3715,10 +3714,7 @@ font-weight: 400;
   float: left;
   margin-right: 48px;
 }
-#close_1 {
-  margin-top: -28px;
-  margin-left: 322px;
-}
+
 .footer-copyright_mobile p {
   margin-left: 130px;
 }
@@ -3732,10 +3728,7 @@ font-weight: 400;
   .container_footer_mobile a {
     font-size: 9px!important;
 }
-#close_1 {
-  margin-top: -28px;
-  margin-left: 261px;
-}
+
 .footer_mobile_2 {
   /* width: 100%; */
   margin-left: 10px;
