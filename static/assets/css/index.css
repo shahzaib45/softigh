@@ -1006,6 +1006,10 @@ body{
   .lower{
     margin-top: -75px;
   }
+  .blog_row{
+    margin:35px auto 0;
+    width: 80%;
+  }
    
   /*--------------------------------------------------------------
   # queto
@@ -3733,4 +3737,9 @@ font-weight: 400;
   /* float: left; */
   margin-right: 9px;
 }
+}
+@media only screen and (min-width: 1200px){
+.blog_row{
+    width: 100%;
+  }
 }
