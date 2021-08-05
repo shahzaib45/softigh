@@ -3743,3 +3743,8 @@ font-weight: 400;
     width: 100%;
   }
 }
+@media only screen and (max-width: 991px){
+  .upper{
+    width: 100%;
+  }
+}
