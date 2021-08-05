@@ -1801,6 +1801,8 @@ font-weight: 400;
 }
 .team_icons ul{
   list-style-type: none;
+  margin-left: -16px;
+  margin-top: -35px;
 }
 .team_icons ul li{
   float: left;
