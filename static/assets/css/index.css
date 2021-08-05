@@ -1194,9 +1194,6 @@ a:hover{
   .clients_1{
     margin-top: 0px;
   }
-  .upper_1 img{
-    width: 80%!important;
-  }
   .clients_logo_1{
     margin-top: 55px;
     margin-left: -39px;
@@ -3354,15 +3351,8 @@ blog_main_heading_para p{
   border-radius: 8px;
   color: #ffffff;
 }
-.upper img{
-  width: 80%;
-  margin-left: 129px;
-}
 .upper_1{
   margin-left: 50px;
-}
-.upper_1 img{
-  width: 73%;
 }
 .des_left{
   width: 70%;
@@ -3584,9 +3574,6 @@ font-weight: 400;
     width: 285px;
     margin-left: 63px;
   }
-  .upper_1 img {
-    width: 76%;
-  }
   .queto_main {
     justify-content: space-between;
   }
@@ -3614,9 +3601,6 @@ font-weight: 400;
   }
   .prev{
     margin-top: -30px;
-  }
-  .upper_1 img {
-    width: 74%;
   }
   
   .blog_3_1_1 {
