@@ -1169,6 +1169,10 @@ a:hover{
   html, body{
     overflow-x: hidden !important;
   }
+  modal-dialog{
+    margin: 0;
+    width: 100%
+    }
   .cursor{
     display: none;
   }
@@ -1475,8 +1479,8 @@ a:hover{
         margin: 30px 26px 26px 38px;
     }
       #close_1{
-        margin-top: -28px!important;
-        margin-left: 235px!important;
+        margin-top: -28px;
+        margin-left: 235px;
       }
       #job_pop_button{
         margin-left: 35px!important;
@@ -2979,8 +2983,8 @@ margin-top: -14px;
 }
 #close_1{
   width: 17px;
-  margin-left: 423px!important;
-  margin-top: -17px!important;
+  margin-left: 423px;
+  margin-top: -17px;
   opacity: 0.6;
 }
 #close_2{
