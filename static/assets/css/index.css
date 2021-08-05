@@ -1472,7 +1472,8 @@ a:hover{
       }
       .modal.show .modal-dialog {
         transform: none;
-        margin: 30px 26px 26px 38px;
+        margin: 0;
+        width: 100%;
     }
       #close_1{
         margin-top: -28px!important;
