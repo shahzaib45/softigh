@@ -1808,8 +1808,10 @@ font-weight: 400;
 .team_icons ul li img{
   width: 25px;
   height: 65px;
+  padding: 4px;
 }
 .team_icons ul li:nth-child(2) img{
+  padding: 7px;
   
 }
 .card .job_show{
