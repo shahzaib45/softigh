@@ -897,6 +897,7 @@ body{
   }
   .blog_3_1 li{
   float:left;
+  margin-left: 4px;
   margin-right:0px!important;
   }
   .blog_3_1 li p{
@@ -3731,7 +3732,11 @@ font-weight: 400;
 .footer_mobile_1 img {
   padding-left: 37px;
 }
-
+.blog_3_1 li {
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px!important;
+}
 
 }
 @media only screen and (min-width: 320px){
@@ -3759,7 +3764,11 @@ font-weight: 400;
   margin-left: -7px;
 }
 
-
+.blog_3_1 li {
+  float: left;
+  margin-left: 0px;
+  margin-right: 0px!important;
+}
 }
 @media only screen and (min-width: 310px){
   .container_footer_mobile a {
