@@ -1169,6 +1169,11 @@ a:hover{
   html, body{
     overflow-x: hidden !important;
   }
+  .contact_us_form_heading h1 {
+    
+    font-size: 37px;
+    
+}
   modal-dialog {
     margin: 0;
     width: 100%
@@ -2962,7 +2967,6 @@ margin-top: -14px;
   text-align: center;
   font-size: 55px;
   font-weight: 600;
-  margin-top: -20px;
 }
 .contact_us_form_para p{
   text-align: center;
@@ -3678,6 +3682,12 @@ font-weight: 400;
   .footer-copyright_mobile p {
     margin-left: 145px!important;
   }
+  .contact_us_form_heading h1 {
+    
+    font-size: 37px;
+    
+}
+  
   
   .blog_3_1 li {
     margin-right: 4px;
@@ -3708,6 +3718,12 @@ font-weight: 400;
 .container_footer_mobile a{
   font-size: 13px!important;
 }
+.contact_us_form_heading h1 {
+    
+  font-size: 37px;
+  
+}
+
 .footer_mobile_4 ul li {
   float: left;
   margin-right: 48px;
@@ -3726,6 +3742,12 @@ font-weight: 400;
   .container_footer_mobile a {
     font-size: 9px!important;
 }
+.contact_us_form_heading h1 {
+    
+  font-size: 37px;
+  
+}
+
 
 .footer_mobile_2 {
   /* width: 100%; */
@@ -3747,6 +3769,12 @@ font-weight: 400;
   .container_footer_mobile a {
     font-size: 8px!important;
 }
+.contact_us_form_heading h1 {
+    
+  font-size: 37px;
+  
+}
+
 .footer_mobile_4 ul li {
   /* float: left; */
   margin-right: 34px;
@@ -3761,6 +3789,12 @@ font-weight: 400;
     /* color: #fff; */
     font-size: 14px!important;
 }
+.contact_us_form_heading h1 {
+    
+  font-size: 37px;
+  
+}
+
 .footer_mobile_4 ul li {
   /* float: left; */
   margin-right: 51px;
@@ -3772,6 +3806,12 @@ font-weight: 400;
     /* color: #fff; */
     font-size: 11px!important;
 }
+.contact_us_form_heading h1 {
+    
+  font-size: 37px;
+  
+}
+
 .footer_mobile_4 ul li {
   /* float: left; */
   margin-right: 40px;
@@ -3790,4 +3830,18 @@ font-weight: 400;
   .upper{
     width: 100%;
   }
+}
+.services_new_btn{
+  font-size: 15px;
+    padding: 8px 18px;
+    font-weight: 500;
+  color:#535353;
+  background:#f2f2f2;
+  border:1px solid #535353;
+  border-radius:4px;
+  float: right;
+}
+.services_new_btn img {
+  margin-top: 0px;
+  margin-left: 5px;
 }
