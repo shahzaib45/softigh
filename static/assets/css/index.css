@@ -1499,10 +1499,6 @@ a:hover{
       .queto_btn{
       display:none;
       }
-      .modal-dialog{
-        width: 80%;
-        margin: auto;
-      }
       .queto_icon{
         background: url("/assets/img/index/queto_mobile_back.jpg");
         border: none;
