@@ -1568,11 +1568,12 @@ about header
   background-image: url("../img/about/about_hero_back.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  height: 720px;
   
 }
 
 .about_hero{
-  margin-top: 70px;
+  margin-top: 5px;
 }
 .about_hero_left{
   padding:30px 50px;
