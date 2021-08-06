@@ -1,0 +1,67 @@
+[
+    {
+        "id": 0,
+        "card_img": "/assets/img/carrer/be_accountable.svg",
+        "card_heading": "Be Accountable",
+        "card_para": "Work through difficulty and discouragement in pursuit of individual and team objectives"
+        
+        
+      
+    },
+    {
+        "id": 1,
+        "card_img": "/assets/img/carrer/be_committed.svg",
+        "card_heading": "Be Committed",
+        "card_para": "Set high standards for your behavior and stick to them even in difficult situations"
+       
+    },
+    {
+        "id": 2,
+        "card_img": "/assets/img/carrer/be_conscientious.svg",
+        "card_heading": "Be Conscientious",
+        "card_para": "Be aware and careful of the choices youmake"
+       
+    },
+    {
+        "id": 3,
+        "card_img": "/assets/img/carrer/be_courage.svg",
+        "card_heading": "Be Courageous",
+        "card_para": "Stand up for what you believe is just and good"
+      
+    },
+    {
+        "id": 4,
+        "card_img": "/assets/img/carrer/be_discplined.svg",
+        "card_heading": "Be Disciplined",
+        "card_para": "Remain dedicated and self-controlled, even when challenged "
+       
+    },
+    {
+        "id": 5,
+        "card_img": "/assets/img/carrer/be_helpful.svg",
+        "card_heading": "Be Helpful",
+        "card_para": "Understand and advance the group's positive goals"
+   
+    },
+    {
+        "id": 6,
+        "card_img": "/assets/img/carrer/be_honest.svg",
+        "card_heading": "Be Honest",
+        "card_para": "Choose words and actions that are sincere, not misleading"
+   
+    },
+    {
+        "id": 7,
+        "card_img": "/assets/img/carrer/be_perserving.svg",
+        "card_heading": "Be Persevering",
+        "card_para": "Work through difficulty and discouragement in pursuit of individual and team objectives"
+   
+    },
+    {
+        "id": 8,
+        "card_img": "/assets/img/carrer/be_reliable.svg",
+        "card_heading": "Be Reliable",
+        "card_para": "Prove that others can depend on you"
+   
+    }
+]
