@@ -2550,7 +2550,8 @@ margin-top: -14px;
 --------------------------------------------------------------*/
 
   .criteria{
-    margin-top: 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
   }
   .criteria_header_heading h1{
     font-size: 37px;
