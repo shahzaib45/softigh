@@ -14,11 +14,10 @@
                 </p>
             </div>
             <div class="hero_left_3">
-                <a href="#" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"> <button type="button" class="hero_btn">Get a Quote<img
-                            src="/assets/img/index/hero_arrow.png" /></button></a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <button type="button"
+                        class="hero_btn">Get a Quote<img src="/assets/img/index/hero_arrow.png" /></button></a>
             </div>
-            
+
         </div>
         <div class="hero_right col-md-6 col-sm-12 col-xs-12">
             <img class="img-fluid layer-base" src="/assets/img/index/hero-base.png" alt="" />
@@ -69,20 +68,21 @@
         <div class="container">
             <div class="clients_logo">
                 <div class="clients_logo_1">
-                    
+
                     <div class="row slider_client">
                         <div class="logo-slider_1 ">
                             {{ range .Site.Data.clients }}
                             <div class="item_1 clients_logo_1">
                                 <ul class="client_slider">
-                                
-                                    <li class="list-inline-item col-md-2 col-5"><img class="{{ .class }}" src="{{ .src }}"></li>
+
+                                    <li class="list-inline-item col-md-2 col-5"><img class="{{ .class }}"
+                                            src="{{ .src }}"></li>
                                 </ul>
-                    
-                                
+
+
                             </div>
                             {{ end }}
-                    
+
                         </div>
                     </div>
                     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -108,7 +108,7 @@
                                         autoplay: true,
                                         autoplayTimeout: 2000,
                                         autoplayHoverPause: false,
-                    
+
                                         arrows: false,
                                     }
                                 }
@@ -138,7 +138,7 @@
             </div>
             <div class="services_button col-md-6 col-sm-12 col-xs-12">
                 <a href="#"><button type="button" class="services_new_btn" style="background:none;">Read More<img
-                    src="assets/img/index/blog_arrow.png" /></button></a>
+                            src="assets/img/index/blog_arrow.png" /></button></a>
             </div>
         </div>
         <div class="row mx-auto" style="justify-content: center;margin-top: 65px;">
@@ -230,12 +230,13 @@
     </div>
 </div>
 {{ range .Site.Data.job }}
-<div class="modal fade" id="{{ .dataId }}" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="{{ .dataId }}" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-body jobs_pop">
-                <button type="button" class="pop_btn" style="background: none;"
-                  data-bs-dismiss="modal"><img src="assets/img/index/cross.svg" id="close_2"></button>
+                <button type="button" class="pop_btn" style="background: none;" data-bs-dismiss="modal"><img
+                        src="assets/img/index/cross.svg" id="close_2"></button>
                 <div class="cto_heading">
                     <h1>{{ .card_heading }}</h1>
                 </div>
@@ -243,56 +244,128 @@
                     <p>{{ .job_desc }}</p>
                     <h1>{{ .sub_heading_1 }}</h1>
                     <ul>
-                        <li><p>{{ .responsiblity_1 }}</p></li>
-                        <li><p>{{ .responsiblity_2 }}</p></li>
-                        <li><p>{{ .responsiblity_3 }}</p></li>
-                        <li><p>{{ .responsiblity_4 }}</p></li>
-                        <li><p>{{ .responsiblity_5 }}</p></li>
-                        <li><p>{{ .responsiblity_6 }}</p></li>
-                        <li><p>{{ .responsiblity_7 }}</p></li>
-                        <li><p>{{ .responsiblity_8 }}</p></li>
-                        <li><p>{{ .responsiblity_9 }}</p></li>
-                        <li><p>{{ .responsiblity_10 }}</p></li>
-                        <li><p>{{ .responsiblity_11 }}</p></li>
+                        <li>
+                            <p>{{ .responsiblity_1 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_2 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_3 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_4 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_5 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_6 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_7 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_8 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_9 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_10 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_11 }}</p>
+                        </li>
                         {{ if or (in .res_quantity "14") (in .res_quantity "18") }}
-                            <li><p>{{ .responsiblity_12 }}</p></li>
-                            <li><p>{{ .responsiblity_13 }}</p></li>
-                            <li><p>{{ .responsiblity_14 }}</p></li>
-                            {{ if in (.res_quantity) "18" }}
-                                <li><p>{{ .responsiblity_15 }}</p></li>
-                                <li><p>{{ .responsiblity_16 }}</p></li>
-                                <li><p>{{ .responsiblity_17 }}</p></li>
-                                <li><p>{{ .responsiblity_18 }}</p></li>
-                            {{ end }}
+                        <li>
+                            <p>{{ .responsiblity_12 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_13 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_14 }}</p>
+                        </li>
+                        {{ if in (.res_quantity) "18" }}
+                        <li>
+                            <p>{{ .responsiblity_15 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_16 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_17 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .responsiblity_18 }}</p>
+                        </li>
+                        {{ end }}
                         {{ end }}
                     </ul>
                     <h1>{{ .sub_heading_2 }}</h1>
                     <ul>
-                        <li><p>{{ .require_1 }}</p></li>
-                        <li><p>{{ .require_2 }}</p></li>
-                        <li><p>{{ .require_3 }}</p></li>
-                        <li><p>{{ .require_4 }}</p></li>
-                        <li><p>{{ .require_5 }}</p></li>
-                        <li><p>{{ .require_6 }}</p></li>
-                        <li><p>{{ .require_7 }}</p></li>
+                        <li>
+                            <p>{{ .require_1 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_2 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_3 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_4 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_5 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_6 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_7 }}</p>
+                        </li>
                         {{ if or (in .req_quantity "9") (in .req_quantity "18") }}
-                            <li><p>{{ .require_8 }}</p></li>
-                            <li><p>{{ .require_9 }}</p></li>
-                            {{ if in (.req_quantity) "18" }}
-                                <li><p>{{ .require_10 }}</p></li>
-                                <li><p>{{ .require_11 }}</p></li>
-                                <li><p>{{ .require_12 }}</p></li>
-                                <li><p>{{ .require_13 }}</p></li>
-                                <li><p>{{ .require_14 }}</p></li>
-                                <li><p>{{ .require_15 }}</p></li>
-                                <li><p>{{ .require_16 }}</p></li>
-                                <li><p>{{ .require_17 }}</p></li>
-                                <li><p>{{ .require_18 }}</p></li>
-                            {{ end }}
+                        <li>
+                            <p>{{ .require_8 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_9 }}</p>
+                        </li>
+                        {{ if in (.req_quantity) "18" }}
+                        <li>
+                            <p>{{ .require_10 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_11 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_12 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_13 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_14 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_15 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_16 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_17 }}</p>
+                        </li>
+                        <li>
+                            <p>{{ .require_18 }}</p>
+                        </li>
+                        {{ end }}
                         {{ end }}
                     </ul>
                 </div>
-                <a href="/apply_for_job" > <button type="button" id="job_pop_button">Apply Now</button></a>  
+                <a href="/apply_for_job"> <button type="button" id="job_pop_button">Apply Now</button></a>
             </div>
         </div>
     </div>
@@ -348,131 +421,84 @@
             </div>
 
         </div>
-        <div class="row slideshow-container">
+        <div class="row ">
 
             <!-- Full-width images with number and caption text -->
-            <div class="mySlides ">
-                <div class="slide_main">
-                    <div class="slide_main_1">
-                        <p>I am really impressed by the quality of services I received from Softigh Tecnologies. You
-                            were right on schedule, charged reasonable prices, were professional and courteous in
-                            dealings, and delivered items well before time.It was a great time working with this
-                            organization .
-                        </p>
-                    </div>
-                    <div class="slide_main_2">
-                        <img src="assets/img/index/testi_1.svg" />
-                    </div>
-                    <div class="slide_main_3">
-                        <b>
-                            <h3>General Manager</h3>
-                        </b>
-                    </div>
-                    <div class="slide_main_4">
-                        <p>Al-Karam Import and Export Pvt Ltd</p>
-                    </div>
-                  
-                </div>
+            <div class="container">
+                <div class="row">
+                    <div class="logo-slider_2">
+                        {{ range .Site.Data.testi }}
+                        <div class="item_1">
+                            <div class="card_4">
+                                <div class="slide_main_1">
+                                    <p>
+                                        {{ .testi_desc }}
+                                    </p>
+                                </div>
+                                <div class="slide_main_2">
+                                    <img src="{{ .avatar }}" />
+                                </div>
+                                <div class="slide_main_3">
+                                    <b>
+                                        <h3>{{ .designation }}</h3>
+                                    </b>
+                                </div>
+                                <div class="slide_main_4">
+                                    <p>{{ .industry }}</p>
+                                </div>
 
 
-            </div>
 
-            <div class="mySlides">
-                <div class="slide_main">
-                    <div class="slide_main_1">
-                        <p>We thank Softigh Tech for the wonderful job in helping us develop our program. Everyone was
-                            professional, excellent and hard working. Thanks to them, we were able to achieve our goal
-                            on time, and we look forward to continue working with them in the future.</p>
-                    </div>
-                    <div class="slide_main_2">
-                        <img src="assets/img/index/testi_2.svg" />
-                    </div>
-                    <div class="slide_main_3">
-                        <b>
-                            <h3> Manager</h3>
-                        </b>
-                    </div>
-                    <div class="slide_main_4">
-                        <p>Triple-M Group</p>
-                    </div>
-                   
+                            </div>
+                        </div>
+                        {{ end }}
 
+                    </div>
                 </div>
             </div>
-
-            <div class="mySlides ">
-                <div class="slide_main">
-                    <div class="slide_main_1">
-                        <p>We would like to express our satisfaction on the cooperation regarding the development of our
-                            web application. the development team did a very professional job. We are satisfied with the
-                            solution given to us and with the communication flow through the project. </p>
-                    </div>
-                    <div class="slide_main_2">
-                        <img src="assets/img/index/testi_3.svg" />
-                    </div>
-                    <div class="slide_main_3">
-                        <b>
-                            <h3> HR Coordinator</h3>
-                        </b>
-                    </div>
-                    <div class="slide_main_4">
-                        <p>Bin Saeed Limited</p>
-                    </div>
-                   
-
-                </div>
-            </div>
-
-
-            <!-- Next and previous buttons -->
-            <a class="prev" onClick="plusSlides(-1)"><img src="assets/img/index/testi_arrow_left.png" /></a>
-            <a class="next" onClick="plusSlides(1)"><img src="assets/img/index/testi_arrow_right.png" /></a>
         </div>
-        <br>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script>
+            $('.logo-slider_2').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: false,
+                arrows: true,
+                autoplayspeed: 2000,
+                infinite: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: false,
+                loop: true,
+                responsive: [
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: true,
+                            autoplayTimeout: 2000,
+                            autoplayHoverPause: false,
 
-        <!-- The dots/circles -->
-
-
-
-
+                            arrows: false,
+                        }
+                    }
+                ]
+            });
+        </script>
     </div>
+
+
+
+
+
+    <!-- The dots/circles -->
+
+
+
+
 </div>
-<script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    window.addEventListener("load", function () {
-        showSlides(slideIndex);
-        myTimer = setInterval(function () { plusSlides(1) }, 5000);
-    })
-
-    // Next/previous controls
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-
-    function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = slides.length }
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-    }
-</script>
 
 
 
@@ -585,11 +611,11 @@
                 <h1>Looking for a software development partner?<br />Let's talk</h1>
             </div>
             <div class="queto_image">
-                <a href="#" data-bs-toggle="modal"
-                data-bs-target="#staticBackdrop"><button type="button" class="queto_btn">Get a Quote<img
-                            src="assets/img/index/queto_arrow.png" /></button></a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><button type="button"
+                        class="queto_btn">Get a Quote<img src="assets/img/index/queto_arrow.png" /></button></a>
                 <img src="assets/img/index/cross.svg"
-                    style="width: 15px;position: absolute; top: 25px; right: 35px; margin: 0; opacity: 0.6;" id="close" />
+                    style="width: 15px;position: absolute; top: 25px; right: 35px; margin: 0; opacity: 0.6;"
+                    id="close" />
             </div>
 
         </div>
@@ -603,7 +629,7 @@
 
 </script>
 <div class="container-fluid queto_empty_div" id="queto_empty_div">
-&nbsp;
+    &nbsp;
 </div>
 <!-- Start queto Section -->
 
