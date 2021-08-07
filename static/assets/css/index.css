@@ -1750,7 +1750,7 @@ font-weight: 400;
 .vision{
   background-image: url("../img/about/vision_back.svg");
   background-repeat: no-repeat;
-  background-position: 1% 0%;
+  background-position: 96% 95%;
 }
 .vision_head h1{
   font-size: 37px;
@@ -1981,7 +1981,7 @@ font-weight: 400;
 .launch ul li{
   float: left;
   margin-right: 50px;
-  margin-top: 22px;
+  margin-top: 32px;
 }
 .launch_line ul{
   list-style-type: none;
