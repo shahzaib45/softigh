@@ -1172,6 +1172,14 @@ a:hover{
   .card_learn ul li:nth-child(1){
     margin-left: -10px;
   }
+  .logo-slider_2 .slick-prev{
+    margin-left: 140px;
+    z-index: 1;
+  }
+  .logo-slider_2 .slick-next{
+    margin-right: 140px;
+    z-index: 1;
+  }
 @media only screen and (max-width: 600px) {
   html, body{
     overflow-x: hidden !important;
