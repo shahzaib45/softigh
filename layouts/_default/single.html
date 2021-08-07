@@ -193,7 +193,29 @@
                     </h1>
                 </div>
 
-                {{< top_blogs>}}
+                {{ range where .Site.Pages "Type" "blogs" }}
+                    <div class="top_blogs_detail">
+                        <div class="top_blogs_details_left">
+                            <p>{{ .Params.desc }}</p>
+
+                            <div class="top_blog_list">
+                                <ul>
+
+                                    <li><img src="/assets/img/blogs/clock.svg" alt=""></li>
+                                    <li>
+                                        <p>{{ .Params.time }}</p>
+                                    </li>
+                                    <li>
+                                        <p>{{ .Params.date }}</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top_blogs_details_right">
+                            <img src="{{ .Params.image }}" alt="">
+                        </div>
+                    </div>
+                {{ end }}
                     <div class="tags">
                         <div class="tags_heading">
                             <h1>

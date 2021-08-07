@@ -20,8 +20,8 @@
     <div class="container">
         <div class="row">
             <div class="blog_main_left col-md-8 mx-auto">
-                {{ range $.Site.RegularPages "Type" "blogs" }}
-			<a href="{{ .RelPermalink }}">
+                    {{ range where .Site.Pages "Type" "blogs" }}
+            <a href="{{ .RelPermalink }}">
             <div class="blog_main__left_1 col-md-8 col-sm-12 col-xs-12">
                 <div class="blog_main_card_img_1"><img class="img-fluid" src="{{ .Params.icon }}"></div>
                 <div class="card_desc">
@@ -86,29 +86,29 @@
                     </h1>
                 </div>
                 
-                {{ range $.Site.RegularPages "Type" "blogs" }}
-					<div class="top_blogs_detail">
-					    <div class="top_blogs_details_left">
-					        <p>{{ .Params.desc }}</p>
+                {{ range where .Site.Pages "Type" "blogs" }} 
+                    <div class="top_blogs_detail">
+                        <div class="top_blogs_details_left">
+                            <p>{{ .Params.desc }}</p>
 
-					        <div class="top_blog_list">
-					            <ul>
+                            <div class="top_blog_list">
+                                <ul>
 
-					                <li><img src="/assets/img/blogs/clock.svg" alt=""></li>
-					                <li>
-					                    <p>{{ .Params.time }}</p>
-					                </li>
-					                <li>
-					                    <p>{{ .Params.date }}</p>
-					                </li>
-					            </ul>
-					        </div>
-					    </div>
-					    <div class="top_blogs_details_right">
-					        <img src="{{ .Params.image }}" alt="">
-					    </div>
-					</div>
-				{{ end }}
+                                    <li><img src="/assets/img/blogs/clock.svg" alt=""></li>
+                                    <li>
+                                        <p>{{ .Params.time }}</p>
+                                    </li>
+                                    <li>
+                                        <p>{{ .Params.date }}</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top_blogs_details_right">
+                            <img src="{{ .Params.image }}" alt="">
+                        </div>
+                    </div>
+                {{ end }}
                 <div class="tags">
                     <div class="tags_heading">
                         <h1>
