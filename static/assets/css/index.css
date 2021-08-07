@@ -1514,6 +1514,9 @@ a:hover{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        width: 80%;
+        display: table;
+        margin: 0px auto;
         border-radius: 15px;
       }
   .queto_mobile_heading h3{
