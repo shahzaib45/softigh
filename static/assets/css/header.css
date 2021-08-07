@@ -139,6 +139,7 @@ background-repeat:no-repeat;
     .footer_1_2 ul li{
         float: left;
         margin-right: 20px;
+        margin-left: 20px;
     }
     .new_1{
         margin-top:50px;

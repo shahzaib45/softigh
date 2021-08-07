@@ -1125,6 +1125,7 @@ margin-top:46px;
 }
 .footer_1_2 ul li:nth-child(4){
 margin-top:3px;
+
 }
 .footer_mobile{
     display: none;
@@ -3937,4 +3938,20 @@ font-weight: 400;
 }
 .item_1 .slick-next:before{
   margin-left: -304px;
+}
+.company{
+  margin-left: 126px;
+  margin-top: 10px;
+}
+.services_footer{
+  margin-left: 4px;
+  margin-top: 10px;
+}
+.footer_clients_heading h1{
+  font-size: 19px;
+  font-weight: 600;
+}
+.footer_clients_para p{
+  font-size: 15px;
+  font-weight: 400;
 }
