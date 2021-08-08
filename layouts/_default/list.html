@@ -86,7 +86,7 @@
                     </h1>
                 </div>
                 
-                {{ range where .Site.Pages "Type" "blogs" }} 
+                {{ range first 6 (where .Site.Pages "Type" "blogs") }} 
                     <div class="top_blogs_detail">
                         <div class="top_blogs_details_left">
                             <p>{{ .Params.desc }}</p>
