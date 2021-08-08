@@ -3586,7 +3586,7 @@ font-weight: 400;
 }
 .queto_empty_div{
   height: 150px;
-  background-color: #0A143B; ;
+  background-color: #010034; ;
 }
 .main_card{
   background-color: #ffffff;
@@ -3653,6 +3653,7 @@ font-weight: 400;
   .navbar-expand-lg .navbar-nav {
     margin-left: 51px!important;
   }
+
   .services_left {
     width: 315px;
   }
@@ -3694,7 +3695,7 @@ font-weight: 400;
 }
 .footer_1_2  ul li:nth-child(2) img{
   width: 12px!important;
-  margin-left: -18px!important;
+  
 }
 @media only screen and (min-width: 425px){
   .footer-copyright_mobile p {
@@ -3949,11 +3950,11 @@ font-weight: 400;
   margin-left: -304px;
 }
 .company{
-  margin-left: 126px;
+  margin-left: 80px;
   
 }
 .services_footer{
-  margin-left: 4px;
+  margin-left: -40px;
  
 }
 .footer_clients_heading h1{
@@ -3962,8 +3963,14 @@ font-weight: 400;
 }
 .footer_clients_para p{
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 200;
+  margin-top: 19px;
 }
-.footer_1_2 ul li:nth-child(1) img{
-  margin-left: -56px!important;
+
+.icons_footer{
+  display: flex;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  margin-left: -14px;
 }

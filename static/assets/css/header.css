@@ -56,7 +56,7 @@ background-repeat:no-repeat;
         margin-top: 0px;
     }
     /* Main Footer */
-    footer .main-footer{	padding: 20px 0;	background: #010034;}
+    footer .main-footer{	padding: 40px 0px 0px 0px;	background: #010034;}
     footer ul{	padding-left: 0;	list-style: none;}
     
     /* Copy Right Footer */
