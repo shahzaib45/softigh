@@ -1,0 +1,273 @@
+{{ define "main" }}
+
+</div>
+</div>
+</div>
+
+<div class="container-fluid">
+    <div class="container">
+        <div class="row" style="margin-top: 50px;">
+            <div class="blog_main_left col-md-8 mx-auto">
+                <div class="blog_sub_left_image">
+                    <div class="blog_sub_left_img">
+                        <img src="/assets/img/blogs/main_image.svg" alt="">
+                    </div>
+                    <div class="des">
+                        <div class="des_left">
+                            <div class="des_left_heading">
+                                <p>{{ .Params.title }}</p>
+                            </div>
+                            <div class="des_left_icons">
+                                <ul>
+                                    <li><img src="/assets/img/blogs/like.svg" alt="">
+                                        <p>15K</p>
+                                    </li>
+                                    <li><img src="/assets/img/blogs/chat.svg" alt="">
+                                        <p>49</p>
+                                    </li>
+                                    <li><img src="/assets/img/blogs/share.svg" alt="">
+                                        <p>20</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="des_right">
+                            <div class="des_right_upper">
+                                <ul>
+                                    <li>
+                                        <img src="/assets/img/blogs/small_img_2.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <p>{{ .Params.name }}</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="des_right_lower">
+                                <ul>
+                                    <li>
+                                        <img src="/assets/img/blogs/clock.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <p>{{ .Params.time }}</p>
+                                    </li>
+                                    <li>
+                                        <p>{{ .Params.date }}</p>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="sub_blog_des">
+                    <p>{{ .Params.description }}</p>
+                </div>
+                <div class="share_on">
+                    <ul>
+                        <li><p>Share on:</p></li>
+                        <li><img src="/assets/img/blogs/twitter.svg" alt=""></li>
+                        <li><img src="/assets/img/blogs/facebook.svg" alt=""></li>
+                        <li><img src="/assets/img/blogs/linkedin.svg" alt=""></li>
+                    </ul>
+                </div>
+                <br>
+                <div class="comment">
+                    <div class="comment_heading">
+                        <h1>
+                            Leave Comment
+                        </h1>
+                    </div>
+                    <div class="comment_para">
+                        <p>
+                            Nunc faucibus ipsum quis neque tempus molestie. Praesent imperdiet in erat a efficitur. Suspendisse eget lectus ac elit ornare
+                        </p>
+                    </div>
+                </div>
+                <div class="comment_form">
+                    <form action="#" enctype="multipart/form-data" method="POST">
+                        <label for="comment_name">Name/Company Name*</label><br>
+                      <input type="text" name="comment_name" id="comment_name"><br>
+                      <label for="comment_email">Email*</label><br>
+                      <input type="email" name="comment_email" id="comment_email"><br>
+                      <label for="comment_section">write your comment</label><br>
+                      <textarea name="comment_section" id="comment_section" cols="30" rows="10"></textarea>
+                      <a href="#"> <button type="button"  id="comment_submit">Submit</button></a>
+                    </form>
+                </div>
+                
+                    {{ range .Site.Data.commentator }}
+<div class="commentator">
+    <div class="comentator_1">
+        <ul>
+            <li><img src="{{ .image }}" alt=""></li>
+            <li>
+                <p>{{ .name }}</p>
+            </li>
+            <li><img src="{{ .clock }}" alt=""></li>
+            <li>
+                <p>{{ .time }}</p>
+            </li>
+            <li>
+                <p>{{ .date }}</p>
+            </li>
+
+        </ul>
+    </div>
+    <br>
+    <div class="comentator_para">
+        <p>
+            {{ .comment }}
+
+        </p>
+    </div>
+<br>
+    <div class="des_left_icons">
+        <ul>
+            <li><img src="{{ .like }}" alt="">
+                <p>{{ .like_num }}</p>
+            </li>
+            <li><img src="{{ .chat }}" alt="">
+                <p>{{ .chat_num }}</p>
+            </li>
+            <li><img src="{{ .share }}" alt="">
+                <p>{{ .share_num }}</p>
+            </li>
+        </ul>
+    </div>
+</div>
+{{ end }}
+                <div class="old_comments">
+                    <h1>
+                        Old Comments
+                    </h1>
+                </div>
+            </div>
+
+
+            <div class="blog_maim_right col-md-4">
+                <div class="search">
+                    <form action="">
+                        <input type="search" name="search" placeholder="searh..." id="search">
+                    </form>
+
+                </div>
+                <div class="category">
+                    <h1>
+                        Category
+                    </h1>
+                </div>
+                <div class="category_detail">
+                    <h1>
+                        Digital
+                    </h1>
+                    <hr>
+                    <h1>
+                        Innovative
+                    </h1>
+                    <hr>
+                    <h1>
+                        Creative
+                    </h1>
+                    <hr>
+                    <h1>
+                        Culture
+                    </h1>
+                    <hr>
+                    <h1>
+                        Products
+                    </h1>
+                    <hr>
+                    <h1 style="padding-bottom: 20px;">
+                        Business
+                    </h1>
+
+                </div>
+                <div class="top_blogs">
+                    <h1>
+                        Top Blogs
+                    </h1>
+                </div>
+
+                {{ range first 6 (where .Site.Pages "Type" "blogs") }}
+                    <div class="top_blogs_detail">
+                        <div class="top_blogs_details_left">
+                            <p>{{ .Params.desc }}</p>
+
+                            <div class="top_blog_list">
+                                <ul>
+
+                                    <li><img src="/assets/img/blogs/clock.svg" alt=""></li>
+                                    <li>
+                                        <p>{{ .Params.time }}</p>
+                                    </li>
+                                    <li>
+                                        <p>{{ .Params.date }}</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top_blogs_details_right">
+                            <img src="{{ .Params.image }}" alt="">
+                        </div>
+                    </div>
+                {{ end }}
+                    <div class="tags">
+                        <div class="tags_heading">
+                            <h1>
+                                Tags
+                            </h1>
+                        </div>
+                        <div class="tag_main">
+                            <div class="tag1">
+                                <ul>
+                                    <li><a href="#">Design</a></li>
+                                    <li><a href="#">Development</a></li>
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="tag2">
+                                <ul>
+                                    <li><a href="#">WordPress</a></li>
+                                    <li><a href="#">Material</a></li>
+                                    <li><a href="#">Arts</a></li>
+
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="tag3">
+                                <ul>
+                                    <li><a href="#">Technology</a></li>
+                                    <li><a href="#">Webdesign</a></li>
+                                </ul>
+                            </div>
+                            <br>
+                            <div class="tag4">
+                                <ul>
+                                    <li><a href="#">Marketing</a></li>
+
+                                </ul>
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="blog_main_empty">
+                        &nbsp;
+                    </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+{{ end }}
