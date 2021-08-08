@@ -20,7 +20,7 @@
     <div class="container">
         <div class="row">
             <div class="blog_main_left col-md-8 mx-auto">
-                    {{ range where .Site.Pages "Type" "blogs" }}
+                    {{ range first 6 (where .Site.Pages "Type" "blogs") }}
             <a href="{{ .RelPermalink }}">
             <div class="blog_main__left_1 col-md-8 col-sm-12 col-xs-12">
                 <div class="blog_main_card_img_1"><img class="img-fluid" src="{{ .Params.icon }}"></div>
