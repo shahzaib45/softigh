@@ -50,5 +50,13 @@
     <link rel="stylesheet" href="/assets/css/index.css">
     <link href="/assets/css/carrer.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    {{ if eq .Type "blogs" }}
+    <style type="text/css">
+      @media only screen and (max-width: 600px)
+      .navbar {
+        margin-left: 3% !important;
+      }
+    </style>
+    {{ end }}
   
   
