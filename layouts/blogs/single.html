@@ -10,7 +10,7 @@
             <div class="blog_main_left col-md-8 mx-auto">
                 <div class="blog_sub_left_image">
                     <div class="blog_sub_left_img">
-                        <img src="/assets/img/blogs/main_image.svg" alt="">
+                        <img src="{{ .Params.image }}" alt="">
                     </div>
                     <div class="des">
                         <div class="des_left">
@@ -35,7 +35,7 @@
                             <div class="des_right_upper">
                                 <ul>
                                     <li>
-                                        <img src="/assets/img/blogs/small_img_2.svg" alt="">
+                                        <img src="/assets/img/blogs/avatar.jpg" alt="">
                                     </li>
                                     <li>
                                         <p>{{ .Params.name }}</p>
@@ -212,7 +212,7 @@
                             </div>
                         </div>
                         <div class="top_blogs_details_right">
-                            <img src="{{ .Params.image }}" alt="">
+                            <img src="{{ .Params.image }}" alt="" style="width: 85px">
                         </div>
                     </div>
                 {{ end }}
