@@ -1319,7 +1319,6 @@ footer {
 }
 .footer_mobile_3 ul li {
     float: left;
-    margin-right: 36px;
 }
 .footer_mobile_3 {
     width: 100%;
@@ -3320,10 +3319,6 @@ blog_main_heading_para p {
     float: left;
     margin-right: 58px!important;
 }
-.footer_mobile_3 ul li {
-    float: left;
-    margin-right: 51px!important;
-}
 .blog_3_1 li p {
     font-size: 10px!important;
     margin-right: 28px!important;
@@ -3333,7 +3328,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:375px) {
     .container_footer_mobile a {
-    font-size: 13px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -3349,7 +3344,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:320px) {
     .container_footer_mobile a {
-    font-size: 9px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -3372,7 +3367,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:310px) {
     .container_footer_mobile a {
-    font-size: 8px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -3392,7 +3387,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:350px) {
     .container_footer_mobile a {
-    font-size: 11px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -4792,10 +4787,6 @@ footer {
     list-style-type: none;
     width: 100%;
     margin-left: 26px;
-}
-.footer_mobile_3 ul li {
-    float: left;
-    margin-right: 36px;
 }
 .footer_mobile_3 {
     width: 100%;
@@ -6785,10 +6776,6 @@ blog_main_heading_para p {
     float: left;
     margin-right: 58px!important;
 }
-.footer_mobile_3 ul li {
-    float: left;
-    margin-right: 51px!important;
-}
 .blog_3_1 li p {
     font-size: 10px!important;
     margin-right: 28px!important;
@@ -6798,7 +6785,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:375px) {
     .container_footer_mobile a {
-    font-size: 13px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -6814,7 +6801,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:320px) {
     .container_footer_mobile a {
-    font-size: 9px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -6837,7 +6824,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:310px) {
     .container_footer_mobile a {
-    font-size: 8px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -6857,7 +6844,7 @@ blog_main_heading_para p {
 }
 }@media only screen and (min-width:350px) {
     .container_footer_mobile a {
-    font-size: 11px!important;
+    font-size: 14px!important;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
