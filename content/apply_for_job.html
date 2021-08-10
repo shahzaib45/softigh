@@ -15,7 +15,12 @@ type: apply_for_job
         <label for="job_phone">Phone*</label><br>
         <input type="tel" name="phone" id="job_phone">
         <label for="position">Position you apply for</label><br>
-        <input type="text" name="position" id="position">
+        <select id="position" name="position" form="position">
+          
+          <option value="saab">Chief Technology Officer</option>
+          <option value="opel">Full Stack Developer</option>
+          <option value="audi">UI/UX Designer</option>
+        </select>
         <label for="date">Available start date</label><br>
         <input type="date" name="phone" id="date" placeholder="dd/mm/yyyy">
         <label for="file">Upload your resume</label><br>

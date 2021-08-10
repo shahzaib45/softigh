@@ -1,58 +1,232 @@
 <div class="container">
-<div class="row">
-    <div class="logo-slider_1">
-        {{ range .Site.Data.job }}
-        <div class="item">
-            <div class="card">
-                <div class="card_image">
-                    <img src="{{ .card_img }}" alt="">
-                </div>
-                <div class="card_heading">
-                    <h3>{{ .card_heading }}</h3>
-                </div>
-                <div class="card_learn">
-                    <ul>
-                        <li><a href="#">{{ .learn_more }}</a></li>
-                        <li><a href="#"><img src="{{ .card_arrow }}" alt=""></a></li>
-                    </ul>
-                </div>
+    <div class="row">
+        <div class="logo-slider_3">
+            {{ range .Site.Data.job }}
+            <div class="item" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
+                <div class="card" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
+                    <div class="card_image">
+                        <img src="{{ .card_img }}" alt="">
+                    </div>
+                    <div class="card_heading">
+                        <h3>{{ .card_heading }}</h3>
+                    </div>
+                    <div class="card_learn">
+                        <ul>
+                            <li><a href="#">{{ .learn_more }}</a></li>
+                            <li><a href="#"><img src="{{ .card_arrow }}" alt=""></a></li>
+                        </ul>
+                    </div>
 
 
+                </div>
+            </div>
+            {{ end }}
+
+        </div>
+    </div>
+
+    {{ range .Site.Data.job }}
+    <div class="modal fade" id="{{ .dataId }}" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body jobs_pop">
+                    <button type="button" class="pop_btn" style="background: none;" data-bs-dismiss="modal"><img
+                            src="/assets/img/index/cross.svg" id="close_2"></button>
+                    <div class="cto_heading">
+                        <h1>{{ .card_heading }}</h1>
+                    </div>
+                    <div class="job_des">
+                        <p>{{ .job_desc }}</p>
+                        <h1>{{ .sub_heading_1 }}</h1>
+                        <ul>
+                            <li>
+                                <p>{{ .responsiblity_1 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_2 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_3 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_4 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_5 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_6 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_7 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_8 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_9 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_10 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_11 }}</p>
+                            </li>
+                            {{ if or (in .res_quantity "14") (in .res_quantity "18") }}
+                            <li>
+                                <p>{{ .responsiblity_12 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_13 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_14 }}</p>
+                            </li>
+                            {{ if in (.res_quantity) "18" }}
+                            <li>
+                                <p>{{ .responsiblity_15 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_16 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_17 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .responsiblity_18 }}</p>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                        <h1>{{ .sub_heading_2 }}</h1>
+                        <ul>
+                            <li>
+                                <p>{{ .require_1 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_2 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_3 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_4 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_5 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_6 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_7 }}</p>
+                            </li>
+                            {{ if or (in .req_quantity "9") (in .req_quantity "18") }}
+                            <li>
+                                <p>{{ .require_8 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_9 }}</p>
+                            </li>
+                            {{ if in (.req_quantity) "18" }}
+                            <li>
+                                <p>{{ .require_10 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_11 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_12 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_13 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_14 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_15 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_16 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_17 }}</p>
+                            </li>
+                            <li>
+                                <p>{{ .require_18 }}</p>
+                            </li>
+                            {{ end }}
+                            {{ end }}
+                        </ul>
+                    </div>
+                    <a href="/apply_for_job"> <button type="button" id="job_pop_button">Apply Now</button></a>
+                </div>
             </div>
         </div>
-        {{ end }}
-
     </div>
+    {{ end }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $('.logo-slider_3').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            dots: false,
+            arrows: true,
+            autoplayspeed: 2000,
+            infinite: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: false,
+            loop: true,
+            responsive: [
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplayTimeout: 2000,
+                        autoplayHoverPause: false,
+
+                        arrows: false,
+                    }
+                }
+            ]
+        });
+    </script>
 </div>
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script>
-$('.logo-slider_1').slick({
-slidesToShow: 3,
-slidesToScroll: 1,
-dots: false,
-arrows: true,
-autoplayspeed: 2000,
-infinite: true,
-autoplay: true,
-autoplayTimeout: 2000,
-autoplayHoverPause: false,
-loop: true,
-responsive: [
-    {
-        breakpoint: 600,
-        settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: false,
+    $('.logo-slider_1').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        dots: false,
+        arrows: true,
+        autoplayspeed: 2000,
+        infinite: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: false,
+        loop: true,
+        responsive: [
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: false,
 
-            arrows: false,
-        }
-    }
-]
-});
+                    arrows: false,
+                }
+            }
+        ]
+    });
 </script>
