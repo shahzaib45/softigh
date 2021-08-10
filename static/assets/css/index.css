@@ -1341,15 +1341,6 @@ footer {
     float: left;
     margin-right: 41px;
 }
-.footer-copyright_mobile p {
-    display: table;
-    margin: 0 auto;
-    font-size: 8px;
-    color: #fff;
-}
-.footer-copyright_mobile {
-    display: block;
-}
 .icon img {
     width: 56px;
     float: right;
@@ -4804,13 +4795,11 @@ footer {
     margin-right: 41px;
 }
 .footer-copyright_mobile p {
-    display: table;
-    margin: 0 auto;
-    font-size: 8px;
+    font-size: 14px;
     color: #fff;
 }
 .footer-copyright_mobile {
-    display: block;
+    text-align: center;
 }
 .icon img {
     width: 56px;
