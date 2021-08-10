@@ -1038,9 +1038,6 @@ a:hover {
     body, html {
     overflow-x: hidden!important;
 }
-.hero_left_2 p br{
-	display: none;
-}
 .search {
     display:  none;
 }
@@ -3410,6 +3407,9 @@ blog_main_heading_para p {
     .blog_row {
     width: 100%}
 }@media only screen and (max-width:991px) {
+	.hero_left_2 p br{
+	display: none;
+}
     .upper {
     width: 100%}
 }.services_new_btn {
