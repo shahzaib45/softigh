@@ -1298,7 +1298,7 @@ footer {
 .footer_mobile_2 ul li {
     float: left;
 }
-.footer_mobile_2 ul li:nth-child(1) {
+/*.footer_mobile_2 ul li:nth-child(1) {
     width: 25%;
     margin-left: -27px;
 }
@@ -1309,7 +1309,7 @@ footer {
 .footer_mobile_2 ul li:nth-child(4) {
     width: 25%;
     float: right;
-}
+}*/
 .footer_mobile_2 {
     width: 100%}
 .footer_mobile_3 ul {
@@ -4774,7 +4774,7 @@ footer {
 .footer_mobile_2 ul li {
     float: left;
 }
-.footer_mobile_2 ul li:nth-child(1) {
+/*.footer_mobile_2 ul li:nth-child(1) {
     width: 25%;
     margin-left: -27px;
 }
@@ -4785,7 +4785,7 @@ footer {
 .footer_mobile_2 ul li:nth-child(4) {
     width: 25%;
     float: right;
-}
+}*/
 .footer_mobile_2 {
     width: 100%}
 .footer_mobile_3 ul {
