@@ -143,7 +143,7 @@
         </div>
         <div class="row mx-auto" style="justify-content: center;margin-top: 65px;">
             {{ range .Site.Data.services }}
-            <div class="services_left col-md-4 col-sm-12 col-xs-12">
+            <div onclick="location.href='/services';" style=" cursor: pointer;"class="services_left col-md-4 col-sm-12 col-xs-12">
                 <div class="card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>
                 <div class="card_heading_1">
                     <h4>{{ .title }}</h4>
@@ -151,8 +151,8 @@
                 <div class="card_para_1">
                     <p>{{ .desc }}</p>
                 </div>
-                <div class="card_a" style="margin-top: 40px;"><a href="/services">{{ .LearnMore }}<img
-                            class="services_arrow img-fluid" src="{{ .URL }}"></a>
+                <div class="card_a" style="margin-top: 40px;">{{ .LearnMore }}<img
+                            class="services_arrow img-fluid" src="{{ .URL }}">
                 </div>
             </div>
             {{ end }}
