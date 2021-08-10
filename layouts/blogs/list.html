@@ -40,7 +40,7 @@
                         <li><p>{{ .Params.name }}</p></li>
                         <li><img src="{{ .Params.clock }}" alt=""></li>
                         <li><p>{{ .Params.time }}</p></li>
-                        <li><p>{{ .Params.date }}</p></li>
+                        <li><p>{{ .PublishDate.Format "02 Jan 2006" }}</p></li>
                     </ul>
                 </div>
             </div>
