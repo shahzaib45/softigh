@@ -2746,9 +2746,9 @@ blog_main_heading_para p {
     box-shadow: 0 8px 30px 0 rgb(0 0 0 / 16%);
     height: auto;
     border-radius: 15px;
-    width: 306px;
+    width: 46%;
     background: #fff;
-    margin-left: 90px;
+    margin-left: 4%;
     margin-top: 25px;
 }
 .card_desc h4 {
