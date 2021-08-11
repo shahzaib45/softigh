@@ -2525,6 +2525,7 @@ footer {
 .fsd_heading h1 {
     font-size: 28px;
     font-weight: 600;
+    margin-top: 100px;
 }
 .adress_left p {
     font-size: 17px;
@@ -5929,10 +5930,7 @@ footer {
     border-radius: 8px;
     color: #fff;
 }
-.fsd_heading h1 {
-    font-size: 28px;
-    font-weight: 600;
-}
+
 .adress_left p {
     font-size: 17px;
     font-weight: 400;
