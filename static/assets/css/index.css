@@ -785,10 +785,10 @@ to {
     box-shadow: 0 -1px 10px 17px rgb(0 0 0 / .03);
 }
 .blog_3_1 ul {
+    text-align: center;
     list-style: none;
     width: 100%}
 .blog_3_1 li {
-    float: left;
     margin-left: 4px;
     margin-right: 0!important;
 }
@@ -3307,7 +3307,6 @@ blog_main_heading_para p {
     margin-right: 48px;
 }*/
 .blog_3_1 li {
-    float: left;
     margin-left: 0;
     margin-right: 0!important;
 }
@@ -3327,7 +3326,6 @@ blog_main_heading_para p {
     margin-left: -7px;
 }
 .blog_3_1 li {
-    float: left;
     margin-left: 0;
     margin-right: 0!important;
 }
@@ -4262,7 +4260,6 @@ to {
     list-style: none;
     width: 100%}
 .blog_3_1 li {
-    float: left;
     margin-left: 4px;
     margin-right: 0!important;
 }
@@ -6724,7 +6721,6 @@ blog_main_heading_para p {
     margin-right: 48px;
 }*/
 .blog_3_1 li {
-    float: left;
     margin-left: 0;
     margin-right: 0!important;
 }
@@ -6744,7 +6740,6 @@ blog_main_heading_para p {
     margin-left: -7px;
 }
 .blog_3_1 li {
-    float: left;
     margin-left: 0;
     margin-right: 0!important;
 }
