@@ -789,6 +789,7 @@ to {
     list-style: none;
     width: 100%}
 .blog_3_1 li {
+    float: left;
     margin-left: 4px;
     margin-right: 0!important;
 }
