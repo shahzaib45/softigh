@@ -2420,7 +2420,7 @@ footer {
 }
 .blog_main__left_1 {
     margin-left: 11px!important;
-    width: 95%;
+    width: 95%!important;
 }
 }.contact_us_hero_right img {
     width: 100%;
@@ -5820,9 +5820,7 @@ footer {
 #submit {
     padding: 12px 22px;
 }
-.blog_main__left_1 {
-    margin-left: 11px!important;
-}
+
 }.contact_us_hero_right img {
     width: 100%;
     padding: 35px;
