@@ -2609,8 +2609,16 @@ footer {
     margin-top: 25px;
     margin-left: 10px;
 }
+a:active{
+    background: none;
+    background-color: none;
+}
 .job_des {
     margin: 10px 15px 50px 15px;
+}
+.navbar-light:active .navbar-nav:active .nav-link:active{
+    background: none;
+    background-color: #fff;
 }
 .job_des p {
     font-size: 15px;
