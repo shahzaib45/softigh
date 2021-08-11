@@ -2586,9 +2586,13 @@ footer {
     margin-left: 151px;
 }
 .team_para p {
-    padding: 50px;
+    padding: 10px;
     font-size: 18px;
     font-weight: 400;
+}
+.team_para h1{
+    font-size: 25px;
+    font-weight: 600;
 }
 .team_heading_1 h1 {
     margin-top: 100px;
@@ -6020,11 +6024,7 @@ margin-left: 70px;
     padding: 100px;
     margin-left: 151px;
 }
-.team_para p {
-    padding: 50px;
-    font-size: 18px;
-    font-weight: 400;
-}
+
 .team_heading_1 h1 {
     margin-top: 100px;
     font-size: 27px;
@@ -6904,3 +6904,13 @@ blog_main_heading_para p {
   #searchResults { visibility: inherit; display: inline-block; width: 320px; }
   #searchResults a { text-decoration: none !important; padding: 10px; display: inline-block; }
     #searchResults a:hover, a:focus { outline: 0; background-color: #666; color: #fff; }
+    .team_hero_img img{
+        border-bottom-left-radius: 61px;
+        border-bottom-right-radius: 61px;
+        margin-top: 100px;
+
+    }
+    .team_para ul li{
+        list-style-type: none;
+    }
+   

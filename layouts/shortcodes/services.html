@@ -1,5 +1,6 @@
 {{ range .Site.Data.services_main }}
             <div class="services_left col-md-4 col-sm-12 col-xs-12">
+                <a href="{{ .href }}">
                 <div class="service_card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>
                 <div class="card_heading_1">
                     <h4>{{ .title }}</h4>
@@ -7,6 +8,6 @@
                 <div class="card_para_1">
                     <p>{{ .desc }}</p>
                 </div>
-                
+            </a>
             </div>
             {{ end }}

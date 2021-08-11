@@ -1,46 +1,52 @@
 [
     {
         "id": 0,
+        "href": "/data_recovery",
         "icon": "/assets/img/services/service_1.svg",
-        "title": "Software Development",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "title": "Back Up Recovery ",
+        "desc": "Softigh provide physical, cloud-to-cloud, and virtual data center backup and recovery",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     },
     {
         "id": 1,
+        "href": "/business",
         "icon": "/assets/img/services/services_2.svg",
-        "title": "Web Development",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "title": "Business Process Management ",
+        "desc": "Softigh Provide Business Process Management Software solution to manage the complete lifecycle",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     },
     {
         "id": 2,
+        "href": "/product",
         "icon": "/assets/img/services/services_3.svg",
-        "title": "Dedicated Team",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "title": "Product Development ",
+        "desc": "Our Product Designers bring new product ideas & inventions to life and make an impact in the market ",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     },
     {
         "id": 3,
+        "href": "/it_consultancy",
         "icon": "/assets/img/services/services_4.svg",
         "title": "IT Consulting Services",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "desc": "Softigh provide IT consulting services that help clients assess different technology strategies ",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     },
     {
         "id": 4,
+        "href": "/mobile",
         "icon": "/assets/img/services/services_5.svg",
         "title": "Mobile Application Development",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "desc": "Softigh offer a full cycle of application design, integration and management services.",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     },
     {
         "id": 5,
+        "href": "/cloud",
         "icon": "/assets/img/services/services_6.svg",
         "title": "Cloud & Saas",
         "desc": "Full Cycle of software development services of enterprises and small companies",
@@ -49,16 +55,18 @@
     },
     {
         "id": 6,
+        "href": "/cyber",
         "icon": "/assets/img/services/services_7.svg",
-        "title": "Social Media Marketing",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "title": "Cyber Security",
+        "desc": "Softigh offering Cyber Security services to clients, including providing End-user education, ",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     },
     {
         "id": 7,
+        "href": "/elearning",
         "icon": "/assets/img/services/services_8.svg",
-        "title": "Search Engine Optimization",
+        "title": "E Learning Software Development",
         "desc": "Full Cycle of software development services of enterprises and small companies",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"

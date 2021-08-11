@@ -1,8 +1,9 @@
 [{
     "id": 0,
+    "href": "/mobile",
     "icon": "/assets/img/index/application.svg",
     "title": "Application Development",
-    "desc": "Softigh develops Cross-Platform and Hybrid Applications........",
+    "desc": "Softigh offer a full cycle of application........",
     "LearnMore" : "Learn More",
     "URL" : "assets/img/index/services_arrow.png"
 },{
@@ -14,9 +15,10 @@
     "URL" : "assets/img/index/services_arrow.png"
 },{
     "id": 2,
+    "href": "/it_consultancy",
     "icon": "/assets/img/index/it.svg",
     "title": "IT Consulting",
-    "desc": "Simply put, the Consulting-as-a-Service .........",
+    "desc": "Softigh provide IT consulting services that.........",
     "LearnMore" : "Learn More",
     "URL" : "assets/img/index/services_arrow.png"
 
