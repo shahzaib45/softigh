@@ -2816,7 +2816,7 @@ blog_main_heading_para p {
     margin-top: 5px;
 }
 .blog_main_list ul li:nth-child(3) img {
-    margin-left: 35px;
+    margin-left: 119px;
     margin-top: 4px;
 }
 .blog_main_list ul li:nth-child(4) p {
@@ -6291,10 +6291,7 @@ blog_main_heading_para p {
     margin-right: 8px;
     margin-top: 5px;
 }
-.blog_main_list ul li:nth-child(3) img {
-    margin-left: 35px;
-    margin-top: 4px;
-}
+
 .blog_main_list ul li:nth-child(4) p {
     font-size: 9px;
     color: #535353;
