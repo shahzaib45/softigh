@@ -1062,6 +1062,10 @@ a:hover {
 .blog_heading h3 br{
     display: none;
 }
+.blog_heading h3{
+    margin-left: auto;
+    margin-right: auto;
+}
 .search {
     display:  none;
 }
