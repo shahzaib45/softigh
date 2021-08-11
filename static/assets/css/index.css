@@ -2618,7 +2618,15 @@ a:active{
 }
 .navbar-light:active .navbar-nav:active .nav-link:active{
     background: none;
-    background-color: #fff;
+    background-color:none;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    background-color: none;
+    background: none;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    background-color: none;
+    background: none;
 }
 .job_des p {
     font-size: 15px;
