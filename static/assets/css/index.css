@@ -1043,6 +1043,9 @@ a:hover {
     body, html {
     overflow-x: hidden!important;
 }
+.blog_main_list ul li:nth-child(3) img{
+    margin-left: 97px!important;
+}
 .card_4 {
     width: 100%!important;
 }
