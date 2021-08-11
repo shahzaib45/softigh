@@ -1047,6 +1047,10 @@ a:hover {
 .blog_main_list ul li:nth-child(3) img{
     margin-left: 44px!important;
 }
+.team_hero_img img {
+    border-bottom-left-radius: 33px!important;
+    border-bottom-right-radius: 33px!important;
+}
 .card_4 {
     width: 100%!important;
 }
