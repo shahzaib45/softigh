@@ -1055,7 +1055,13 @@ a:hover {
 .des_right_upper{
     margin-top: -81px!important;
 }
-
+.blog_heading{
+    display: flex;
+    padding-top: 0;
+}
+.blog_heading h3 br{
+    display: none;
+}
 .search {
     display:  none;
 }
