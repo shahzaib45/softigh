@@ -3341,24 +3341,24 @@ blog_main_heading_para p {
     margin-left: 5px;
 }
 .judgment_image img {
-    width: 55%;
+    width: 45%;
     float: left;
     padding: 20px;
     margin-left: 80px;
 }
 .judgment_heading h3 {
-    padding: 20px;
-    padding: 0 0 0 33px;
+    
     font-size: 19px;
     font-weight: 600;
     text-align: center;
 }
 .judgment_para p {
-    padding: 0 91px 0 33px;
+    
     font-size: 13px;
     font-weight: 400;
+    width: 90%;
     text-align: center;
-    margin-left: 83px;
+    margin: 0px auto;
 }
 .judgment_hr {
     width: 50%;
@@ -3378,7 +3378,7 @@ blog_main_heading_para p {
     background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
-    height: 345px;
+    height: 260px;
     display: flex;
 }
 .card_2 {
@@ -6751,21 +6751,12 @@ blog_main_heading_para p {
 }
 
 .judgment_image img {
-    width: 55%;
+    width: 45%;
     float: left;
     padding: 20px;
 }
-.judgment_heading h3 {
-    padding: 20px;
-    padding: 0 0 0 33px;
-    font-size: 19px;
-    font-weight: 600;
-}
-.judgment_para p {
-    padding: 0 91px 0 33px;
-    font-size: 13px;
-    font-weight: 400;
-}
+
+
 .judgment_hr {
     width: 50%;
     display: table;
