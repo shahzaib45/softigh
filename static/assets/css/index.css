@@ -1057,7 +1057,7 @@ a:hover {
 }
 .blog_heading{
     display: flex;
-    padding-top: 0;
+    padding-top: 0 !important;
 }
 .blog_heading h3 br{
     display: none;
