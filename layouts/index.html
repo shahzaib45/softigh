@@ -151,7 +151,7 @@
                 <div class="card_para_1">
                     <p>{{ .desc }}</p>
                 </div>
-                <div class="card_a" style="margin-top: 40px;">{{ .LearnMore }}<img
+                <div class="card_a" style="margin-top: 40px;margin-left: 13px;">{{ .LearnMore }}<img
                             class="services_arrow img-fluid" src="{{ .URL }}">
                 </div>
             </div>
@@ -203,10 +203,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="logo-slider">
+            <div class="logo-slider_5">
                 {{ range .Site.Data.job }}
                 <div class="item" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
-                    <div class="card" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
+                    <div class="card_5" data-bs-toggle="modal" data-bs-target="{{ .dataTarget }}">
                         <div class="card_image">
                             <img src="{{ .card_img }}" alt="">
                         </div>
@@ -374,7 +374,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script>
-    $('.logo-slider').slick({
+    $('.logo-slider_5').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,

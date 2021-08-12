@@ -1030,6 +1030,9 @@ a:hover {
     margin-left: 157px;
     z-index: 1;
 }
+.logo-slider_5 .slick-prev{
+    left: -37px;
+}
 .logo-slider_2 .slick-next {
     margin-right: 140px;
     z-index: 1;
@@ -3440,6 +3443,7 @@ blog_main_heading_para p {
     border-radius: 25px;
     box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
     position: relative;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     min-width: 0;
@@ -3993,6 +3997,11 @@ to {
 .card {
     border-radius: 25px;
     margin: 20px;
+    box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
+}
+.card_5{
+    border-radius: 25px;
+    
     box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
 }
 .item img {
@@ -6804,7 +6813,13 @@ blog_main_heading_para p {
     color: #033cfb;
 }
 
-.card_2 {
+.logo-slider_6 .slick-next:before{
+    margin-left: -80%;
+}
+.logo-slider_6 .slick-prev{
+    left: -37px;
+}
+.card_5{
     border-radius: 25px;
     box-shadow: 0 0 15px 0 rgb(0 0 0 / 10%);
     position: relative;
@@ -6813,9 +6828,13 @@ blog_main_heading_para p {
     min-width: 0;
     word-wrap: break-word;
     background-color: #fff;
+    margin: 20px;
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     display: flex;
+}
+.logo-slider_5 .slick-next:before{
+    margin-left: -80%;
 }
 .card_4 {
     border-radius: 25px;
