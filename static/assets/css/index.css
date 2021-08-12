@@ -6928,4 +6928,10 @@ a:active{
     background-color: none;
     background: none;
 }
+.bgimageservices{
+    background-image: url("../img/services/services_hero_back.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 80%;
+}
    
