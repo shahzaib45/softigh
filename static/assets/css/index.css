@@ -785,19 +785,18 @@ to {
     box-shadow: 0 -1px 10px 17px rgb(0 0 0 / .03);
 }
 .blog_3_1 ul {
+    padding-left: 0;
+    margin-bottom: 0;
     text-align: center;
     list-style: none;
     width: 100%}
 .blog_3_1 li {
-    float: left;
-    margin-left: 4px;
-    margin-right: 0!important;
+    display: inline-block;
+    padding: 5px;
 }
 .blog_3_1 li p {
     color: #c7c5c4;
     font-size: 10px;
-    margin-top: 15px;
-    margin-right: 25px;
 }
 .blog_heading h3 {
     font-size: 17px;
@@ -836,9 +835,7 @@ to {
     border-radius: 16px;
 }
 .blog_3_1 img {
-    margin-top: 16px;
     width: 15px;
-    margin-right: 5px;
 }
 .blog_3_2 {
     width: 40%;
@@ -880,7 +877,7 @@ to {
     align-items: center;
     text-align: center;
     color: #535353;
-    padding-top: 25px;
+    padding-top: 0;
     font-size: 17px;
 }
 .blog_3_2 img {
@@ -1256,10 +1253,10 @@ modal-dialog {
 .lower {
     margin-bottom: 40px;
 }
-.blog_3_1 li p {
+/*.blog_3_1 li p {
     font-size: 10px;
     margin-right: 18px;
-}
+}*/
 .blog_3_1 {
     width: 90%}
 .design_right {
@@ -3240,9 +3237,9 @@ blog_main_heading_para p {
 .prev {
     margin-top: -40px;
 }
-.blog_3_1 li p {
+/*.blog_3_1 li p {
     margin-right: 10px;
-}
+}*/
 .blog_3_1_1 {
     width: 285px;
     margin-left: 63px;
@@ -3293,17 +3290,17 @@ blog_main_heading_para p {
     .contact_us_form_heading h1 {
     font-size: 37px;
 }
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-right: 4px;
 }
-/*.footer_mobile_4 ul li {
+.footer_mobile_4 ul li {
     float: left;
     margin-right: 58px!important;
 }*/
-.blog_3_1 li p {
+/*.blog_3_1 li p {
     font-size: 10px!important;
     margin-right: 28px!important;
-}
+}*/
 .blog_3_1_1 li {
     margin-right: 15px;
 }
@@ -3318,10 +3315,10 @@ blog_main_heading_para p {
     float: left;
     margin-right: 48px;
 }*/
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-left: 0;
     margin-right: 0!important;
-}
+}*/
 }@media only screen and (min-width:320px) {
     .container_footer_mobile a {
     font-size: 14px!important;
@@ -3337,10 +3334,10 @@ blog_main_heading_para p {
     margin-top: 63px;
     margin-left: -7px;
 }
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-left: 0;
     margin-right: 0!important;
-}
+}*/
 }@media only screen and (min-width:310px) {
     .container_footer_mobile a {
     font-size: 14px!important;
@@ -4277,16 +4274,16 @@ to {
 .blog_3_1 ul {
     list-style: none;
     width: 100%}
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-left: 4px;
     margin-right: 0!important;
-}
-.blog_3_1 li p {
+}*/
+/*.blog_3_1 li p {
     color: #c7c5c4;
     font-size: 10px;
     margin-top: 15px;
     margin-right: 25px;
-}
+}*/
 .blog_heading h3 {
     font-size: 17px;
     font-weight: 600;
@@ -4334,11 +4331,6 @@ to {
 }
 .upper img {
     border-radius: 16px;
-}
-.blog_3_1 img {
-    margin-top: 16px;
-    width: 15px;
-    margin-right: 5px;
 }
 .blog_3_2 {
     width: 40%;
@@ -4701,10 +4693,10 @@ modal-dialog {
 .lower {
     margin-bottom: 40px;
 }
-.blog_3_1 li p {
+/*.blog_3_1 li p {
     font-size: 10px;
     margin-right: 18px;
-}
+}*/
 .blog_3_1 {
     width: 90%}
 .design_right {
@@ -6656,9 +6648,9 @@ blog_main_heading_para p {
 .prev {
     margin-top: -40px;
 }
-.blog_3_1 li p {
+/*.blog_3_1 li p {
     margin-right: 10px;
-}
+}*/
 .blog_3_1_1 {
     width: 285px;
     margin-left: 63px;
@@ -6709,17 +6701,17 @@ blog_main_heading_para p {
     .contact_us_form_heading h1 {
     font-size: 37px;
 }
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-right: 4px;
-}
+}*/
 /*.footer_mobile_4 ul li {
     float: left;
     margin-right: 58px!important;
 }*/
-.blog_3_1 li p {
+/*.blog_3_1 li p {
     font-size: 10px!important;
     margin-right: 28px!important;
-}
+}*/
 .blog_3_1_1 li {
     margin-right: 15px;
 }
@@ -6734,10 +6726,10 @@ blog_main_heading_para p {
     float: left;
     margin-right: 48px;
 }*/
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-left: 0;
     margin-right: 0!important;
-}
+}*/
 }@media only screen and (min-width:320px) {
     .container_footer_mobile a {
     font-size: 14px!important;
@@ -6753,10 +6745,10 @@ blog_main_heading_para p {
     margin-top: 63px;
     margin-left: -7px;
 }
-.blog_3_1 li {
+/*.blog_3_1 li {
     margin-left: 0;
     margin-right: 0!important;
-}
+}*/
 }@media only screen and (min-width:310px) {
     .container_footer_mobile a {
     font-size: 14px!important;
