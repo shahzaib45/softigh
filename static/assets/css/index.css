@@ -6932,4 +6932,12 @@ blog_main_heading_para p {
     .team_para ul li{
         list-style-type: none;
     }
+a:focus{
+    background-color: none;
+    background: none;
+}
+a:active{
+    background-color: none;
+    background: none;
+}
    

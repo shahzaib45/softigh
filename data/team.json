@@ -5,6 +5,9 @@
         "card_heading": "SYED UMAIR SHAH",
         "designation": "Junior Web Developer",
         "description": "Assisting the web development team with all aspects of website and application design.",
+        "href_facebook":"https://www.facebook.com/umair.hassan.169067/",
+        "href_instra":"https://www.instagram.com/syedumairshah123/",
+        "href_link":"https://www.linkedin.com/in/syed-umair-ul-hassan-03412b100/",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -15,6 +18,9 @@
         "card_heading": "SHAHZAIB HASHMI",
         "designation": "Senior Web Developer",
         "description": "Assisting with the testing and maintenance of backend and front-end applications.",
+        "href_facebook":"#",
+        "href_instra":"#",
+        "href_link":"#",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -25,7 +31,9 @@
         "card_heading": "ANAS ZUBAIR",
         "designation": "UI/UX Designers",
         "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
-
+        "href_facebook":"https://www.facebook.com/malik.anaszubair/",
+        "href_instra":"https://www.instagram.com/malikanas358/",
+        "href_link":"https://www.linkedin.com/in/malik-anas358/",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -36,7 +44,9 @@
         "card_heading": "USMAN AHMAD",
         "designation": "HR",
         "description": "Administrator provides office support to either an individual or team and is vital for the smooth-running of a business",
-
+        "href_facebook":"https://www.facebook.com/Usman.Ahmad06/",
+        "href_instra":"https://www.instagram.com/usman.ahmad00/",
+        "href_link":"https://www.linkedin.com/in/usman-ahmad06/",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -47,6 +57,9 @@
         "card_heading": "SYED UMAIR SHAH",
         "designation": "Junior Web Developer",
         "description": "Assisting the web development team with all aspects of website and application design.",
+        "href_facebook":"https://www.facebook.com/umair.hassan.169067/",
+        "href_instra":"https://www.instagram.com/syedumairshah123/",
+        "href_link":"https://www.linkedin.com/in/syed-umair-ul-hassan-03412b100/",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -57,7 +70,9 @@
         "card_heading": "SHAHZAIB HASHMI",
         "designation": "Senior Web Developer",
         "description": "Assisting with the testing and maintenance of backend and front-end applications.",
-
+        "href_facebook":"#",
+        "href_instra":"#",
+        "href_link":"#",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -69,7 +84,9 @@
         "card_heading": "ANAS ZUBAIR",
         "designation": "UI/UX Designer",
         "description": "Being a relatively new field, there’s no clear-cut path towards becoming a credentialed UI/UX designer.",
-
+        "href_facebook":"https://www.facebook.com/malik.anaszubair/",
+        "href_instra":"https://www.instagram.com/malikanas358/",
+        "href_link":"https://www.linkedin.com/in/malik-anas358/",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"
@@ -80,7 +97,9 @@
         "card_heading": "HR",
         "designation": "Admin",
         "description": "Administrator provides office support to either an individual or team and is vital for the smooth-running of a business",
-
+        "href_facebook":"https://www.facebook.com/Usman.Ahmad06/",
+        "href_instra":"https://www.instagram.com/usman.ahmad00/",
+        "href_link":"https://www.linkedin.com/in/usman-ahmad06/",
         "instra": "/assets/img/about/instagram.svg",
         "facebook": "/assets/img/about/facebook.svg",
         "link": "/assets/img/about/linkedin.svg"

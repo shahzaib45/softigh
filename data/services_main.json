@@ -3,7 +3,7 @@
         "id": 0,
         "href": "/data_recovery",
         "icon": "/assets/img/services/service_1.svg",
-        "title": "Back Up Recovery ",
+        "title": "Backup Recovery ",
         "desc": "Softigh provide physical, cloud-to-cloud, and virtual data center backup and recovery",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
@@ -73,9 +73,10 @@
     },
     {
         "id": 8,
+        "href": "/web",
         "icon": "/assets/img/services/services_9.svg",
-        "title": "Web Design",
-        "desc": "Full Cycle of software development services of enterprises and small companies",
+        "title": "Web Development",
+        "desc": "Softigh always aim to offer you top quality web development solutions, ",
         "LearnMore": "Learn More",
         "URL": "assets/img/index/services_arrow.png"
     }
