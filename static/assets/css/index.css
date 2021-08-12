@@ -777,6 +777,7 @@ to {
     margin-left: -2px;
 }
 .blog_3_1 {
+    padding: 15px 0 5px;
     margin: 0 auto;
     height: auto;
     background: #fff;
@@ -796,6 +797,7 @@ to {
     padding: 5px;
 }
 .blog_3_1 li p {
+    margin-bottom: 0;
     color: #c7c5c4;
     font-size: 10px;
 }
@@ -4371,7 +4373,7 @@ to {
     align-items: center;
     text-align: center;
     color: #535353;
-    padding-top: 25px;
+    padding-top: 0;
     font-size: 17px;
 }
 .blog_3_2 img {
