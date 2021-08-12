@@ -214,6 +214,7 @@ a {
 }
 .clients_head h1 {
     font-size: 37px;
+    margin-top: 100px
 }
 .clients_heading_para p {
     font-size: 17px;
@@ -3702,9 +3703,7 @@ a {
     margin-top: 40px;
     background-color: #fbfbfb;
 }
-.clients_head h1 {
-    font-size: 37px;
-}
+
 .clients_heading_para p {
     font-size: 17px;
 }
@@ -5459,6 +5458,7 @@ footer {
     margin-left: 0!important;
     padding: 0!important;
     width: 100%!important;
+    margin-bottom: 50px;
 }
 .services_hero_left_heading h1 {
     margin-top: 0!important;
@@ -6022,11 +6022,7 @@ margin-left: 70px;
 }
 .team_hero_img {
     width: 80%}
-.image_2 img {
-    width: 70%;
-    padding: 100px;
-    margin-left: 151px;
-}
+
 
 .team_heading_1 h1 {
     margin-top: 100px;
