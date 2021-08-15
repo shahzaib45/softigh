@@ -3402,7 +3402,13 @@ blog_main_heading_para p {
     width: 45%;
     float: left;
     padding: 20px;
-    margin-left: 80px;
+    
+}
+.judgment_image{
+    display: flex;
+   
+    justify-content: center!important;
+    align-items: center!important;
 }
 .judgment_heading h3 {
     

@@ -8,6 +8,7 @@
     "URL" : "assets/img/index/services_arrow.png"
 },{
     "id": 1,
+    "href": "/web",
     "icon": "/assets/img/index/cloud.svg",
     "title": "Web Development",
     "desc": "Softigh provides a journey to web development..........",
