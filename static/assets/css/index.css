@@ -3404,6 +3404,11 @@ blog_main_heading_para p {
     padding: 20px;
     
 }
+.apply{
+    background-image: url("../img/contact_us/contact_us\ _form_back.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
 .judgment_image{
     display: flex;
    
