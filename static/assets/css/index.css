@@ -92,9 +92,7 @@ a {
     margin-top: 50px;
     margin-left: 35px;
 }
-.hero__left {
-    margin-left: 35px;
-}
+
 .hide img {
     padding: 400px;
     margin-left: 327px;
@@ -3585,9 +3583,44 @@ a {
     margin-top: 50px;
     margin-left: 35px;
 }
+.about_criteria_left img{
+    margin-top: -90px;
+}
 .hero__left {
     margin-left: 35px;
+    animation-name: bounceInDown;
 }
+@keyframes bounceInDown {
+    from,
+    60%,
+    75%,
+    90%,
+    to {
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+  
+    0% {
+      opacity: 0;
+      transform: translate3d(0, -3000px, 0) scaleY(3);
+    }
+  
+    60% {
+      opacity: 1;
+      transform: translate3d(0, 25px, 0) scaleY(0.9);
+    }
+  
+    75% {
+      transform: translate3d(0, -10px, 0) scaleY(0.95);
+    }
+  
+    90% {
+      transform: translate3d(0, 5px, 0) scaleY(0.985);
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
 .hide img {
     padding: 400px;
     margin-left: 327px;
@@ -4561,6 +4594,9 @@ a:hover {
 }
 .comentator_1 ul li:nth-child(2) p {
     margin-right: 0!important;
+}
+.about_criteria_left img{
+    margin-top: 0px;
 }
 .des_left_icons {
     margin-top: -50px;
@@ -5965,28 +6001,32 @@ textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:foc
     width: 100%;
     background: 0 0;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
+    margin-bottom: 20px;
     border: 1px solid #000;
 }
 #main_email {
     width: 100%;
     background: 0 0;
     padding: 10px;
-    border-radius: 3px;
+    margin-bottom: 20px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 #main_phone {
     width: 100%;
     background: 0 0;
     padding: 10px;
+    margin-bottom: 20px;
     border: 1px solid #000;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 #main_website {
     width: 100%;
+    margin-bottom: 20px;
     background: 0 0;
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 #main_message {
@@ -5994,13 +6034,14 @@ textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:foc
     border: 1px solid #000;
     background: 0 0;
     margin-bottom: 15px;
+    border-radius: 4px;
 }
 #job_f_name {
     width: 100%;
     background: 0 0;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 #job_email {
@@ -6008,7 +6049,7 @@ textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:foc
     background: 0 0;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 #job_phone {
@@ -6017,14 +6058,14 @@ textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:foc
     padding: 10px;
     border: 1px solid #000;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 #position {
     width: 100%;
     background: 0 0;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 #date {
@@ -6032,7 +6073,7 @@ textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:foc
     background: 0 0;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 #file {
@@ -6040,7 +6081,7 @@ textarea#main_message:focus, textarea#message:focus, textarea#message_mobile:foc
     background: 0 0;
     padding: 10px;
     margin-bottom: 20px;
-    border-radius: 3px;
+    border-radius: 4px;
     border: 1px solid #000;
 }
 input#file-upload-button {
