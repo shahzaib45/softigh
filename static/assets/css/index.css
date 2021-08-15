@@ -1942,7 +1942,7 @@ footer {
     font-weight: 400;
 }
 .work_main {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .work_left {
     height: 600px;
@@ -2775,6 +2775,19 @@ a:active{
     color: #fff;
 }
 input#date:focus, input#email:focus, input#f_name:focus, input#file:focus, input#job_email:focus, input#job_f_name:focus, input#job_phone:focus, input#main_email:focus, input#main_phone:focus, input#main_website:focus, input#name:focus, input#phone:focus, input#position:focus, input#website:focus {
+    outline: 0!important;
+    border: 2px solid #033cfb!important;
+}
+input#comment_name:focus, input#comment_email:focus{
+    outline: 0!important;
+    border: 2px solid #033cfb!important;
+
+}
+textarea#comment_section:focus{
+    outline: 0!important;
+    border: 2px solid #033cfb!important;
+}
+select#position:focus{
     outline: 0!important;
     border: 2px solid #033cfb!important;
 }
@@ -6090,6 +6103,9 @@ input#file-upload-button {
 .blog_main_header_heading h1 {
     font-size: 37px;
     font-weight: 600;
+    margin-top: 50px;
+}
+.logo-slider_6{
     margin-top: 50px;
 }
 blog_main_heading_para p {
