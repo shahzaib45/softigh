@@ -1,5 +1,6 @@
 [{
     "id": 0,
+    "class": "mobile_anim",
     "href": "/mobile",
     "icon": "/assets/img/index/application.svg",
     "title": "Application Development",
@@ -8,6 +9,8 @@
     "URL" : "assets/img/index/services_arrow.png"
 },{
     "id": 1,
+    "class": "web_anim",
+
     "href": "/web",
     "icon": "/assets/img/index/cloud.svg",
     "title": "Web Development",
@@ -16,10 +19,12 @@
     "URL" : "assets/img/index/services_arrow.png"
 },{
     "id": 2,
+    "class": "shopify_anim",
+
     "href": "/it_consultancy",
     "icon": "/assets/img/index/it.svg",
-    "title": "IT Consulting",
-    "desc": "Softigh provide IT consulting services that.........",
+    "title": "Shopify Development",
+    "desc": "Softigh develop high quality Shopify Solutions.........",
     "LearnMore" : "Learn More",
     "URL" : "assets/img/index/services_arrow.png"
 

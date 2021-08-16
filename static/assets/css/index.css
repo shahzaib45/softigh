@@ -234,7 +234,7 @@ a {
 .clients_1 {
     height: auto;
     background-color: #fbfcfc;
-    margin-top: 170px;
+    margin-top: 50px;
 }
 .background {
     margin-top: 20px;
@@ -3777,11 +3777,7 @@ a {
 .clients_header {
     margin-top: 85px;
 }
-.clients_1 {
-    height: auto;
-    background-color: #fbfcfc;
-    margin-top: 170px;
-}
+
 .background {
     margin-top: 20px;
 }

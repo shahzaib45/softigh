@@ -35,15 +35,115 @@
 
     gsap.from('.testanimate', { 
       scrollTrigger:  { 
-        trigger: ".testanimate", start: "0px 100%" 
+        trigger: ".testanimate", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
-      duration: 0.5, 
-      delay: 0.3, 
-      y:500, 
-      x:0,
+      duration: 0.3, 
+      delay: 0.5, 
+      
+      x:-500,
       scale:0,
       opacity: 0,
-    })
+    });
+    gsap.from('.hero_para_anim', { 
+      scrollTrigger:  { 
+        trigger: ".hero_para_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 2.5,
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.hero_left_2_anim', { 
+      scrollTrigger:  { 
+        trigger: ".hero_left_2_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 2.5,
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.hero_left_3_anim', { 
+      scrollTrigger:  { 
+        trigger: ".hero_left_3_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "sine.out", 
+      y:300,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.clients_header_heading_anim', { 
+      scrollTrigger:  { 
+        trigger: ".clients_header_heading_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "elastic.out(1, 0.3)", 
+      x:-500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.services_header_heading_anim', { 
+      scrollTrigger:  { 
+        trigger: ".services_header_heading_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "elastic.out(1, 0.3)", 
+      x:-500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.services_new_btn', { 
+      scrollTrigger:  { 
+        trigger: ".services_new_btn",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "elastic.out(1, 0.3)", 
+      x:500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.mobile_anim', { 
+      scrollTrigger:  { 
+        trigger: ".services_new_btn",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "back.out(1.7)", 
+      y:-500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.web_anim', { 
+      scrollTrigger:  { 
+        trigger: ".services_new_btn",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "back.out(1.7)", 
+      x:100,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.shopify_anim', { 
+      scrollTrigger:  { 
+        trigger: ".services_new_btn",  toggleActions:"restart none restart none"
+      }, 
+      duration: 2,
+      ease: "back.out(1.7)", 
+      y:500,
+    
+      scale:0,
+      opacity: 0,
+    });
+   
   }
 }
 

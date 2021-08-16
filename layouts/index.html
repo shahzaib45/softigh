@@ -4,16 +4,16 @@
 <div class="container">
     <div class="row hero">
         <div class="hero__left col-md-6 col-sm-12 col-xs-12">
-            <div class="hero_left_1">
+            <div class="hero_left_1 hero_para_anim">
                 <h1>It's Time to<br /> <span style="color:#033cfb;">Shine<span
                             style="color:#000;">,</span>Innovate</span><br><span style="color:#000;">and</span><span
                         style="color:#033cfb;"> Think Big<span style="color:#000;">.</span></span></h1><br>
             </div>
-            <div class="hero_left_2">
+            <div class="hero_left_2 hero_left_2_anim ">
                 <p>Listening to your needs and answering with an<br> innovative solution.
                 </p>
             </div>
-            <div class="hero_left_3">
+            <div class="hero_left_3 hero_left_3_anim">
                 <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> <button type="button"
                         class="hero_btn">Get a Quote<img src="/assets/img/index/hero_arrow.png" /></button></a>
             </div>
@@ -55,7 +55,7 @@
 <div class="container-fluid clients_1 pt-5">
     <div class="container">
         <div class="row">
-            <div class="clients_head col-md-12 col-sm-12 col-xs-12">
+            <div class="clients_head col-md-12 col-sm-12 col-xs-12 clients_header_heading_anim">
                 <div class="clients_header_heading">
                     <h1 class="display-5" style="font-weight:600;"><span style="color:#033cfb;">Our</span> Client
                     </h1>
@@ -127,7 +127,7 @@
 <div class="container-fluid services">
     <div class="container">
         <div class="row ">
-            <div class="servies_head col-md-6 col-sm-12 col-xs-12">
+            <div class="servies_head col-md-6 col-sm-12 col-xs-12 services_header_heading_anim">
                 <div class="services_header_heading">
                     <h1 class="display-5" style="font-weight:600;"><span style="color:#033cfb;">Featured</span>
                         Services
@@ -138,13 +138,13 @@
                 </div>
             </div>
             <div class="services_button col-md-6 col-sm-12 col-xs-12">
-                <a href="/services"><button type="button" class="services_new_btn" style="background:none;">Read More<img
+                <a href="/services"><button type="button" class="services_new_btn services_new_btn_anim" style="background:none;">Read More<img
                             src="assets/img/index/blog_arrow.png" /></button></a>
             </div>
         </div>
         <div class="row mx-auto" style="justify-content: center;margin-top: 65px;">
             {{ range .Site.Data.services }}
-            <div onclick="location.href='{{ .href }}';" style=" cursor: pointer;"class="services_left col-md-4 col-sm-12 col-xs-12">
+            <div onclick="location.href='{{ .href }}';" style=" cursor: pointer;"class="services_left col-md-4 col-sm-12 col-xs-12 {{ .class }}">
                 <div class="card_img_1"><img class="img-fluid" src="{{ .icon }}"></div>
                 <div class="card_heading_1">
                     <h4>{{ .title }}</h4>
@@ -167,12 +167,10 @@
     style="background-image: url('../assets/img/index/design_back.svg');background-repeat: no-repeat;background-position: 95% 96%;">
     <div class="container">
         <div class="row design_1 col-reverse">
-            <div class="design_left col-md-6 col-sm-12 col-xs-12" data-aos="fade-right" data-aos-offset="300"
-                data-aos-easing="ease-in-sine">
+            <div class="design_left col-md-6 col-sm-12 col-xs-12">
                 <img class="img-fluid" src="assets/img/index/design_img.svg">
             </div>
-            <div class="design_right col-md-6 col-sm-12 col-xs-12" data-aos="fade-left"
-                data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="2000">
+            <div class="design_right col-md-6 col-sm-12 col-xs-12">
 
                 <h1 class="mb-dsgn-fnt">We design & build innovative<br>solutions for our<br>trusted partners</h1>
 
@@ -190,7 +188,7 @@
 <div class="container-fluid job_section">
     <div class="container">
         <div class="row job_section_1">
-            <div class="job_head col-md-12 col-sm-12 col-xs-12" data-aos="fade-right">
+            <div class="job_head col-md-12 col-sm-12 col-xs-12" >
                 <div class="job_header_heading_index">
                     <h1 class="display-5" style="font-weight:600;font-size:37px;"><span style="color:#033cfb;">Job
                         </span>Openings
