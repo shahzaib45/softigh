@@ -131,6 +131,29 @@
 
 
 
+<script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+<script>
+  
+  window.onload = function() {
+  if (window.innerWidth > 767) {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from('.testanimate', { 
+      scrollTrigger:  { 
+        trigger: ".fadeInUp1", start: "0px 100%" 
+      }, 
+      duration: 0.5, 
+      delay: 0.3, 
+      y:500, 
+      x:0,
+      scale:0,
+      opacity: 0,
+    })
+  }
+}
+
+</script>
 
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
