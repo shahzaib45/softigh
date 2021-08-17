@@ -49,7 +49,20 @@
       scrollTrigger:  { 
         trigger: ".hero_para_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
-      duration: 2.5,
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.about_hero_right_anim', { 
+      scrollTrigger:  { 
+        trigger: ".bgimageabout", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 2, 
       ease: "sine.out", 
       y: -500,
     
@@ -60,9 +73,10 @@
       scrollTrigger:  { 
         trigger: ".upper_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
-      duration: 2.5,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "sine.out", 
-      y: -500,
+      y: -300,
     
       scale:0,
       opacity: 0,
@@ -71,7 +85,8 @@
       scrollTrigger:  { 
         trigger: ".lower_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
-      duration: 2.5,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "sine.out", 
       y: 200,
     
@@ -144,7 +159,7 @@
       scrollTrigger:  { 
         trigger: ".design_left_anim", start: "0px 100%" , toggleActions:"restart none restart none"
       }, 
-      duration: 2, 
+      duration: 0.3, 
       delay: 0.5, 
       
       x:-500,
@@ -157,7 +172,7 @@
       scrollTrigger:  { 
         trigger: ".design_right_anim", start: "0px 100%" , toggleActions:"restart none restart none"
       }, 
-      duration: 2, 
+      duration: 0.3, 
       delay: 0.5, 
       
       x:500,
@@ -170,29 +185,346 @@
       scrollTrigger:  { 
         trigger: ".clients_header_heading_anim",  toggleActions:"restart none restart none"
       }, 
-      duration: 1,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "elastic.out(1, 0.3)", 
       x:-500,
     
       scale:0,
       opacity: 0,
     });
-    gsap.from('.services_header_heading_anim', { 
+    gsap.from('.clients_header_heading_anim', { 
       scrollTrigger:  { 
-        trigger: ".services_header_heading_anim",  toggleActions:"restart none restart none"
+        trigger: ".clients_header_heading_anim",  toggleActions:"restart none restart none"
       }, 
-      duration: 1,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "elastic.out(1, 0.3)", 
       x:-500,
     
       scale:0,
       opacity: 0,
     });
+    gsap.from('.core_header_heading_anim', { 
+      scrollTrigger:  { 
+        trigger: ".core_header_heading_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.about_criteria_left_anim', { 
+      scrollTrigger:  { 
+        trigger: ".about_criteria_left_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.vision_head_anim', { 
+      scrollTrigger:  { 
+        trigger: ".vision_head_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+
+
+
+    gsap.from('.upper_para_anim', { 
+      scrollTrigger:  { 
+        trigger: ".upper_para_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.middle_para_anim', { 
+      scrollTrigger:  { 
+        trigger: ".middle_para_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.lower_para_anim', { 
+      scrollTrigger:  { 
+        trigger: ".lower_para_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.team_head_anim', { 
+      scrollTrigger:  { 
+        trigger: ".team_head_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.about_work_anim', { 
+      scrollTrigger:  { 
+        trigger: ".about_work_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.vision_area_right_anim', { 
+      scrollTrigger:  { 
+        trigger: ".vision_area_right_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.5, 
+      ease: Circ.easeOut, 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.faq_head_anim', { 
+      scrollTrigger:  { 
+        trigger: ".faq_head_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: Circ.easeOut, 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.accordion_1', { 
+      scrollTrigger:  { 
+        trigger: ".accordion_1",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease:Power2.easeOut, 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.accordion_2', { 
+      scrollTrigger:  { 
+        trigger: ".accordion_2",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.7, 
+      ease:Power2.easeOut, 
+      x: 500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.accordion_3', { 
+      scrollTrigger:  { 
+        trigger: ".accordion_3",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1, 
+      ease:Power2.easeOut, 
+      y: 300,
+    
+      scale:0,
+      opacity: 0,
+    });
+
+    
+
+
+    gsap.from('.stategy_anim_1', { 
+      scrollTrigger:  { 
+        trigger: ".stategy_anim_1", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.line_1', { 
+      scrollTrigger:  { 
+        trigger: ".line_1", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.stategy_anim_2', { 
+      scrollTrigger:  { 
+        trigger: ".stategy_anim_2", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.9, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.line_2', { 
+      scrollTrigger:  { 
+        trigger: ".line_2", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.9, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.stategy_anim_3', { 
+      scrollTrigger:  { 
+        trigger: ".stategy_anim_3", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.2, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.line_3', { 
+      scrollTrigger:  { 
+        trigger: ".line_3", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.2, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.stategy_anim_4', { 
+      scrollTrigger:  { 
+        trigger: ".stategy_anim_4", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.5, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.line_4', { 
+      scrollTrigger:  { 
+        trigger: ".line_4", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.5, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.stategy_anim_5', { 
+      scrollTrigger:  { 
+        trigger: ".stategy_anim_5", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.7, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.line_5', { 
+      scrollTrigger:  { 
+        trigger: ".line_5", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 1.7, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.stategy_anim_6', { 
+      scrollTrigger:  { 
+        trigger: ".stategy_anim_6", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 2, 
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.work_right_anim', { 
+      scrollTrigger:  { 
+        trigger: ".work_right_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 2.2, 
+      ease: Expo.easeOut,
+      x: 500,
+    
+      scale:0,
+      opacity: 0,
+    });
+
+
+
+
+
+
+
     gsap.from('.services_new_btn', { 
       scrollTrigger:  { 
         trigger: ".services_new_btn",  toggleActions:"restart none restart none"
       }, 
-      duration: 1,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "elastic.out(1, 0.3)", 
       x:500,
     
@@ -203,7 +535,8 @@
       scrollTrigger:  { 
         trigger: ".blog_right_btn_anim",  toggleActions:"restart none restart none"
       }, 
-      duration: 1,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "elastic.out(1, 0.3)", 
       x:500,
     
@@ -216,7 +549,8 @@
       scrollTrigger:  { 
         trigger: ".queto_main_anim",  toggleActions:"restart none restart none"
       }, 
-      duration: 2,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "back.out(1.7)", 
       y:-200,
     
@@ -227,7 +561,8 @@
       scrollTrigger:  { 
         trigger: ".services_new_btn",  toggleActions:"restart none restart none"
       }, 
-      duration: 2,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "back.out(1.7)", 
       x:100,
     
@@ -238,7 +573,21 @@
       scrollTrigger:  { 
         trigger: ".services_new_btn",  toggleActions:"restart none restart none"
       }, 
-      duration: 2,
+      duration: 0.3, 
+      delay: 0.5, 
+
+      ease: "back.out(1.7)", 
+      y:500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.about_hero_left_anim', { 
+      scrollTrigger:  { 
+        trigger: ".bgimageabout",  toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 2, 
 
       ease: "back.out(1.7)", 
       y:500,
