@@ -6781,3 +6781,7 @@ a:active{
         margin-left: -20px;
     }
 }
+.widget-title{
+    font-size: 19px;
+    font-weight: 600;
+}
