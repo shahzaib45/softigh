@@ -59,7 +59,7 @@
     });
     gsap.from('.about_hero_right_anim', { 
       scrollTrigger:  { 
-        trigger: ".bgimageabout", start: "0px 100%" ,toggleActions:"none none none none"
+        trigger: ".bgimageabout", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
       duration: 0.3, 
       delay: 2, 
@@ -584,7 +584,7 @@
     });
     gsap.from('.about_hero_left_anim', { 
       scrollTrigger:  { 
-        trigger: ".bgimageabout",  toggleActions:"none none none none"
+        trigger: ".bgimageabout",  toggleActions:"restart none restart none"
       }, 
       duration: 0.3, 
       delay: 2, 
