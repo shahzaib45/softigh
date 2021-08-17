@@ -41,6 +41,7 @@
       delay: 0.5, 
       
       x:-500,
+      
       scale:0,
       opacity: 0,
     });
@@ -55,24 +56,78 @@
       scale:0,
       opacity: 0,
     });
-    gsap.from('.hero_left_2_anim', { 
+    gsap.from('.fade_left', { 
       scrollTrigger:  { 
-        trigger: ".hero_left_2_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+        trigger: ".fade_left", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
-      duration: 2.5,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "sine.out", 
       x: -500,
     
       scale:0,
       opacity: 0,
     });
-    gsap.from('.hero_left_3_anim', { 
+    gsap.from('.testi_head_anim', { 
       scrollTrigger:  { 
-        trigger: ".hero_left_3_anim",  toggleActions:"restart none restart none"
+        trigger: ".testi_head_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
-      duration: 1,
+      duration: 0.3, 
+      delay: 0.5, 
       ease: "sine.out", 
-      y:300,
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.job_head_anim', { 
+      scrollTrigger:  { 
+        trigger: ".job_head_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.fade_right', { 
+      scrollTrigger:  { 
+        trigger: ".fade_right", start: "0px 100%" , toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      
+      y:200,
+    
+    
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.design_left_anim', { 
+      scrollTrigger:  { 
+        trigger: ".design_left_anim", start: "0px 100%" , toggleActions:"restart none restart none"
+      }, 
+      duration: 2, 
+      delay: 0.5, 
+      
+      x:-500,
+    
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.design_right_anim', { 
+      scrollTrigger:  { 
+        trigger: ".design_right_anim", start: "0px 100%" , toggleActions:"restart none restart none"
+      }, 
+      duration: 2, 
+      delay: 0.5, 
+      
+      x:500,
+    
     
       scale:0,
       opacity: 0,
