@@ -56,6 +56,28 @@
       scale:0,
       opacity: 0,
     });
+    gsap.from('.upper_anim', { 
+      scrollTrigger:  { 
+        trigger: ".upper_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 2.5,
+      ease: "sine.out", 
+      y: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.lower_anim', { 
+      scrollTrigger:  { 
+        trigger: ".lower_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 2.5,
+      ease: "sine.out", 
+      y: 200,
+    
+      scale:0,
+      opacity: 0,
+    });
     gsap.from('.fade_left', { 
       scrollTrigger:  { 
         trigger: ".fade_left", start: "0px 100%" ,toggleActions:"restart none restart none"
@@ -71,6 +93,18 @@
     gsap.from('.testi_head_anim', { 
       scrollTrigger:  { 
         trigger: ".testi_head_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
+      }, 
+      duration: 0.3, 
+      delay: 0.5, 
+      ease: "sine.out", 
+      x: -500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    gsap.from('.blog_head_anim', { 
+      scrollTrigger:  { 
+        trigger: ".blog_head_anim", start: "0px 100%" ,toggleActions:"restart none restart none"
       }, 
       duration: 0.3, 
       delay: 0.5, 
@@ -165,13 +199,26 @@
       scale:0,
       opacity: 0,
     });
-    gsap.from('.mobile_anim', { 
+    gsap.from('.blog_right_btn_anim', { 
       scrollTrigger:  { 
-        trigger: ".services_new_btn",  toggleActions:"restart none restart none"
+        trigger: ".blog_right_btn_anim",  toggleActions:"restart none restart none"
+      }, 
+      duration: 1,
+      ease: "elastic.out(1, 0.3)", 
+      x:500,
+    
+      scale:0,
+      opacity: 0,
+    });
+    
+    
+    gsap.from('.queto_main_anim', { 
+      scrollTrigger:  { 
+        trigger: ".queto_main_anim",  toggleActions:"restart none restart none"
       }, 
       duration: 2,
       ease: "back.out(1.7)", 
-      y:-500,
+      y:-200,
     
       scale:0,
       opacity: 0,
