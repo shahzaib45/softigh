@@ -6788,3 +6788,93 @@ a:active{
 .logo-slider_3 .slick-prev {
     left: -37px;
 }
+@media (min-width: 768px){
+    .hero__left {
+        
+        width: 100%;
+    }
+    .hero_right {
+        width: 80%;
+        margin-top: 50px;
+        z-index: -1;
+    }
+    .clients_logo_1 ul li img {
+        margin-left: -50px;
+    }
+    .design_left img {
+        width: 90%;
+    }
+    .card_learn{
+        margin-top: 30px;
+    }
+    .card_5{
+        height: 282px;
+    }
+    .logo-slider_2 .slick-prev{
+        margin-left: 97px;
+    }
+    .logo-slider_2 .slick-next {
+        margin-right: 128px;
+    }
+    .queto_btn{
+        width: 130px;
+    height: 45px;
+    padding: 0;
+
+    }
+    .queto_empty_div{
+        display: block;
+    }
+    .footer_1_2 ul li {
+        float: left;
+        margin-right: 5px;
+        margin-left: 12px;
+    }
+    .about_criteria_right {
+        display: table;
+    margin: 0px auto;
+    }
+    .values{
+        height: 1000px;
+    }
+    .about_criteria_left {
+        width: 80%;
+        display: table;
+        margin: 0px auto;
+    }
+    .vision_area_left {
+        width: 100%;
+    }
+    .vision_area_right {
+        width: 100%;
+    }
+    .line ul li p {
+        margin-left: -139px;
+    }
+    .analysis_line ul li p {
+        margin-left: -107px;
+    }
+    .design_line ul li p {
+        margin-left: -129px;
+    }
+    .research_line ul li p {
+        margin-left: -124px;
+    }
+    .production_line ul li p {
+        margin-left: -84px;
+    }
+    .work_1_left{
+        width: 100%;
+    }
+    .work_right {
+        width: 80%;
+        display: table;
+        margin: 0px auto;
+    }
+    .team {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 1770px;
+    }
+
+}
