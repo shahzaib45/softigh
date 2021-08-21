@@ -6776,10 +6776,24 @@ a:active{
     .navbar-expand-lg .navbar-nav {
         margin-left: -110px;
     }
+    .logo-slider_2 .slick-prev {
+        margin-left: 121px;
+        z-index: 1;
+    }
+    .slick-next:before {
+        margin-left: -13px;
+    }
 }  
 @media (min-width:1200px) and (max-width:1439px) {
     .navbar-expand-lg .navbar-nav {
         margin-left: -20px;
+    }
+    .logo-slider_2 .slick-prev {
+        margin-left: 139px;
+        z-index: 1;
+    }
+    .slick-next:before {
+        margin-left: -37px;
     }
 }
 .logo-slider_3 .slick-next:before {
@@ -6788,3 +6802,4 @@ a:active{
 .logo-slider_3 .slick-prev {
     left: -37px;
 }
+ 
