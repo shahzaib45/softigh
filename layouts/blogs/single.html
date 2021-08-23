@@ -16,7 +16,7 @@
             <div class="blog_main_left col-md-8 mx-auto">
                 <div class="blog_sub_left_image">
                     <div class="blog_sub_left_img">
-                        <img src="{{ .Params.image }}" alt="">
+                        <img src="{{ .Params.featureImage }}" alt="">
                     </div>
                     <div class="des">
                         <div class="des_left">
@@ -71,8 +71,11 @@
 
                 </div>
                 <div class="sub_blog_des">
-                    <p>{{ .Params.description }}</p>
-                    <p>{{ .Params.description }}</p>
+                    <p>{{ .Params.firstPara }}</p>
+                    <p>{{ .Params.secondPara }}</p>
+                    <img src="{{ .Params.subImage }}" alt="">
+                    <p>{{ .Params.thirdPara }}</p>
+                    <p>{{ .Params.fourthPara }}</p>
                 </div>
                 <div class="share_on">
                     <ul>
