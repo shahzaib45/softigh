@@ -204,13 +204,7 @@
                         Top Blogs
                     </h1>
                 </div>
-                <div class="top_blogs">
-                    <h1>
-                        Top Blogs
-                    </h1>
-                </div>
-
-                {{ range first 6 (where .Site.Pages "Type" "blogs") }}
+                {{ range first 2 (where .Site.Pages "Type" "blogs") }}
                     <div class="top_blogs_detail">
                         <div class="top_blogs_details_left">
                             <p>{{ .Params.title }}</p>

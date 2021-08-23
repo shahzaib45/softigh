@@ -28,7 +28,7 @@
     <div class="container">
         <div class="row">
             <div class="blog_main_left col-md-8 mx-auto">
-                    {{ range first 6 (where .Site.Pages "Type" "blogs") }}
+                    {{ range first 2 (where .Site.Pages "Type" "blogs") }}
             <a href="{{ .RelPermalink }}">
             <div class="blog_main__left_1 col-md-8 col-sm-12 col-xs-12">
                 <div class="blog_main_card_img_1"><img class="img-fluid" src="{{ .Params.featureImage }}"></div>
@@ -94,7 +94,7 @@
                     </h1>
                 </div>
                 
-                {{ range first 6 (where .Site.Pages "Type" "blogs") }} 
+                {{ range first 2 (where .Site.Pages "Type" "blogs") }} 
                     <div class="top_blogs_detail">
                         <div class="top_blogs_details_left">
                             <p>{{ .Params.title }}</p>
