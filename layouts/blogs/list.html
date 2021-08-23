@@ -31,7 +31,7 @@
                     {{ range first 6 (where .Site.Pages "Type" "blogs") }}
             <a href="{{ .RelPermalink }}">
             <div class="blog_main__left_1 col-md-8 col-sm-12 col-xs-12">
-                <div class="blog_main_card_img_1"><img class="img-fluid" src="{{ .Params.image }}"></div>
+                <div class="blog_main_card_img_1"><img class="img-fluid" src="{{ .Params.featureImage }}"></div>
                 <div class="card_desc">
                     <h4>{{ .Params.title }}</h4>
                 </div>
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                         <div class="top_blogs_details_right">
-                            <img src="{{ .Params.image }}" alt="" style="width: 85px">
+                            <img src="{{ .Params.featureImage }}" alt="" style="width: 85px">
                         </div>
                     </div>
                 {{ end }}
