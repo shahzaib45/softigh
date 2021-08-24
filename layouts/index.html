@@ -531,56 +531,34 @@
 
         </div>
         <div class="row blog_row">
+            {{ range first 2 (where .Site.Pages "Type" "blogs") }}
             <div class="blog_left col-md-6 col-sm-12 col-xs-12">
+                <a href="{{ .RelPermalink }}">
                 <div class="upper upper_anim" >
-                    <img class="img-fluid blog-img" src="assets/img/index/blog_img_1.svg" />
+                    <img class="img-fluid blog-img" src="{{ .Params.featureImage }}" />
                 </div>
                 <div class="lower">
                     <div class="blog_3_1 lower_anim">
                         <ul>
                             <li><img class="img-fluid" src="assets/img/index/calendar.svg" /></li>
                             <li>
-                                <p>15 Jan 2021</p>
+                                <p>{{ .PublishDate.Format "02 Jan 2006" }}</p>
                             </li>
                             <li><img class="img-fluid" src="assets/img/index/line2.jpg" /></li>
                             <li><img class="img-fluid" src="assets/img/index/tag.svg" /></li>
                             <li>
-                                <p>Web Development</p>
+                                <p>{{ .Params.tag }}</p>
                             </li>
                         </ul>
 
                         <div class="blog_heading">
-                            <h3>How to hire a web developer <br />in 6 easy ways.</h3>
+                            <h3>{{ .Params.title }}</h3>
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
-            <div class="blog_left col-md-6 col-sm-12 col-xs-12">
-                <div class="upper upper_anim" >
-                    <img class="img-fluid blog-img" src="assets/img/index/blog_img_2.svg" />
-                </div>
-                <div class="lower lower_anim" >
-                    <div class="blog_3_1">
-                        <ul>
-                            <li><img class="img-fluid" src="assets/img/index/calendar.svg" /></li>
-                            <li>
-                                <p>15 Jan 2021</p>
-                            </li>
-                            <li><img class="img-fluid" src="assets/img/index/line2.jpg" /></li>
-                            <li><img class="img-fluid" src="assets/img/index/tag.svg" /></li>
-                            <li>
-                                <p>Web Development</p>
-                            </li>
-                        </ul>
-
-                        <div class="blog_heading">
-                            <h3>How to hire a web developer <br />in 6 easy ways.</h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+            {{ end }}
         </div>
         <div class="blog_right_btn_botton col-md-12" data-aos="fade-left">
             <a href="/blogs"><button type="button" class="blog_btn mx-auto">Read More<img
