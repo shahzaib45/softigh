@@ -533,6 +533,7 @@
         <div class="row blog_row">
             {{ range first 2 (where .Site.Pages "Type" "blogs") }}
             <div class="blog_left col-md-6 col-sm-12 col-xs-12">
+                <a href="{{ .RelPermalink }}">
                 <div class="upper upper_anim" >
                     <img class="img-fluid blog-img" src="{{ .Params.featureImage }}" />
                 </div>
@@ -555,6 +556,7 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
             {{ end }}
         </div>
