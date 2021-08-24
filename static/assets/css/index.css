@@ -1062,7 +1062,7 @@ a:hover {
     display: none;
 }
 .des_right_upper{
-    margin-top: -81px!important;
+    margin-top: -63px!important;
 }
 .blog_heading{
     display: flex;
@@ -2848,11 +2848,8 @@ blog_main_heading_para p {
     margin-left: 5px;
     margin-top: 8px;
 }
-.blog_main_list ul li:nth-child(5) p {
-    font-size: 9px;
-    margin-left: 12px;
-    color: #535353;
-    margin-top: 8px;
+.des{
+    height: 200px;
 }
 #search {
     border: none;
@@ -3012,7 +3009,10 @@ blog_main_heading_para p {
     margin-right: -15px!important;
 }
 .blog_main_card_img_1 img {
-    width: 100%}
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
 .blog_main_left {
     margin-bottom: 30px;
 }
@@ -3065,10 +3065,13 @@ blog_main_heading_para p {
     border-radius: 8px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    height: 950px;
+    
 }
 .blog_sub_left_img img {
-    width: 100%}
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
 .des_right {
     width: 30%;
     float: right;
@@ -3090,7 +3093,7 @@ blog_main_heading_para p {
     margin-right: 5px;
 }
 .des_right_upper {
-    margin-top: -100px;
+    margin-top: -89px;
     float: right;
 }
     margin-top: 55px;
@@ -4611,7 +4614,7 @@ a:hover {
 }
 .des_left_icons {
     margin-top: -50px;
-    margin-left:  -25px;
+    margin-left:  0px;
 }
 .contact_us_form_heading h1 {
     font-size: 37px;
@@ -5676,7 +5679,11 @@ footer {
     width: 100%}
 @media only screen and (max-width:600px) {
     .method_right IMG {
-    width: 100%}
+    width: 100%;
+}
+.des_right_lower {
+    margin-top: 55px!important;
+}
 .hi-slide {
     margin: 10px;
     width: 100%;
@@ -6142,7 +6149,7 @@ blog_main_heading_para p {
     font-size: 9px;
     margin-left: 12px;
     color: #535353;
-    margin-top: 8px;
+    margin-top: -28px;
 }
 #search {
     border: none;
@@ -6298,8 +6305,7 @@ blog_main_heading_para p {
     margin-left: -15px!important;
     margin-right: -15px!important;
 }
-.blog_main_card_img_1 img {
-    width: 100%}
+
 .blog_main_left {
     margin-bottom: 30px;
 }
@@ -6347,8 +6353,7 @@ blog_main_heading_para p {
     font-weight: 200;
     margin-left: 3px;
 }
-.blog_sub_left_img img {
-    width: 100%}
+
 .des_right {
     width: 30%;
     float: right;
@@ -6374,7 +6379,7 @@ blog_main_heading_para p {
     margin-top: -100px;
 }
 .des_right_lower {
-    margin-top: 55px;
+    margin-top: 67px;
 }
 .des_right_lower p {
     font-size: 10px;
