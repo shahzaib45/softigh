@@ -1071,6 +1071,7 @@ a:hover {
 .blog_heading h3 br{
     display: none;
 }
+
 .blog_heading h3{
     margin-left: auto;
     margin-right: auto;
@@ -3095,6 +3096,7 @@ blog_main_heading_para p {
 .des_right_upper {
     margin-top: -89px;
     float: right;
+    margin-right: 30px;
 }
     margin-top: 55px;
     margin-left:  28px;
@@ -6380,6 +6382,7 @@ blog_main_heading_para p {
 }
 .des_right_lower {
     margin-top: 67px;
+    margin-right: 32px;
 }
 .des_right_lower p {
     font-size: 10px;
