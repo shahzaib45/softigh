@@ -2850,7 +2850,7 @@ blog_main_heading_para p {
     margin-top: 8px;
 }
 .des{
-    height: 200px;
+    height: 145px;
 }
 #search {
     border: none;
@@ -3094,9 +3094,12 @@ blog_main_heading_para p {
     margin-right: 5px;
 }
 .des_right_upper {
-    margin-top: -89px;
+    margin-top: -49px;
     float: right;
     margin-right: 30px;
+}
+.des_left_icons ul{
+    margin-top: -43px;
 }
     margin-top: 55px;
     margin-left:  28px;
